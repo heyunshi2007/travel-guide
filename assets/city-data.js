@@ -72,7 +72,7 @@ const cityData={
     hotels:[{area:"石家庄市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"石家庄景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"石家庄火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"石家庄古城墙",desc:"石家庄著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"石家庄博物馆",desc:"石家庄著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.0"}, {name:"石家庄公园",desc:"石家庄著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"石家庄广场",desc:"石家庄著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.5"}, {name:"石家庄风景区",desc:"石家庄著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.4"}, {name:"石家庄步行街",desc:"石家庄著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.7"}],
     tickets:[{name:"石家庄博物馆",price:"免费",note:""}, {name:"石家庄公园",price:"30元",note:"需提前预约"}, {name:"石家庄风景区",price:"50元",note:"建议游览2-3小时"}, {name:"石家庄步行街",price:"60元",note:"全年开放"}, {name:"石家庄文化中心",price:"80元",note:"节假日人多"}, {name:"石家庄植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#5D4037"
   },
   "唐山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"燕赵大地",
@@ -117,7 +117,7 @@ const cityData={
     hotels:[{area:"邯郸市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"邯郸景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"邯郸火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"邯郸古城墙",desc:"邯郸著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.8"}, {name:"邯郸博物馆",desc:"邯郸著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.1"}, {name:"邯郸公园",desc:"邯郸著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.2"}, {name:"邯郸广场",desc:"邯郸著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.2"}, {name:"邯郸风景区",desc:"邯郸著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.3"}, {name:"邯郸步行街",desc:"邯郸著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.6"}],
     tickets:[{name:"邯郸博物馆",price:"免费",note:""}, {name:"邯郸公园",price:"30元",note:"需提前预约"}, {name:"邯郸风景区",price:"50元",note:"建议游览2-3小时"}, {name:"邯郸步行街",price:"60元",note:"全年开放"}, {name:"邯郸文化中心",price:"80元",note:"节假日人多"}, {name:"邯郸植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#5D4037"
   },
   "邢台":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"燕赵大地",
@@ -132,7 +132,7 @@ const cityData={
     hotels:[{area:"邢台市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"邢台景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"邢台火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"邢台古城墙",desc:"邢台著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"邢台博物馆",desc:"邢台著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.7"}, {name:"邢台公园",desc:"邢台著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.2"}, {name:"邢台广场",desc:"邢台著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.4"}, {name:"邢台风景区",desc:"邢台著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"邢台步行街",desc:"邢台著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.9"}],
     tickets:[{name:"邢台博物馆",price:"免费",note:""}, {name:"邢台公园",price:"30元",note:"需提前预约"}, {name:"邢台风景区",price:"50元",note:"建议游览2-3小时"}, {name:"邢台步行街",price:"60元",note:"全年开放"}, {name:"邢台文化中心",price:"80元",note:"节假日人多"}, {name:"邢台植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#FF6F00"
   },
   "保定":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"燕赵大地",
@@ -147,7 +147,7 @@ const cityData={
     hotels:[{area:"保定市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"保定景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"保定火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"保定古城墙",desc:"保定著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.8"}, {name:"保定博物馆",desc:"保定著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.6"}, {name:"保定公园",desc:"保定著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.6"}, {name:"保定广场",desc:"保定著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"保定风景区",desc:"保定著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.3"}, {name:"保定步行街",desc:"保定著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.4"}],
     tickets:[{name:"保定博物馆",price:"免费",note:""}, {name:"保定公园",price:"30元",note:"需提前预约"}, {name:"保定风景区",price:"50元",note:"建议游览2-3小时"}, {name:"保定步行街",price:"60元",note:"全年开放"}, {name:"保定文化中心",price:"80元",note:"节假日人多"}, {name:"保定植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#AD1457"
   },
   "张家口":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"燕赵大地",
@@ -162,7 +162,7 @@ const cityData={
     hotels:[{area:"张家口市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"张家口景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"张家口火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"张家口古城墙",desc:"张家口著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.3"}, {name:"张家口博物馆",desc:"张家口著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.1"}, {name:"张家口公园",desc:"张家口著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.8"}, {name:"张家口广场",desc:"张家口著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.2"}, {name:"张家口风景区",desc:"张家口著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.8"}, {name:"张家口步行街",desc:"张家口著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.1"}],
     tickets:[{name:"张家口博物馆",price:"免费",note:""}, {name:"张家口公园",price:"30元",note:"需提前预约"}, {name:"张家口风景区",price:"50元",note:"建议游览2-3小时"}, {name:"张家口步行街",price:"60元",note:"全年开放"}, {name:"张家口文化中心",price:"80元",note:"节假日人多"}, {name:"张家口植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#0277BD"
   },
   "承德":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"避暑山庄",
@@ -192,7 +192,7 @@ const cityData={
     hotels:[{area:"沧州市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"沧州景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"沧州火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"沧州古城墙",desc:"沧州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.8"}, {name:"沧州博物馆",desc:"沧州著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"沧州公园",desc:"沧州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"沧州广场",desc:"沧州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"沧州风景区",desc:"沧州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.5"}, {name:"沧州步行街",desc:"沧州著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.1"}],
     tickets:[{name:"沧州博物馆",price:"免费",note:""}, {name:"沧州公园",price:"30元",note:"需提前预约"}, {name:"沧州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"沧州步行街",price:"60元",note:"全年开放"}, {name:"沧州文化中心",price:"80元",note:"节假日人多"}, {name:"沧州植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#FF6F00"
   },
   "廊坊":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"燕赵大地",
@@ -207,7 +207,7 @@ const cityData={
     hotels:[{area:"廊坊市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"廊坊景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"廊坊火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"廊坊古城墙",desc:"廊坊著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.1"}, {name:"廊坊博物馆",desc:"廊坊著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.4"}, {name:"廊坊公园",desc:"廊坊著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.4"}, {name:"廊坊广场",desc:"廊坊著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.0"}, {name:"廊坊风景区",desc:"廊坊著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.9"}, {name:"廊坊步行街",desc:"廊坊著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.1"}],
     tickets:[{name:"廊坊博物馆",price:"免费",note:""}, {name:"廊坊公园",price:"30元",note:"需提前预约"}, {name:"廊坊风景区",price:"50元",note:"建议游览2-3小时"}, {name:"廊坊步行街",price:"60元",note:"全年开放"}, {name:"廊坊文化中心",price:"80元",note:"节假日人多"}, {name:"廊坊植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#C2185B"
   },
   "衡水":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"燕赵大地",
@@ -222,7 +222,7 @@ const cityData={
     hotels:[{area:"衡水市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"衡水景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"衡水火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"衡水古城墙",desc:"衡水著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.9"}, {name:"衡水博物馆",desc:"衡水著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.9"}, {name:"衡水公园",desc:"衡水著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"衡水广场",desc:"衡水著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"衡水风景区",desc:"衡水著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.8"}, {name:"衡水步行街",desc:"衡水著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.3"}],
     tickets:[{name:"衡水博物馆",price:"免费",note:""}, {name:"衡水公园",price:"30元",note:"需提前预约"}, {name:"衡水风景区",price:"50元",note:"建议游览2-3小时"}, {name:"衡水步行街",price:"60元",note:"全年开放"}, {name:"衡水文化中心",price:"80元",note:"节假日人多"}, {name:"衡水植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#BF360C"
   },
   "太原":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"龙城",
@@ -267,7 +267,7 @@ const cityData={
     hotels:[{area:"阳泉市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"阳泉景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"阳泉火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阳泉古城",desc:"阳泉著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.1"}, {name:"阳泉寺观",desc:"阳泉著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"阳泉大院",desc:"阳泉著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.8"}, {name:"阳泉石窟",desc:"阳泉著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.0"}, {name:"阳泉博物馆",desc:"阳泉著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.9"}, {name:"阳泉公园",desc:"阳泉著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.1"}],
     tickets:[{name:"阳泉博物馆",price:"免费",note:""}, {name:"阳泉公园",price:"30元",note:"需提前预约"}, {name:"阳泉风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阳泉步行街",price:"60元",note:"全年开放"}, {name:"阳泉文化中心",price:"80元",note:"节假日人多"}, {name:"阳泉植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#FF6F00"
   },
   "长治":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三晋大地",
@@ -282,7 +282,7 @@ const cityData={
     hotels:[{area:"长治市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"长治景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"长治火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"长治古城",desc:"长治著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"长治寺观",desc:"长治著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.7"}, {name:"长治大院",desc:"长治著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.2"}, {name:"长治石窟",desc:"长治著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.2"}, {name:"长治博物馆",desc:"长治著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.2"}, {name:"长治公园",desc:"长治著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"长治博物馆",price:"免费",note:""}, {name:"长治公园",price:"30元",note:"需提前预约"}, {name:"长治风景区",price:"50元",note:"建议游览2-3小时"}, {name:"长治步行街",price:"60元",note:"全年开放"}, {name:"长治文化中心",price:"80元",note:"节假日人多"}, {name:"长治植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#5C6BC0"
   },
   "晋城":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三晋大地",
@@ -297,7 +297,7 @@ const cityData={
     hotels:[{area:"晋城市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"晋城景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"晋城火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"晋城古城",desc:"晋城著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.0"}, {name:"晋城寺观",desc:"晋城著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.9"}, {name:"晋城大院",desc:"晋城著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"晋城石窟",desc:"晋城著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.0"}, {name:"晋城博物馆",desc:"晋城著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.5"}, {name:"晋城公园",desc:"晋城著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.4"}],
     tickets:[{name:"晋城博物馆",price:"免费",note:""}, {name:"晋城公园",price:"30元",note:"需提前预约"}, {name:"晋城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"晋城步行街",price:"60元",note:"全年开放"}, {name:"晋城文化中心",price:"80元",note:"节假日人多"}, {name:"晋城植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#2B8A6E"
   },
   "朔州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三晋大地",
@@ -312,7 +312,7 @@ const cityData={
     hotels:[{area:"朔州市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"朔州景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"朔州火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"朔州古城",desc:"朔州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.0"}, {name:"朔州寺观",desc:"朔州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"朔州大院",desc:"朔州著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.7"}, {name:"朔州石窟",desc:"朔州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.7"}, {name:"朔州博物馆",desc:"朔州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.1"}, {name:"朔州公园",desc:"朔州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.1"}],
     tickets:[{name:"朔州博物馆",price:"免费",note:""}, {name:"朔州公园",price:"30元",note:"需提前预约"}, {name:"朔州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"朔州步行街",price:"60元",note:"全年开放"}, {name:"朔州文化中心",price:"80元",note:"节假日人多"}, {name:"朔州植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#FF6F00"
   },
   "晋中":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"晋商故里",
@@ -342,7 +342,7 @@ const cityData={
     hotels:[{area:"运城市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"运城景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"运城火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"运城古城",desc:"运城著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.5"}, {name:"运城寺观",desc:"运城著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.9"}, {name:"运城大院",desc:"运城著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.3"}, {name:"运城石窟",desc:"运城著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"运城博物馆",desc:"运城著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.2"}, {name:"运城公园",desc:"运城著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.0"}],
     tickets:[{name:"运城博物馆",price:"免费",note:""}, {name:"运城公园",price:"30元",note:"需提前预约"}, {name:"运城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"运城步行街",price:"60元",note:"全年开放"}, {name:"运城文化中心",price:"80元",note:"节假日人多"}, {name:"运城植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#BF360C"
   },
   "忻州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三晋大地",
@@ -357,7 +357,7 @@ const cityData={
     hotels:[{area:"忻州市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"忻州景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"忻州火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"忻州古城",desc:"忻州著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.4"}, {name:"忻州寺观",desc:"忻州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"忻州大院",desc:"忻州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.3"}, {name:"忻州石窟",desc:"忻州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"忻州博物馆",desc:"忻州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.5"}, {name:"忻州公园",desc:"忻州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"忻州博物馆",price:"免费",note:""}, {name:"忻州公园",price:"30元",note:"需提前预约"}, {name:"忻州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"忻州步行街",price:"60元",note:"全年开放"}, {name:"忻州文化中心",price:"80元",note:"节假日人多"}, {name:"忻州植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#E85D26"
   },
   "临汾":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三晋大地",
@@ -387,7 +387,7 @@ const cityData={
     hotels:[{area:"吕梁市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"吕梁景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"吕梁火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"吕梁古城",desc:"吕梁著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.8"}, {name:"吕梁寺观",desc:"吕梁著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"吕梁大院",desc:"吕梁著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.5"}, {name:"吕梁石窟",desc:"吕梁著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"吕梁博物馆",desc:"吕梁著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.4"}, {name:"吕梁公园",desc:"吕梁著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"吕梁博物馆",price:"免费",note:""}, {name:"吕梁公园",price:"30元",note:"需提前预约"}, {name:"吕梁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"吕梁步行街",price:"60元",note:"全年开放"}, {name:"吕梁文化中心",price:"80元",note:"节假日人多"}, {name:"吕梁植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#6D4C41"
   },
   "呼和浩特":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"青城",
@@ -417,7 +417,7 @@ const cityData={
     hotels:[{area:"包头市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"包头景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"包头火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"包头草原",desc:"包头著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.6"}, {name:"包头沙漠",desc:"包头著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"包头古城",desc:"包头著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.7"}, {name:"包头博物馆",desc:"包头著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.4"}, {name:"包头湖泊",desc:"包头著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.7"}, {name:"包头广场",desc:"包头著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.4"}],
     tickets:[{name:"包头博物馆",price:"免费",note:""}, {name:"包头公园",price:"30元",note:"需提前预约"}, {name:"包头风景区",price:"50元",note:"建议游览2-3小时"}, {name:"包头步行街",price:"60元",note:"全年开放"}, {name:"包头文化中心",price:"80元",note:"节假日人多"}, {name:"包头植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#AD1457"
   },
   "乌海":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -432,7 +432,7 @@ const cityData={
     hotels:[{area:"乌海市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"乌海景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"乌海火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"乌海草原",desc:"乌海著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.1"}, {name:"乌海沙漠",desc:"乌海著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.6"}, {name:"乌海古城",desc:"乌海著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.2"}, {name:"乌海博物馆",desc:"乌海著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"乌海湖泊",desc:"乌海著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"乌海广场",desc:"乌海著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.2"}],
     tickets:[{name:"乌海博物馆",price:"免费",note:""}, {name:"乌海公园",price:"30元",note:"需提前预约"}, {name:"乌海风景区",price:"50元",note:"建议游览2-3小时"}, {name:"乌海步行街",price:"60元",note:"全年开放"}, {name:"乌海文化中心",price:"80元",note:"节假日人多"}, {name:"乌海植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#283593"
   },
   "赤峰":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -447,7 +447,7 @@ const cityData={
     hotels:[{area:"赤峰市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"赤峰景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"赤峰火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"赤峰草原",desc:"赤峰著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.4"}, {name:"赤峰沙漠",desc:"赤峰著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"赤峰古城",desc:"赤峰著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.7"}, {name:"赤峰博物馆",desc:"赤峰著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.1"}, {name:"赤峰湖泊",desc:"赤峰著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.8"}, {name:"赤峰广场",desc:"赤峰著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.5"}],
     tickets:[{name:"赤峰博物馆",price:"免费",note:""}, {name:"赤峰公园",price:"30元",note:"需提前预约"}, {name:"赤峰风景区",price:"50元",note:"建议游览2-3小时"}, {name:"赤峰步行街",price:"60元",note:"全年开放"}, {name:"赤峰文化中心",price:"80元",note:"节假日人多"}, {name:"赤峰植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#0277BD"
   },
   "通辽":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -462,7 +462,7 @@ const cityData={
     hotels:[{area:"通辽市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"通辽景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"通辽火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"通辽草原",desc:"通辽著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.7"}, {name:"通辽沙漠",desc:"通辽著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"通辽古城",desc:"通辽著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"通辽博物馆",desc:"通辽著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.4"}, {name:"通辽湖泊",desc:"通辽著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.5"}, {name:"通辽广场",desc:"通辽著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.2"}],
     tickets:[{name:"通辽博物馆",price:"免费",note:""}, {name:"通辽公园",price:"30元",note:"需提前预约"}, {name:"通辽风景区",price:"50元",note:"建议游览2-3小时"}, {name:"通辽步行街",price:"60元",note:"全年开放"}, {name:"通辽文化中心",price:"80元",note:"节假日人多"}, {name:"通辽植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#6D4C41"
   },
   "鄂尔多斯":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -477,7 +477,7 @@ const cityData={
     hotels:[{area:"鄂尔多斯市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"鄂尔多斯景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"鄂尔多斯火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鄂尔多斯草原",desc:"鄂尔多斯著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"鄂尔多斯沙漠",desc:"鄂尔多斯著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.9"}, {name:"鄂尔多斯古城",desc:"鄂尔多斯著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"鄂尔多斯博物馆",desc:"鄂尔多斯著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.9"}, {name:"鄂尔多斯湖泊",desc:"鄂尔多斯著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.5"}, {name:"鄂尔多斯广场",desc:"鄂尔多斯著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.5"}],
     tickets:[{name:"鄂尔多斯博物馆",price:"免费",note:""}, {name:"鄂尔多斯公园",price:"30元",note:"需提前预约"}, {name:"鄂尔多斯风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鄂尔多斯步行街",price:"60元",note:"全年开放"}, {name:"鄂尔多斯文化中心",price:"80元",note:"节假日人多"}, {name:"鄂尔多斯植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#2B8A6E"
   },
   "呼伦贝尔":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -492,7 +492,7 @@ const cityData={
     hotels:[{area:"呼伦贝尔市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"呼伦贝尔景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"呼伦贝尔火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"呼伦贝尔草原",desc:"呼伦贝尔著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.3"}, {name:"呼伦贝尔沙漠",desc:"呼伦贝尔著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.6"}, {name:"呼伦贝尔古城",desc:"呼伦贝尔著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.8"}, {name:"呼伦贝尔博物馆",desc:"呼伦贝尔著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.1"}, {name:"呼伦贝尔湖泊",desc:"呼伦贝尔著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.6"}, {name:"呼伦贝尔广场",desc:"呼伦贝尔著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.6"}],
     tickets:[{name:"呼伦贝尔博物馆",price:"免费",note:""}, {name:"呼伦贝尔公园",price:"30元",note:"需提前预约"}, {name:"呼伦贝尔风景区",price:"50元",note:"建议游览2-3小时"}, {name:"呼伦贝尔步行街",price:"60元",note:"全年开放"}, {name:"呼伦贝尔文化中心",price:"80元",note:"节假日人多"}, {name:"呼伦贝尔植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#BF360C"
   },
   "巴彦淖尔":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -507,7 +507,7 @@ const cityData={
     hotels:[{area:"巴彦淖尔市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"巴彦淖尔景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"巴彦淖尔火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"巴彦淖尔草原",desc:"巴彦淖尔著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.7"}, {name:"巴彦淖尔沙漠",desc:"巴彦淖尔著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.5"}, {name:"巴彦淖尔古城",desc:"巴彦淖尔著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.3"}, {name:"巴彦淖尔博物馆",desc:"巴彦淖尔著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.8"}, {name:"巴彦淖尔湖泊",desc:"巴彦淖尔著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.4"}, {name:"巴彦淖尔广场",desc:"巴彦淖尔著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.7"}],
     tickets:[{name:"巴彦淖尔博物馆",price:"免费",note:""}, {name:"巴彦淖尔公园",price:"30元",note:"需提前预约"}, {name:"巴彦淖尔风景区",price:"50元",note:"建议游览2-3小时"}, {name:"巴彦淖尔步行街",price:"60元",note:"全年开放"}, {name:"巴彦淖尔文化中心",price:"80元",note:"节假日人多"}, {name:"巴彦淖尔植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#2B8A6E"
   },
   "乌兰察布":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -522,7 +522,7 @@ const cityData={
     hotels:[{area:"乌兰察布市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"乌兰察布景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"乌兰察布火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"乌兰察布草原",desc:"乌兰察布著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.7"}, {name:"乌兰察布沙漠",desc:"乌兰察布著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.3"}, {name:"乌兰察布古城",desc:"乌兰察布著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"乌兰察布博物馆",desc:"乌兰察布著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.6"}, {name:"乌兰察布湖泊",desc:"乌兰察布著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"乌兰察布广场",desc:"乌兰察布著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.3"}],
     tickets:[{name:"乌兰察布博物馆",price:"免费",note:""}, {name:"乌兰察布公园",price:"30元",note:"需提前预约"}, {name:"乌兰察布风景区",price:"50元",note:"建议游览2-3小时"}, {name:"乌兰察布步行街",price:"60元",note:"全年开放"}, {name:"乌兰察布文化中心",price:"80元",note:"节假日人多"}, {name:"乌兰察布植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#00695C"
   },
   "兴安盟":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -537,7 +537,7 @@ const cityData={
     hotels:[{area:"兴安盟市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"兴安盟景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"兴安盟火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"兴安盟草原",desc:"兴安盟著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.7"}, {name:"兴安盟沙漠",desc:"兴安盟著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.5"}, {name:"兴安盟古城",desc:"兴安盟著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.7"}, {name:"兴安盟博物馆",desc:"兴安盟著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.2"}, {name:"兴安盟湖泊",desc:"兴安盟著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.3"}, {name:"兴安盟广场",desc:"兴安盟著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.5"}],
     tickets:[{name:"兴安盟博物馆",price:"免费",note:""}, {name:"兴安盟公园",price:"30元",note:"需提前预约"}, {name:"兴安盟风景区",price:"50元",note:"建议游览2-3小时"}, {name:"兴安盟步行街",price:"60元",note:"全年开放"}, {name:"兴安盟文化中心",price:"80元",note:"节假日人多"}, {name:"兴安盟植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#2B8A6E"
   },
   "锡林郭勒盟":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -552,7 +552,7 @@ const cityData={
     hotels:[{area:"锡林郭勒盟市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"锡林郭勒盟景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"锡林郭勒盟火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"锡林郭勒盟草原",desc:"锡林郭勒盟著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.2"}, {name:"锡林郭勒盟沙漠",desc:"锡林郭勒盟著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"锡林郭勒盟古城",desc:"锡林郭勒盟著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.4"}, {name:"锡林郭勒盟博物馆",desc:"锡林郭勒盟著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"锡林郭勒盟湖泊",desc:"锡林郭勒盟著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.0"}, {name:"锡林郭勒盟广场",desc:"锡林郭勒盟著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.7"}],
     tickets:[{name:"锡林郭勒盟博物馆",price:"免费",note:""}, {name:"锡林郭勒盟公园",price:"30元",note:"需提前预约"}, {name:"锡林郭勒盟风景区",price:"50元",note:"建议游览2-3小时"}, {name:"锡林郭勒盟步行街",price:"60元",note:"全年开放"}, {name:"锡林郭勒盟文化中心",price:"80元",note:"节假日人多"}, {name:"锡林郭勒盟植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#2B8A6E"
   },
   "阿拉善盟":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"草原风情",
@@ -567,7 +567,7 @@ const cityData={
     hotels:[{area:"阿拉善盟市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"阿拉善盟景区附近",price:"300-800元/晚",fit:"靠近景点，深度游览"}, {area:"阿拉善盟火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阿拉善盟草原",desc:"阿拉善盟著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"阿拉善盟沙漠",desc:"阿拉善盟著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.9"}, {name:"阿拉善盟古城",desc:"阿拉善盟著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.9"}, {name:"阿拉善盟博物馆",desc:"阿拉善盟著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.6"}, {name:"阿拉善盟湖泊",desc:"阿拉善盟著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.6"}, {name:"阿拉善盟广场",desc:"阿拉善盟著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"阿拉善盟博物馆",price:"免费",note:""}, {name:"阿拉善盟公园",price:"30元",note:"需提前预约"}, {name:"阿拉善盟风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阿拉善盟步行街",price:"60元",note:"全年开放"}, {name:"阿拉善盟文化中心",price:"80元",note:"节假日人多"}, {name:"阿拉善盟植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#BF360C"
   },
   "沈阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"盛京古都",
@@ -612,7 +612,7 @@ const cityData={
     hotels:[{area:"鞍山市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"鞍山景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"鞍山火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鞍山公园",desc:"鞍山著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.7"}, {name:"鞍山博物馆",desc:"鞍山著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"鞍山广场",desc:"鞍山著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"鞍山温泉",desc:"鞍山著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.2"}, {name:"鞍山风景区",desc:"鞍山著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.8"}, {name:"鞍山古城",desc:"鞍山著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"鞍山博物馆",price:"免费",note:""}, {name:"鞍山公园",price:"30元",note:"需提前预约"}, {name:"鞍山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鞍山步行街",price:"60元",note:"全年开放"}, {name:"鞍山文化中心",price:"80元",note:"节假日人多"}, {name:"鞍山植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#5D4037"
   },
   "抚顺":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -627,7 +627,7 @@ const cityData={
     hotels:[{area:"抚顺市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"抚顺景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"抚顺火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"抚顺公园",desc:"抚顺著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.7"}, {name:"抚顺博物馆",desc:"抚顺著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.2"}, {name:"抚顺广场",desc:"抚顺著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.2"}, {name:"抚顺温泉",desc:"抚顺著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.8"}, {name:"抚顺风景区",desc:"抚顺著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"抚顺古城",desc:"抚顺著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.9"}],
     tickets:[{name:"抚顺博物馆",price:"免费",note:""}, {name:"抚顺公园",price:"30元",note:"需提前预约"}, {name:"抚顺风景区",price:"50元",note:"建议游览2-3小时"}, {name:"抚顺步行街",price:"60元",note:"全年开放"}, {name:"抚顺文化中心",price:"80元",note:"节假日人多"}, {name:"抚顺植物园",price:"100元",note:""}],
-    color:"#D32F2F"
+    color:"#283593"
   },
   "本溪":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -642,7 +642,7 @@ const cityData={
     hotels:[{area:"本溪市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"本溪景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"本溪火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"本溪公园",desc:"本溪著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.6"}, {name:"本溪博物馆",desc:"本溪著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.3"}, {name:"本溪广场",desc:"本溪著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.4"}, {name:"本溪温泉",desc:"本溪著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.9"}, {name:"本溪风景区",desc:"本溪著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.0"}, {name:"本溪古城",desc:"本溪著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.3"}],
     tickets:[{name:"本溪博物馆",price:"免费",note:""}, {name:"本溪公园",price:"30元",note:"需提前预约"}, {name:"本溪风景区",price:"50元",note:"建议游览2-3小时"}, {name:"本溪步行街",price:"60元",note:"全年开放"}, {name:"本溪文化中心",price:"80元",note:"节假日人多"}, {name:"本溪植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#6D4C41"
   },
   "丹东":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -657,7 +657,7 @@ const cityData={
     hotels:[{area:"丹东市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"丹东景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"丹东火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"丹东公园",desc:"丹东著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.5"}, {name:"丹东博物馆",desc:"丹东著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.4"}, {name:"丹东广场",desc:"丹东著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.4"}, {name:"丹东温泉",desc:"丹东著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.9"}, {name:"丹东风景区",desc:"丹东著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.7"}, {name:"丹东古城",desc:"丹东著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.1"}],
     tickets:[{name:"丹东博物馆",price:"免费",note:""}, {name:"丹东公园",price:"30元",note:"需提前预约"}, {name:"丹东风景区",price:"50元",note:"建议游览2-3小时"}, {name:"丹东步行街",price:"60元",note:"全年开放"}, {name:"丹东文化中心",price:"80元",note:"节假日人多"}, {name:"丹东植物园",price:"100元",note:""}],
-    color:"#D32F2F"
+    color:"#BF360C"
   },
   "锦州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -672,7 +672,7 @@ const cityData={
     hotels:[{area:"锦州市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"锦州景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"锦州火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"锦州公园",desc:"锦州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.4"}, {name:"锦州博物馆",desc:"锦州著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.3"}, {name:"锦州广场",desc:"锦州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.5"}, {name:"锦州温泉",desc:"锦州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.8"}, {name:"锦州风景区",desc:"锦州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.7"}, {name:"锦州古城",desc:"锦州著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"锦州博物馆",price:"免费",note:""}, {name:"锦州公园",price:"30元",note:"需提前预约"}, {name:"锦州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"锦州步行街",price:"60元",note:"全年开放"}, {name:"锦州文化中心",price:"80元",note:"节假日人多"}, {name:"锦州植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#BF360C"
   },
   "营口":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -687,7 +687,7 @@ const cityData={
     hotels:[{area:"营口市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"营口景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"营口火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"营口公园",desc:"营口著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.8"}, {name:"营口博物馆",desc:"营口著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.9"}, {name:"营口广场",desc:"营口著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.5"}, {name:"营口温泉",desc:"营口著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.8"}, {name:"营口风景区",desc:"营口著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.0"}, {name:"营口古城",desc:"营口著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"营口博物馆",price:"免费",note:""}, {name:"营口公园",price:"30元",note:"需提前预约"}, {name:"营口风景区",price:"50元",note:"建议游览2-3小时"}, {name:"营口步行街",price:"60元",note:"全年开放"}, {name:"营口文化中心",price:"80元",note:"节假日人多"}, {name:"营口植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#00838F"
   },
   "阜新":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -702,7 +702,7 @@ const cityData={
     hotels:[{area:"阜新市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"阜新景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"阜新火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阜新公园",desc:"阜新著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.8"}, {name:"阜新博物馆",desc:"阜新著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.1"}, {name:"阜新广场",desc:"阜新著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.3"}, {name:"阜新温泉",desc:"阜新著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.4"}, {name:"阜新风景区",desc:"阜新著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.8"}, {name:"阜新古城",desc:"阜新著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"阜新博物馆",price:"免费",note:""}, {name:"阜新公园",price:"30元",note:"需提前预约"}, {name:"阜新风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阜新步行街",price:"60元",note:"全年开放"}, {name:"阜新文化中心",price:"80元",note:"节假日人多"}, {name:"阜新植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#00838F"
   },
   "辽阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -717,7 +717,7 @@ const cityData={
     hotels:[{area:"辽阳市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"辽阳景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"辽阳火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"辽阳公园",desc:"辽阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.1"}, {name:"辽阳博物馆",desc:"辽阳著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.8"}, {name:"辽阳广场",desc:"辽阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.3"}, {name:"辽阳温泉",desc:"辽阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.3"}, {name:"辽阳风景区",desc:"辽阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"辽阳古城",desc:"辽阳著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"辽阳博物馆",price:"免费",note:""}, {name:"辽阳公园",price:"30元",note:"需提前预约"}, {name:"辽阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"辽阳步行街",price:"60元",note:"全年开放"}, {name:"辽阳文化中心",price:"80元",note:"节假日人多"}, {name:"辽阳植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#E85D26"
   },
   "盘锦":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -732,7 +732,7 @@ const cityData={
     hotels:[{area:"盘锦市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"盘锦景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"盘锦火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"盘锦公园",desc:"盘锦著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.0"}, {name:"盘锦博物馆",desc:"盘锦著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.8"}, {name:"盘锦广场",desc:"盘锦著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.5"}, {name:"盘锦温泉",desc:"盘锦著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.4"}, {name:"盘锦风景区",desc:"盘锦著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.9"}, {name:"盘锦古城",desc:"盘锦著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.6"}],
     tickets:[{name:"盘锦博物馆",price:"免费",note:""}, {name:"盘锦公园",price:"30元",note:"需提前预约"}, {name:"盘锦风景区",price:"50元",note:"建议游览2-3小时"}, {name:"盘锦步行街",price:"60元",note:"全年开放"}, {name:"盘锦文化中心",price:"80元",note:"节假日人多"}, {name:"盘锦植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#4E342E"
   },
   "铁岭":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -747,7 +747,7 @@ const cityData={
     hotels:[{area:"铁岭市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"铁岭景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"铁岭火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"铁岭公园",desc:"铁岭著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.8"}, {name:"铁岭博物馆",desc:"铁岭著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.9"}, {name:"铁岭广场",desc:"铁岭著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.7"}, {name:"铁岭温泉",desc:"铁岭著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.7"}, {name:"铁岭风景区",desc:"铁岭著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.5"}, {name:"铁岭古城",desc:"铁岭著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.2"}],
     tickets:[{name:"铁岭博物馆",price:"免费",note:""}, {name:"铁岭公园",price:"30元",note:"需提前预约"}, {name:"铁岭风景区",price:"50元",note:"建议游览2-3小时"}, {name:"铁岭步行街",price:"60元",note:"全年开放"}, {name:"铁岭文化中心",price:"80元",note:"节假日人多"}, {name:"铁岭植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#5D4037"
   },
   "朝阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -762,7 +762,7 @@ const cityData={
     hotels:[{area:"朝阳市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"朝阳景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"朝阳火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"朝阳公园",desc:"朝阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.1"}, {name:"朝阳博物馆",desc:"朝阳著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"朝阳广场",desc:"朝阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"朝阳温泉",desc:"朝阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.7"}, {name:"朝阳风景区",desc:"朝阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.5"}, {name:"朝阳古城",desc:"朝阳著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.7"}],
     tickets:[{name:"朝阳博物馆",price:"免费",note:""}, {name:"朝阳公园",price:"30元",note:"需提前预约"}, {name:"朝阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"朝阳步行街",price:"60元",note:"全年开放"}, {name:"朝阳文化中心",price:"80元",note:"节假日人多"}, {name:"朝阳植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#AD1457"
   },
   "葫芦岛":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"东北明珠",
@@ -777,7 +777,7 @@ const cityData={
     hotels:[{area:"葫芦岛市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"葫芦岛景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"葫芦岛火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"葫芦岛公园",desc:"葫芦岛著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.5"}, {name:"葫芦岛博物馆",desc:"葫芦岛著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"葫芦岛广场",desc:"葫芦岛著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.6"}, {name:"葫芦岛温泉",desc:"葫芦岛著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.3"}, {name:"葫芦岛风景区",desc:"葫芦岛著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.8"}, {name:"葫芦岛古城",desc:"葫芦岛著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"葫芦岛博物馆",price:"免费",note:""}, {name:"葫芦岛公园",price:"30元",note:"需提前预约"}, {name:"葫芦岛风景区",price:"50元",note:"建议游览2-3小时"}, {name:"葫芦岛步行街",price:"60元",note:"全年开放"}, {name:"葫芦岛文化中心",price:"80元",note:"节假日人多"}, {name:"葫芦岛植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#C2185B"
   },
   "长春":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"汽车城",
@@ -807,7 +807,7 @@ const cityData={
     hotels:[{area:"吉林市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"吉林景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"吉林火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"吉林公园",desc:"吉林著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"吉林博物馆",desc:"吉林著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.1"}, {name:"吉林风景区",desc:"吉林著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.1"}, {name:"吉林温泉",desc:"吉林著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.3"}, {name:"吉林广场",desc:"吉林著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.6"}, {name:"吉林湿地",desc:"吉林著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.4"}],
     tickets:[{name:"吉林博物馆",price:"免费",note:""}, {name:"吉林公园",price:"30元",note:"需提前预约"}, {name:"吉林风景区",price:"50元",note:"建议游览2-3小时"}, {name:"吉林步行街",price:"60元",note:"全年开放"}, {name:"吉林文化中心",price:"80元",note:"节假日人多"}, {name:"吉林植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#5D4037"
   },
   "四平":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -822,7 +822,7 @@ const cityData={
     hotels:[{area:"四平市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"四平景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"四平火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"四平公园",desc:"四平著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.8"}, {name:"四平博物馆",desc:"四平著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"四平风景区",desc:"四平著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"四平温泉",desc:"四平著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.9"}, {name:"四平广场",desc:"四平著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.1"}, {name:"四平湿地",desc:"四平著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"四平博物馆",price:"免费",note:""}, {name:"四平公园",price:"30元",note:"需提前预约"}, {name:"四平风景区",price:"50元",note:"建议游览2-3小时"}, {name:"四平步行街",price:"60元",note:"全年开放"}, {name:"四平文化中心",price:"80元",note:"节假日人多"}, {name:"四平植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#D32F2F"
   },
   "辽源":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -837,7 +837,7 @@ const cityData={
     hotels:[{area:"辽源市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"辽源景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"辽源火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"辽源公园",desc:"辽源著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"辽源博物馆",desc:"辽源著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.9"}, {name:"辽源风景区",desc:"辽源著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.2"}, {name:"辽源温泉",desc:"辽源著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.1"}, {name:"辽源广场",desc:"辽源著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"辽源湿地",desc:"辽源著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.7"}],
     tickets:[{name:"辽源博物馆",price:"免费",note:""}, {name:"辽源公园",price:"30元",note:"需提前预约"}, {name:"辽源风景区",price:"50元",note:"建议游览2-3小时"}, {name:"辽源步行街",price:"60元",note:"全年开放"}, {name:"辽源文化中心",price:"80元",note:"节假日人多"}, {name:"辽源植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#00695C"
   },
   "通化":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -852,7 +852,7 @@ const cityData={
     hotels:[{area:"通化市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"通化景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"通化火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"通化公园",desc:"通化著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.5"}, {name:"通化博物馆",desc:"通化著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.0"}, {name:"通化风景区",desc:"通化著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.5"}, {name:"通化温泉",desc:"通化著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.6"}, {name:"通化广场",desc:"通化著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"通化湿地",desc:"通化著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.8"}],
     tickets:[{name:"通化博物馆",price:"免费",note:""}, {name:"通化公园",price:"30元",note:"需提前预约"}, {name:"通化风景区",price:"50元",note:"建议游览2-3小时"}, {name:"通化步行街",price:"60元",note:"全年开放"}, {name:"通化文化中心",price:"80元",note:"节假日人多"}, {name:"通化植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#D32F2F"
   },
   "白山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -867,7 +867,7 @@ const cityData={
     hotels:[{area:"白山市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"白山景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"白山火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"白山公园",desc:"白山著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.5"}, {name:"白山博物馆",desc:"白山著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"白山风景区",desc:"白山著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"白山温泉",desc:"白山著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"白山广场",desc:"白山著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.6"}, {name:"白山湿地",desc:"白山著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.4"}],
     tickets:[{name:"白山博物馆",price:"免费",note:""}, {name:"白山公园",price:"30元",note:"需提前预约"}, {name:"白山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"白山步行街",price:"60元",note:"全年开放"}, {name:"白山文化中心",price:"80元",note:"节假日人多"}, {name:"白山植物园",price:"100元",note:""}],
-    color:"#D32F2F"
+    color:"#5C6BC0"
   },
   "松原":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -882,7 +882,7 @@ const cityData={
     hotels:[{area:"松原市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"松原景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"松原火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"松原公园",desc:"松原著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"松原博物馆",desc:"松原著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.7"}, {name:"松原风景区",desc:"松原著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.7"}, {name:"松原温泉",desc:"松原著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.1"}, {name:"松原广场",desc:"松原著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"松原湿地",desc:"松原著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.1"}],
     tickets:[{name:"松原博物馆",price:"免费",note:""}, {name:"松原公园",price:"30元",note:"需提前预约"}, {name:"松原风景区",price:"50元",note:"建议游览2-3小时"}, {name:"松原步行街",price:"60元",note:"全年开放"}, {name:"松原文化中心",price:"80元",note:"节假日人多"}, {name:"松原植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#1565C0"
   },
   "白城":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -897,7 +897,7 @@ const cityData={
     hotels:[{area:"白城市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"白城景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"白城火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"白城公园",desc:"白城著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.3"}, {name:"白城博物馆",desc:"白城著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"白城风景区",desc:"白城著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.8"}, {name:"白城温泉",desc:"白城著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.6"}, {name:"白城广场",desc:"白城著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.5"}, {name:"白城湿地",desc:"白城著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.8"}],
     tickets:[{name:"白城博物馆",price:"免费",note:""}, {name:"白城公园",price:"30元",note:"需提前预约"}, {name:"白城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"白城步行街",price:"60元",note:"全年开放"}, {name:"白城文化中心",price:"80元",note:"节假日人多"}, {name:"白城植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#6D4C41"
   },
   "延边":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"白山松水",
@@ -912,7 +912,7 @@ const cityData={
     hotels:[{area:"延边市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"延边景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"延边火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"延边公园",desc:"延边著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.4"}, {name:"延边博物馆",desc:"延边著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.1"}, {name:"延边风景区",desc:"延边著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.6"}, {name:"延边温泉",desc:"延边著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"延边广场",desc:"延边著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"延边湿地",desc:"延边著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.0"}],
     tickets:[{name:"延边博物馆",price:"免费",note:""}, {name:"延边公园",price:"30元",note:"需提前预约"}, {name:"延边风景区",price:"50元",note:"建议游览2-3小时"}, {name:"延边步行街",price:"60元",note:"全年开放"}, {name:"延边文化中心",price:"80元",note:"节假日人多"}, {name:"延边植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#2E7D32"
   },
   "哈尔滨":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城",
@@ -942,7 +942,7 @@ const cityData={
     hotels:[{area:"齐齐哈尔市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"齐齐哈尔景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"齐齐哈尔火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"齐齐哈尔公园",desc:"齐齐哈尔著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"齐齐哈尔广场",desc:"齐齐哈尔著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.2"}, {name:"齐齐哈尔博物馆",desc:"齐齐哈尔著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.0"}, {name:"齐齐哈尔风景区",desc:"齐齐哈尔著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.3"}, {name:"齐齐哈尔步行街",desc:"齐齐哈尔著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.7"}, {name:"齐齐哈尔教堂",desc:"齐齐哈尔著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"齐齐哈尔博物馆",price:"免费",note:""}, {name:"齐齐哈尔公园",price:"30元",note:"需提前预约"}, {name:"齐齐哈尔风景区",price:"50元",note:"建议游览2-3小时"}, {name:"齐齐哈尔步行街",price:"60元",note:"全年开放"}, {name:"齐齐哈尔文化中心",price:"80元",note:"节假日人多"}, {name:"齐齐哈尔植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#BF360C"
   },
   "鸡西":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -957,7 +957,7 @@ const cityData={
     hotels:[{area:"鸡西市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"鸡西景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"鸡西火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鸡西公园",desc:"鸡西著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.8"}, {name:"鸡西广场",desc:"鸡西著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"鸡西博物馆",desc:"鸡西著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.4"}, {name:"鸡西风景区",desc:"鸡西著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.4"}, {name:"鸡西步行街",desc:"鸡西著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.4"}, {name:"鸡西教堂",desc:"鸡西著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.2"}],
     tickets:[{name:"鸡西博物馆",price:"免费",note:""}, {name:"鸡西公园",price:"30元",note:"需提前预约"}, {name:"鸡西风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鸡西步行街",price:"60元",note:"全年开放"}, {name:"鸡西文化中心",price:"80元",note:"节假日人多"}, {name:"鸡西植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#FF6F00"
   },
   "鹤岗":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -972,7 +972,7 @@ const cityData={
     hotels:[{area:"鹤岗市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"鹤岗景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"鹤岗火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鹤岗公园",desc:"鹤岗著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.1"}, {name:"鹤岗广场",desc:"鹤岗著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.1"}, {name:"鹤岗博物馆",desc:"鹤岗著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.2"}, {name:"鹤岗风景区",desc:"鹤岗著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.3"}, {name:"鹤岗步行街",desc:"鹤岗著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"鹤岗教堂",desc:"鹤岗著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"鹤岗博物馆",price:"免费",note:""}, {name:"鹤岗公园",price:"30元",note:"需提前预约"}, {name:"鹤岗风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鹤岗步行街",price:"60元",note:"全年开放"}, {name:"鹤岗文化中心",price:"80元",note:"节假日人多"}, {name:"鹤岗植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#5C6BC0"
   },
   "双鸭山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -987,7 +987,7 @@ const cityData={
     hotels:[{area:"双鸭山市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"双鸭山景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"双鸭山火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"双鸭山公园",desc:"双鸭山著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.4"}, {name:"双鸭山广场",desc:"双鸭山著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"双鸭山博物馆",desc:"双鸭山著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.5"}, {name:"双鸭山风景区",desc:"双鸭山著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"双鸭山步行街",desc:"双鸭山著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"双鸭山教堂",desc:"双鸭山著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.1"}],
     tickets:[{name:"双鸭山博物馆",price:"免费",note:""}, {name:"双鸭山公园",price:"30元",note:"需提前预约"}, {name:"双鸭山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"双鸭山步行街",price:"60元",note:"全年开放"}, {name:"双鸭山文化中心",price:"80元",note:"节假日人多"}, {name:"双鸭山植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#0277BD"
   },
   "大庆":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1002,7 +1002,7 @@ const cityData={
     hotels:[{area:"大庆市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"大庆景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"大庆火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"大庆公园",desc:"大庆著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.1"}, {name:"大庆广场",desc:"大庆著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"大庆博物馆",desc:"大庆著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.9"}, {name:"大庆风景区",desc:"大庆著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"大庆步行街",desc:"大庆著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.0"}, {name:"大庆教堂",desc:"大庆著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"大庆博物馆",price:"免费",note:""}, {name:"大庆公园",price:"30元",note:"需提前预约"}, {name:"大庆风景区",price:"50元",note:"建议游览2-3小时"}, {name:"大庆步行街",price:"60元",note:"全年开放"}, {name:"大庆文化中心",price:"80元",note:"节假日人多"}, {name:"大庆植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#D32F2F"
   },
   "伊春":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1017,7 +1017,7 @@ const cityData={
     hotels:[{area:"伊春市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"伊春景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"伊春火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"伊春公园",desc:"伊春著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"伊春广场",desc:"伊春著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.9"}, {name:"伊春博物馆",desc:"伊春著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.8"}, {name:"伊春风景区",desc:"伊春著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.1"}, {name:"伊春步行街",desc:"伊春著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.1"}, {name:"伊春教堂",desc:"伊春著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"伊春博物馆",price:"免费",note:""}, {name:"伊春公园",price:"30元",note:"需提前预约"}, {name:"伊春风景区",price:"50元",note:"建议游览2-3小时"}, {name:"伊春步行街",price:"60元",note:"全年开放"}, {name:"伊春文化中心",price:"80元",note:"节假日人多"}, {name:"伊春植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#C2185B"
   },
   "佳木斯":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1047,7 +1047,7 @@ const cityData={
     hotels:[{area:"七台河市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"七台河景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"七台河火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"七台河公园",desc:"七台河著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.5"}, {name:"七台河广场",desc:"七台河著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"七台河博物馆",desc:"七台河著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.5"}, {name:"七台河风景区",desc:"七台河著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.9"}, {name:"七台河步行街",desc:"七台河著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.8"}, {name:"七台河教堂",desc:"七台河著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.3"}],
     tickets:[{name:"七台河博物馆",price:"免费",note:""}, {name:"七台河公园",price:"30元",note:"需提前预约"}, {name:"七台河风景区",price:"50元",note:"建议游览2-3小时"}, {name:"七台河步行街",price:"60元",note:"全年开放"}, {name:"七台河文化中心",price:"80元",note:"节假日人多"}, {name:"七台河植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#C2185B"
   },
   "牡丹江":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1062,7 +1062,7 @@ const cityData={
     hotels:[{area:"牡丹江市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"牡丹江景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"牡丹江火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"牡丹江公园",desc:"牡丹江著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.8"}, {name:"牡丹江广场",desc:"牡丹江著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.3"}, {name:"牡丹江博物馆",desc:"牡丹江著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.2"}, {name:"牡丹江风景区",desc:"牡丹江著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.1"}, {name:"牡丹江步行街",desc:"牡丹江著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.1"}, {name:"牡丹江教堂",desc:"牡丹江著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.7"}],
     tickets:[{name:"牡丹江博物馆",price:"免费",note:""}, {name:"牡丹江公园",price:"30元",note:"需提前预约"}, {name:"牡丹江风景区",price:"50元",note:"建议游览2-3小时"}, {name:"牡丹江步行街",price:"60元",note:"全年开放"}, {name:"牡丹江文化中心",price:"80元",note:"节假日人多"}, {name:"牡丹江植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#2B8A6E"
   },
   "黑河":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1077,7 +1077,7 @@ const cityData={
     hotels:[{area:"黑河市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"黑河景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"黑河火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"黑河公园",desc:"黑河著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"黑河广场",desc:"黑河著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.6"}, {name:"黑河博物馆",desc:"黑河著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.7"}, {name:"黑河风景区",desc:"黑河著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"黑河步行街",desc:"黑河著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.8"}, {name:"黑河教堂",desc:"黑河著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.2"}],
     tickets:[{name:"黑河博物馆",price:"免费",note:""}, {name:"黑河公园",price:"30元",note:"需提前预约"}, {name:"黑河风景区",price:"50元",note:"建议游览2-3小时"}, {name:"黑河步行街",price:"60元",note:"全年开放"}, {name:"黑河文化中心",price:"80元",note:"节假日人多"}, {name:"黑河植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#6D4C41"
   },
   "绥化":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1092,7 +1092,7 @@ const cityData={
     hotels:[{area:"绥化市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"绥化景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"绥化火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"绥化公园",desc:"绥化著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"绥化广场",desc:"绥化著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"绥化博物馆",desc:"绥化著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"绥化风景区",desc:"绥化著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.4"}, {name:"绥化步行街",desc:"绥化著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.3"}, {name:"绥化教堂",desc:"绥化著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.4"}],
     tickets:[{name:"绥化博物馆",price:"免费",note:""}, {name:"绥化公园",price:"30元",note:"需提前预约"}, {name:"绥化风景区",price:"50元",note:"建议游览2-3小时"}, {name:"绥化步行街",price:"60元",note:"全年开放"}, {name:"绥化文化中心",price:"80元",note:"节假日人多"}, {name:"绥化植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#C2185B"
   },
   "大兴安岭":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"冰城夏都",
@@ -1107,7 +1107,7 @@ const cityData={
     hotels:[{area:"大兴安岭市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"大兴安岭景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"大兴安岭火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"大兴安岭公园",desc:"大兴安岭著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.7"}, {name:"大兴安岭广场",desc:"大兴安岭著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.2"}, {name:"大兴安岭博物馆",desc:"大兴安岭著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.6"}, {name:"大兴安岭风景区",desc:"大兴安岭著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"大兴安岭步行街",desc:"大兴安岭著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.1"}, {name:"大兴安岭教堂",desc:"大兴安岭著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.5"}],
     tickets:[{name:"大兴安岭博物馆",price:"免费",note:""}, {name:"大兴安岭公园",price:"30元",note:"需提前预约"}, {name:"大兴安岭风景区",price:"50元",note:"建议游览2-3小时"}, {name:"大兴安岭步行街",price:"60元",note:"全年开放"}, {name:"大兴安岭文化中心",price:"80元",note:"节假日人多"}, {name:"大兴安岭植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#4E342E"
   },
   "南京":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"六朝古都",
@@ -1152,7 +1152,7 @@ const cityData={
     hotels:[{area:"徐州市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"徐州景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"徐州火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"徐州园林",desc:"徐州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.4"}, {name:"徐州古镇",desc:"徐州著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"徐州博物馆",desc:"徐州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.7"}, {name:"徐州步行街",desc:"徐州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.3"}, {name:"徐州风景区",desc:"徐州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.8"}, {name:"徐州湖畔",desc:"徐州著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.2"}],
     tickets:[{name:"徐州博物馆",price:"免费",note:""}, {name:"徐州公园",price:"30元",note:"需提前预约"}, {name:"徐州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"徐州步行街",price:"60元",note:"全年开放"}, {name:"徐州文化中心",price:"80元",note:"节假日人多"}, {name:"徐州植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#2E7D32"
   },
   "常州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"水韵江苏",
@@ -1167,7 +1167,7 @@ const cityData={
     hotels:[{area:"常州市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"常州景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"常州火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"常州园林",desc:"常州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.3"}, {name:"常州古镇",desc:"常州著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.1"}, {name:"常州博物馆",desc:"常州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"常州步行街",desc:"常州著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.5"}, {name:"常州风景区",desc:"常州著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.1"}, {name:"常州湖畔",desc:"常州著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"常州博物馆",price:"免费",note:""}, {name:"常州公园",price:"30元",note:"需提前预约"}, {name:"常州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"常州步行街",price:"60元",note:"全年开放"}, {name:"常州文化中心",price:"80元",note:"节假日人多"}, {name:"常州植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#2E7D32"
   },
   "苏州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"园林之城",
@@ -1197,7 +1197,7 @@ const cityData={
     hotels:[{area:"南通市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"南通景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"南通火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"南通园林",desc:"南通著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"南通古镇",desc:"南通著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.7"}, {name:"南通博物馆",desc:"南通著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.3"}, {name:"南通步行街",desc:"南通著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.0"}, {name:"南通风景区",desc:"南通著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.6"}, {name:"南通湖畔",desc:"南通著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"南通博物馆",price:"免费",note:""}, {name:"南通公园",price:"30元",note:"需提前预约"}, {name:"南通风景区",price:"50元",note:"建议游览2-3小时"}, {name:"南通步行街",price:"60元",note:"全年开放"}, {name:"南通文化中心",price:"80元",note:"节假日人多"}, {name:"南通植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#1A73E8"
   },
   "连云港":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"水韵江苏",
@@ -1212,7 +1212,7 @@ const cityData={
     hotels:[{area:"连云港市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"连云港景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"连云港火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"连云港园林",desc:"连云港著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.6"}, {name:"连云港古镇",desc:"连云港著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.9"}, {name:"连云港博物馆",desc:"连云港著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.6"}, {name:"连云港步行街",desc:"连云港著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.2"}, {name:"连云港风景区",desc:"连云港著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.8"}, {name:"连云港湖畔",desc:"连云港著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.2"}],
     tickets:[{name:"连云港博物馆",price:"免费",note:""}, {name:"连云港公园",price:"30元",note:"需提前预约"}, {name:"连云港风景区",price:"50元",note:"建议游览2-3小时"}, {name:"连云港步行街",price:"60元",note:"全年开放"}, {name:"连云港文化中心",price:"80元",note:"节假日人多"}, {name:"连云港植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#4E342E"
   },
   "淮安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"水韵江苏",
@@ -1227,7 +1227,7 @@ const cityData={
     hotels:[{area:"淮安市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"淮安景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"淮安火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"淮安园林",desc:"淮安著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.9"}, {name:"淮安古镇",desc:"淮安著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.2"}, {name:"淮安博物馆",desc:"淮安著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.0"}, {name:"淮安步行街",desc:"淮安著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"淮安风景区",desc:"淮安著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.7"}, {name:"淮安湖畔",desc:"淮安著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.1"}],
     tickets:[{name:"淮安博物馆",price:"免费",note:""}, {name:"淮安公园",price:"30元",note:"需提前预约"}, {name:"淮安风景区",price:"50元",note:"建议游览2-3小时"}, {name:"淮安步行街",price:"60元",note:"全年开放"}, {name:"淮安文化中心",price:"80元",note:"节假日人多"}, {name:"淮安植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#4E342E"
   },
   "盐城":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"水韵江苏",
@@ -1242,7 +1242,7 @@ const cityData={
     hotels:[{area:"盐城市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"盐城景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"盐城火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"盐城园林",desc:"盐城著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.8"}, {name:"盐城古镇",desc:"盐城著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.6"}, {name:"盐城博物馆",desc:"盐城著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.7"}, {name:"盐城步行街",desc:"盐城著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.4"}, {name:"盐城风景区",desc:"盐城著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.7"}, {name:"盐城湖畔",desc:"盐城著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.1"}],
     tickets:[{name:"盐城博物馆",price:"免费",note:""}, {name:"盐城公园",price:"30元",note:"需提前预约"}, {name:"盐城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"盐城步行街",price:"60元",note:"全年开放"}, {name:"盐城文化中心",price:"80元",note:"节假日人多"}, {name:"盐城植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#2B8A6E"
   },
   "扬州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"江南水乡",
@@ -1287,7 +1287,7 @@ const cityData={
     hotels:[{area:"泰州市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"泰州景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"泰州火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"泰州园林",desc:"泰州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.4"}, {name:"泰州古镇",desc:"泰州著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"泰州博物馆",desc:"泰州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.1"}, {name:"泰州步行街",desc:"泰州著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"泰州风景区",desc:"泰州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.3"}, {name:"泰州湖畔",desc:"泰州著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.3"}],
     tickets:[{name:"泰州博物馆",price:"免费",note:""}, {name:"泰州公园",price:"30元",note:"需提前预约"}, {name:"泰州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"泰州步行街",price:"60元",note:"全年开放"}, {name:"泰州文化中心",price:"80元",note:"节假日人多"}, {name:"泰州植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#C2185B"
   },
   "宿迁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"水韵江苏",
@@ -1302,7 +1302,7 @@ const cityData={
     hotels:[{area:"宿迁市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"宿迁景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"宿迁火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"宿迁园林",desc:"宿迁著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"宿迁古镇",desc:"宿迁著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"宿迁博物馆",desc:"宿迁著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.7"}, {name:"宿迁步行街",desc:"宿迁著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.6"}, {name:"宿迁风景区",desc:"宿迁著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.7"}, {name:"宿迁湖畔",desc:"宿迁著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.9"}],
     tickets:[{name:"宿迁博物馆",price:"免费",note:""}, {name:"宿迁公园",price:"30元",note:"需提前预约"}, {name:"宿迁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"宿迁步行街",price:"60元",note:"全年开放"}, {name:"宿迁文化中心",price:"80元",note:"节假日人多"}, {name:"宿迁植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#2B8A6E"
   },
   "杭州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"人间天堂",
@@ -1497,7 +1497,7 @@ const cityData={
     hotels:[{area:"芜湖市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"芜湖景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"芜湖火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"芜湖风景区",desc:"芜湖著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.5"}, {name:"芜湖古村落",desc:"芜湖著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"芜湖博物馆",desc:"芜湖著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.7"}, {name:"芜湖寺庙",desc:"芜湖著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.3"}, {name:"芜湖公园",desc:"芜湖著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.0"}, {name:"芜湖广场",desc:"芜湖著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"芜湖博物馆",price:"免费",note:""}, {name:"芜湖公园",price:"30元",note:"需提前预约"}, {name:"芜湖风景区",price:"50元",note:"建议游览2-3小时"}, {name:"芜湖步行街",price:"60元",note:"全年开放"}, {name:"芜湖文化中心",price:"80元",note:"节假日人多"}, {name:"芜湖植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#E85D26"
   },
   "蚌埠":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1512,7 +1512,7 @@ const cityData={
     hotels:[{area:"蚌埠市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"蚌埠景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"蚌埠火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"蚌埠风景区",desc:"蚌埠著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"蚌埠古村落",desc:"蚌埠著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"蚌埠博物馆",desc:"蚌埠著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.0"}, {name:"蚌埠寺庙",desc:"蚌埠著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.6"}, {name:"蚌埠公园",desc:"蚌埠著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.5"}, {name:"蚌埠广场",desc:"蚌埠著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"蚌埠博物馆",price:"免费",note:""}, {name:"蚌埠公园",price:"30元",note:"需提前预约"}, {name:"蚌埠风景区",price:"50元",note:"建议游览2-3小时"}, {name:"蚌埠步行街",price:"60元",note:"全年开放"}, {name:"蚌埠文化中心",price:"80元",note:"节假日人多"}, {name:"蚌埠植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#0097A7"
   },
   "淮南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1527,7 +1527,7 @@ const cityData={
     hotels:[{area:"淮南市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"淮南景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"淮南火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"淮南风景区",desc:"淮南著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.6"}, {name:"淮南古村落",desc:"淮南著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"淮南博物馆",desc:"淮南著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"淮南寺庙",desc:"淮南著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.0"}, {name:"淮南公园",desc:"淮南著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"淮南广场",desc:"淮南著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.7"}],
     tickets:[{name:"淮南博物馆",price:"免费",note:""}, {name:"淮南公园",price:"30元",note:"需提前预约"}, {name:"淮南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"淮南步行街",price:"60元",note:"全年开放"}, {name:"淮南文化中心",price:"80元",note:"节假日人多"}, {name:"淮南植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#BF360C"
   },
   "马鞍山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1542,7 +1542,7 @@ const cityData={
     hotels:[{area:"马鞍山市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"马鞍山景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"马鞍山火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"马鞍山风景区",desc:"马鞍山著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.0"}, {name:"马鞍山古村落",desc:"马鞍山著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.4"}, {name:"马鞍山博物馆",desc:"马鞍山著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"马鞍山寺庙",desc:"马鞍山著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.5"}, {name:"马鞍山公园",desc:"马鞍山著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.8"}, {name:"马鞍山广场",desc:"马鞍山著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.7"}],
     tickets:[{name:"马鞍山博物馆",price:"免费",note:""}, {name:"马鞍山公园",price:"30元",note:"需提前预约"}, {name:"马鞍山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"马鞍山步行街",price:"60元",note:"全年开放"}, {name:"马鞍山文化中心",price:"80元",note:"节假日人多"}, {name:"马鞍山植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#2B8A6E"
   },
   "淮北":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1557,7 +1557,7 @@ const cityData={
     hotels:[{area:"淮北市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"淮北景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"淮北火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"淮北风景区",desc:"淮北著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.9"}, {name:"淮北古村落",desc:"淮北著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"淮北博物馆",desc:"淮北著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.8"}, {name:"淮北寺庙",desc:"淮北著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.7"}, {name:"淮北公园",desc:"淮北著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.2"}, {name:"淮北广场",desc:"淮北著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"淮北博物馆",price:"免费",note:""}, {name:"淮北公园",price:"30元",note:"需提前预约"}, {name:"淮北风景区",price:"50元",note:"建议游览2-3小时"}, {name:"淮北步行街",price:"60元",note:"全年开放"}, {name:"淮北文化中心",price:"80元",note:"节假日人多"}, {name:"淮北植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#5C6BC0"
   },
   "铜陵":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1572,7 +1572,7 @@ const cityData={
     hotels:[{area:"铜陵市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"铜陵景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"铜陵火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"铜陵风景区",desc:"铜陵著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"铜陵古村落",desc:"铜陵著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.2"}, {name:"铜陵博物馆",desc:"铜陵著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"铜陵寺庙",desc:"铜陵著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.2"}, {name:"铜陵公园",desc:"铜陵著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.6"}, {name:"铜陵广场",desc:"铜陵著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"铜陵博物馆",price:"免费",note:""}, {name:"铜陵公园",price:"30元",note:"需提前预约"}, {name:"铜陵风景区",price:"50元",note:"建议游览2-3小时"}, {name:"铜陵步行街",price:"60元",note:"全年开放"}, {name:"铜陵文化中心",price:"80元",note:"节假日人多"}, {name:"铜陵植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#C2185B"
   },
   "安庆":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1587,7 +1587,7 @@ const cityData={
     hotels:[{area:"安庆市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"安庆景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"安庆火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"安庆风景区",desc:"安庆著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.6"}, {name:"安庆古村落",desc:"安庆著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.4"}, {name:"安庆博物馆",desc:"安庆著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.7"}, {name:"安庆寺庙",desc:"安庆著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.3"}, {name:"安庆公园",desc:"安庆著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.1"}, {name:"安庆广场",desc:"安庆著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"安庆博物馆",price:"免费",note:""}, {name:"安庆公园",price:"30元",note:"需提前预约"}, {name:"安庆风景区",price:"50元",note:"建议游览2-3小时"}, {name:"安庆步行街",price:"60元",note:"全年开放"}, {name:"安庆文化中心",price:"80元",note:"节假日人多"}, {name:"安庆植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#E85D26"
   },
   "黄山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天下第一奇山",
@@ -1617,7 +1617,7 @@ const cityData={
     hotels:[{area:"滁州市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"滁州景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"滁州火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"滁州风景区",desc:"滁州著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.3"}, {name:"滁州古村落",desc:"滁州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"滁州博物馆",desc:"滁州著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.8"}, {name:"滁州寺庙",desc:"滁州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.8"}, {name:"滁州公园",desc:"滁州著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"滁州广场",desc:"滁州著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.3"}],
     tickets:[{name:"滁州博物馆",price:"免费",note:""}, {name:"滁州公园",price:"30元",note:"需提前预约"}, {name:"滁州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"滁州步行街",price:"60元",note:"全年开放"}, {name:"滁州文化中心",price:"80元",note:"节假日人多"}, {name:"滁州植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#5D4037"
   },
   "阜阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1632,7 +1632,7 @@ const cityData={
     hotels:[{area:"阜阳市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"阜阳景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"阜阳火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阜阳风景区",desc:"阜阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.9"}, {name:"阜阳古村落",desc:"阜阳著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"阜阳博物馆",desc:"阜阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.0"}, {name:"阜阳寺庙",desc:"阜阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.2"}, {name:"阜阳公园",desc:"阜阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.9"}, {name:"阜阳广场",desc:"阜阳著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.5"}],
     tickets:[{name:"阜阳博物馆",price:"免费",note:""}, {name:"阜阳公园",price:"30元",note:"需提前预约"}, {name:"阜阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阜阳步行街",price:"60元",note:"全年开放"}, {name:"阜阳文化中心",price:"80元",note:"节假日人多"}, {name:"阜阳植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#6D4C41"
   },
   "宿州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1647,7 +1647,7 @@ const cityData={
     hotels:[{area:"宿州市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"宿州景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"宿州火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"宿州风景区",desc:"宿州著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.6"}, {name:"宿州古村落",desc:"宿州著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.9"}, {name:"宿州博物馆",desc:"宿州著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.1"}, {name:"宿州寺庙",desc:"宿州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.9"}, {name:"宿州公园",desc:"宿州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"宿州广场",desc:"宿州著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.8"}],
     tickets:[{name:"宿州博物馆",price:"免费",note:""}, {name:"宿州公园",price:"30元",note:"需提前预约"}, {name:"宿州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"宿州步行街",price:"60元",note:"全年开放"}, {name:"宿州文化中心",price:"80元",note:"节假日人多"}, {name:"宿州植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#00695C"
   },
   "六安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1662,7 +1662,7 @@ const cityData={
     hotels:[{area:"六安市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"六安景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"六安火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"六安风景区",desc:"六安著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"六安古村落",desc:"六安著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.3"}, {name:"六安博物馆",desc:"六安著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.4"}, {name:"六安寺庙",desc:"六安著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.2"}, {name:"六安公园",desc:"六安著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"六安广场",desc:"六安著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.4"}],
     tickets:[{name:"六安博物馆",price:"免费",note:""}, {name:"六安公园",price:"30元",note:"需提前预约"}, {name:"六安风景区",price:"50元",note:"建议游览2-3小时"}, {name:"六安步行街",price:"60元",note:"全年开放"}, {name:"六安文化中心",price:"80元",note:"节假日人多"}, {name:"六安植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#6D4C41"
   },
   "亳州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1677,7 +1677,7 @@ const cityData={
     hotels:[{area:"亳州市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"亳州景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"亳州火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"亳州风景区",desc:"亳州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.1"}, {name:"亳州古村落",desc:"亳州著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"亳州博物馆",desc:"亳州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.5"}, {name:"亳州寺庙",desc:"亳州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.8"}, {name:"亳州公园",desc:"亳州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.9"}, {name:"亳州广场",desc:"亳州著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.0"}],
     tickets:[{name:"亳州博物馆",price:"免费",note:""}, {name:"亳州公园",price:"30元",note:"需提前预约"}, {name:"亳州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"亳州步行街",price:"60元",note:"全年开放"}, {name:"亳州文化中心",price:"80元",note:"节假日人多"}, {name:"亳州植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#E85D26"
   },
   "池州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1692,7 +1692,7 @@ const cityData={
     hotels:[{area:"池州市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"池州景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"池州火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"池州风景区",desc:"池州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.4"}, {name:"池州古村落",desc:"池州著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.7"}, {name:"池州博物馆",desc:"池州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.8"}, {name:"池州寺庙",desc:"池州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.9"}, {name:"池州公园",desc:"池州著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.6"}, {name:"池州广场",desc:"池州著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.4"}],
     tickets:[{name:"池州博物馆",price:"免费",note:""}, {name:"池州公园",price:"30元",note:"需提前预约"}, {name:"池州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"池州步行街",price:"60元",note:"全年开放"}, {name:"池州文化中心",price:"80元",note:"节假日人多"}, {name:"池州植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#FF6F00"
   },
   "宣城":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"徽风皖韵",
@@ -1707,7 +1707,7 @@ const cityData={
     hotels:[{area:"宣城市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"宣城景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"宣城火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"宣城风景区",desc:"宣城著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.5"}, {name:"宣城古村落",desc:"宣城著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"宣城博物馆",desc:"宣城著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"宣城寺庙",desc:"宣城著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.7"}, {name:"宣城公园",desc:"宣城著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.4"}, {name:"宣城广场",desc:"宣城著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"宣城博物馆",price:"免费",note:""}, {name:"宣城公园",price:"30元",note:"需提前预约"}, {name:"宣城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"宣城步行街",price:"60元",note:"全年开放"}, {name:"宣城文化中心",price:"80元",note:"节假日人多"}, {name:"宣城植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#5D4037"
   },
   "福州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"有福之州",
@@ -1752,7 +1752,7 @@ const cityData={
     hotels:[{area:"莆田市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"莆田景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"莆田火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"莆田公园",desc:"莆田著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"莆田博物馆",desc:"莆田著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.9"}, {name:"莆田风景区",desc:"莆田著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"莆田古街",desc:"莆田著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"莆田寺庙",desc:"莆田著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"莆田广场",desc:"莆田著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.8"}],
     tickets:[{name:"莆田博物馆",price:"免费",note:""}, {name:"莆田公园",price:"30元",note:"需提前预约"}, {name:"莆田风景区",price:"50元",note:"建议游览2-3小时"}, {name:"莆田步行街",price:"60元",note:"全年开放"}, {name:"莆田文化中心",price:"80元",note:"节假日人多"}, {name:"莆田植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#5C6BC0"
   },
   "三明":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八闽大地",
@@ -1767,7 +1767,7 @@ const cityData={
     hotels:[{area:"三明市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"三明景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"三明火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"三明公园",desc:"三明著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.4"}, {name:"三明博物馆",desc:"三明著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"三明风景区",desc:"三明著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.3"}, {name:"三明古街",desc:"三明著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.2"}, {name:"三明寺庙",desc:"三明著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.1"}, {name:"三明广场",desc:"三明著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.8"}],
     tickets:[{name:"三明博物馆",price:"免费",note:""}, {name:"三明公园",price:"30元",note:"需提前预约"}, {name:"三明风景区",price:"50元",note:"建议游览2-3小时"}, {name:"三明步行街",price:"60元",note:"全年开放"}, {name:"三明文化中心",price:"80元",note:"节假日人多"}, {name:"三明植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#BF360C"
   },
   "泉州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"世遗之城",
@@ -1797,7 +1797,7 @@ const cityData={
     hotels:[{area:"漳州市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"漳州景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"漳州火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"漳州公园",desc:"漳州著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"漳州博物馆",desc:"漳州著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.2"}, {name:"漳州风景区",desc:"漳州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.9"}, {name:"漳州古街",desc:"漳州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.7"}, {name:"漳州寺庙",desc:"漳州著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.8"}, {name:"漳州广场",desc:"漳州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.5"}],
     tickets:[{name:"漳州博物馆",price:"免费",note:""}, {name:"漳州公园",price:"30元",note:"需提前预约"}, {name:"漳州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"漳州步行街",price:"60元",note:"全年开放"}, {name:"漳州文化中心",price:"80元",note:"节假日人多"}, {name:"漳州植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#C2185B"
   },
   "南平":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八闽大地",
@@ -1812,7 +1812,7 @@ const cityData={
     hotels:[{area:"南平市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"南平景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"南平火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"南平公园",desc:"南平著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"南平博物馆",desc:"南平著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"南平风景区",desc:"南平著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.5"}, {name:"南平古街",desc:"南平著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.7"}, {name:"南平寺庙",desc:"南平著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.2"}, {name:"南平广场",desc:"南平著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.5"}],
     tickets:[{name:"南平博物馆",price:"免费",note:""}, {name:"南平公园",price:"30元",note:"需提前预约"}, {name:"南平风景区",price:"50元",note:"建议游览2-3小时"}, {name:"南平步行街",price:"60元",note:"全年开放"}, {name:"南平文化中心",price:"80元",note:"节假日人多"}, {name:"南平植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#AD1457"
   },
   "龙岩":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八闽大地",
@@ -1827,7 +1827,7 @@ const cityData={
     hotels:[{area:"龙岩市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"龙岩景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"龙岩火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"龙岩公园",desc:"龙岩著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.7"}, {name:"龙岩博物馆",desc:"龙岩著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.1"}, {name:"龙岩风景区",desc:"龙岩著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.4"}, {name:"龙岩古街",desc:"龙岩著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.9"}, {name:"龙岩寺庙",desc:"龙岩著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.5"}, {name:"龙岩广场",desc:"龙岩著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.9"}],
     tickets:[{name:"龙岩博物馆",price:"免费",note:""}, {name:"龙岩公园",price:"30元",note:"需提前预约"}, {name:"龙岩风景区",price:"50元",note:"建议游览2-3小时"}, {name:"龙岩步行街",price:"60元",note:"全年开放"}, {name:"龙岩文化中心",price:"80元",note:"节假日人多"}, {name:"龙岩植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#5D4037"
   },
   "宁德":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八闽大地",
@@ -1842,7 +1842,7 @@ const cityData={
     hotels:[{area:"宁德市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"宁德景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"宁德火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"宁德公园",desc:"宁德著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.4"}, {name:"宁德博物馆",desc:"宁德著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.5"}, {name:"宁德风景区",desc:"宁德著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.0"}, {name:"宁德古街",desc:"宁德著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.6"}, {name:"宁德寺庙",desc:"宁德著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.9"}, {name:"宁德广场",desc:"宁德著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.5"}],
     tickets:[{name:"宁德博物馆",price:"免费",note:""}, {name:"宁德公园",price:"30元",note:"需提前预约"}, {name:"宁德风景区",price:"50元",note:"建议游览2-3小时"}, {name:"宁德步行街",price:"60元",note:"全年开放"}, {name:"宁德文化中心",price:"80元",note:"节假日人多"}, {name:"宁德植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#2B8A6E"
   },
   "南昌":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"英雄城",
@@ -1917,7 +1917,7 @@ const cityData={
     hotels:[{area:"新余市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"新余景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"新余火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"新余风景区",desc:"新余著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.8"}, {name:"新余博物馆",desc:"新余著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"新余古街",desc:"新余著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"新余公园",desc:"新余著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"新余寺庙",desc:"新余著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.8"}, {name:"新余广场",desc:"新余著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.6"}],
     tickets:[{name:"新余博物馆",price:"免费",note:""}, {name:"新余公园",price:"30元",note:"需提前预约"}, {name:"新余风景区",price:"50元",note:"建议游览2-3小时"}, {name:"新余步行街",price:"60元",note:"全年开放"}, {name:"新余文化中心",price:"80元",note:"节假日人多"}, {name:"新余植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#D32F2F"
   },
   "鹰潭":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"物华天宝",
@@ -1932,7 +1932,7 @@ const cityData={
     hotels:[{area:"鹰潭市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"鹰潭景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"鹰潭火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鹰潭风景区",desc:"鹰潭著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.1"}, {name:"鹰潭博物馆",desc:"鹰潭著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"鹰潭古街",desc:"鹰潭著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.7"}, {name:"鹰潭公园",desc:"鹰潭著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.0"}, {name:"鹰潭寺庙",desc:"鹰潭著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"鹰潭广场",desc:"鹰潭著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.3"}],
     tickets:[{name:"鹰潭博物馆",price:"免费",note:""}, {name:"鹰潭公园",price:"30元",note:"需提前预约"}, {name:"鹰潭风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鹰潭步行街",price:"60元",note:"全年开放"}, {name:"鹰潭文化中心",price:"80元",note:"节假日人多"}, {name:"鹰潭植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#6D4C41"
   },
   "赣州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"物华天宝",
@@ -1947,7 +1947,7 @@ const cityData={
     hotels:[{area:"赣州市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"赣州景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"赣州火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"赣州风景区",desc:"赣州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.7"}, {name:"赣州博物馆",desc:"赣州著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.7"}, {name:"赣州古街",desc:"赣州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"赣州公园",desc:"赣州著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.1"}, {name:"赣州寺庙",desc:"赣州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"赣州广场",desc:"赣州著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.7"}],
     tickets:[{name:"赣州博物馆",price:"免费",note:""}, {name:"赣州公园",price:"30元",note:"需提前预约"}, {name:"赣州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"赣州步行街",price:"60元",note:"全年开放"}, {name:"赣州文化中心",price:"80元",note:"节假日人多"}, {name:"赣州植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#1A73E8"
   },
   "吉安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"物华天宝",
@@ -1962,7 +1962,7 @@ const cityData={
     hotels:[{area:"吉安市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"吉安景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"吉安火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"吉安风景区",desc:"吉安著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.0"}, {name:"吉安博物馆",desc:"吉安著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"吉安古街",desc:"吉安著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.5"}, {name:"吉安公园",desc:"吉安著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.8"}, {name:"吉安寺庙",desc:"吉安著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.3"}, {name:"吉安广场",desc:"吉安著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.7"}],
     tickets:[{name:"吉安博物馆",price:"免费",note:""}, {name:"吉安公园",price:"30元",note:"需提前预约"}, {name:"吉安风景区",price:"50元",note:"建议游览2-3小时"}, {name:"吉安步行街",price:"60元",note:"全年开放"}, {name:"吉安文化中心",price:"80元",note:"节假日人多"}, {name:"吉安植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#283593"
   },
   "宜春":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"物华天宝",
@@ -1977,7 +1977,7 @@ const cityData={
     hotels:[{area:"宜春市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"宜春景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"宜春火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"宜春风景区",desc:"宜春著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.3"}, {name:"宜春博物馆",desc:"宜春著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.3"}, {name:"宜春古街",desc:"宜春著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"宜春公园",desc:"宜春著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.5"}, {name:"宜春寺庙",desc:"宜春著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.4"}, {name:"宜春广场",desc:"宜春著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.3"}],
     tickets:[{name:"宜春博物馆",price:"免费",note:""}, {name:"宜春公园",price:"30元",note:"需提前预约"}, {name:"宜春风景区",price:"50元",note:"建议游览2-3小时"}, {name:"宜春步行街",price:"60元",note:"全年开放"}, {name:"宜春文化中心",price:"80元",note:"节假日人多"}, {name:"宜春植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#BF360C"
   },
   "抚州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"物华天宝",
@@ -1992,7 +1992,7 @@ const cityData={
     hotels:[{area:"抚州市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"抚州景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"抚州火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"抚州风景区",desc:"抚州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.9"}, {name:"抚州博物馆",desc:"抚州著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.7"}, {name:"抚州古街",desc:"抚州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.4"}, {name:"抚州公园",desc:"抚州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"抚州寺庙",desc:"抚州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.3"}, {name:"抚州广场",desc:"抚州著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"抚州博物馆",price:"免费",note:""}, {name:"抚州公园",price:"30元",note:"需提前预约"}, {name:"抚州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"抚州步行街",price:"60元",note:"全年开放"}, {name:"抚州文化中心",price:"80元",note:"节假日人多"}, {name:"抚州植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#1565C0"
   },
   "上饶":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"物华天宝",
@@ -2007,7 +2007,7 @@ const cityData={
     hotels:[{area:"上饶市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"上饶景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"上饶火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"上饶风景区",desc:"上饶著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.6"}, {name:"上饶博物馆",desc:"上饶著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.2"}, {name:"上饶古街",desc:"上饶著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"上饶公园",desc:"上饶著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.1"}, {name:"上饶寺庙",desc:"上饶著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"上饶广场",desc:"上饶著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.5"}],
     tickets:[{name:"上饶博物馆",price:"免费",note:""}, {name:"上饶公园",price:"30元",note:"需提前预约"}, {name:"上饶风景区",price:"50元",note:"建议游览2-3小时"}, {name:"上饶步行街",price:"60元",note:"全年开放"}, {name:"上饶文化中心",price:"80元",note:"节假日人多"}, {name:"上饶植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#4E342E"
   },
   "济南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"泉城",
@@ -2067,7 +2067,7 @@ const cityData={
     hotels:[{area:"枣庄市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"枣庄景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"枣庄火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"枣庄风景区",desc:"枣庄著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"枣庄博物馆",desc:"枣庄著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"枣庄公园",desc:"枣庄著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.2"}, {name:"枣庄广场",desc:"枣庄著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"枣庄古街",desc:"枣庄著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"枣庄寺庙",desc:"枣庄著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"枣庄博物馆",price:"免费",note:""}, {name:"枣庄公园",price:"30元",note:"需提前预约"}, {name:"枣庄风景区",price:"50元",note:"建议游览2-3小时"}, {name:"枣庄步行街",price:"60元",note:"全年开放"}, {name:"枣庄文化中心",price:"80元",note:"节假日人多"}, {name:"枣庄植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#C2185B"
   },
   "东营":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"齐鲁大地",
@@ -2082,7 +2082,7 @@ const cityData={
     hotels:[{area:"东营市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"东营景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"东营火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"东营风景区",desc:"东营著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.3"}, {name:"东营博物馆",desc:"东营著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.7"}, {name:"东营公园",desc:"东营著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.4"}, {name:"东营广场",desc:"东营著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.1"}, {name:"东营古街",desc:"东营著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.6"}, {name:"东营寺庙",desc:"东营著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.1"}],
     tickets:[{name:"东营博物馆",price:"免费",note:""}, {name:"东营公园",price:"30元",note:"需提前预约"}, {name:"东营风景区",price:"50元",note:"建议游览2-3小时"}, {name:"东营步行街",price:"60元",note:"全年开放"}, {name:"东营文化中心",price:"80元",note:"节假日人多"}, {name:"东营植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#283593"
   },
   "烟台":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"仙境海岸",
@@ -2112,7 +2112,7 @@ const cityData={
     hotels:[{area:"潍坊市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"潍坊景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"潍坊火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"潍坊风景区",desc:"潍坊著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"潍坊博物馆",desc:"潍坊著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.6"}, {name:"潍坊公园",desc:"潍坊著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.0"}, {name:"潍坊广场",desc:"潍坊著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.8"}, {name:"潍坊古街",desc:"潍坊著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.5"}, {name:"潍坊寺庙",desc:"潍坊著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.0"}],
     tickets:[{name:"潍坊博物馆",price:"免费",note:""}, {name:"潍坊公园",price:"30元",note:"需提前预约"}, {name:"潍坊风景区",price:"50元",note:"建议游览2-3小时"}, {name:"潍坊步行街",price:"60元",note:"全年开放"}, {name:"潍坊文化中心",price:"80元",note:"节假日人多"}, {name:"潍坊植物园",price:"100元",note:""}],
-    color:"#D32F2F"
+    color:"#BF360C"
   },
   "济宁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"齐鲁大地",
@@ -2127,7 +2127,7 @@ const cityData={
     hotels:[{area:"济宁市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"济宁景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"济宁火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"济宁风景区",desc:"济宁著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.3"}, {name:"济宁博物馆",desc:"济宁著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"济宁公园",desc:"济宁著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.3"}, {name:"济宁广场",desc:"济宁著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.6"}, {name:"济宁古街",desc:"济宁著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.6"}, {name:"济宁寺庙",desc:"济宁著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.8"}],
     tickets:[{name:"济宁博物馆",price:"免费",note:""}, {name:"济宁公园",price:"30元",note:"需提前预约"}, {name:"济宁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"济宁步行街",price:"60元",note:"全年开放"}, {name:"济宁文化中心",price:"80元",note:"节假日人多"}, {name:"济宁植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#0097A7"
   },
   "泰安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"五岳之首",
@@ -2187,7 +2187,7 @@ const cityData={
     hotels:[{area:"临沂市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"临沂景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"临沂火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"临沂风景区",desc:"临沂著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.3"}, {name:"临沂博物馆",desc:"临沂著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.4"}, {name:"临沂公园",desc:"临沂著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.6"}, {name:"临沂广场",desc:"临沂著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.8"}, {name:"临沂古街",desc:"临沂著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.5"}, {name:"临沂寺庙",desc:"临沂著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"临沂博物馆",price:"免费",note:""}, {name:"临沂公园",price:"30元",note:"需提前预约"}, {name:"临沂风景区",price:"50元",note:"建议游览2-3小时"}, {name:"临沂步行街",price:"60元",note:"全年开放"}, {name:"临沂文化中心",price:"80元",note:"节假日人多"}, {name:"临沂植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#5C6BC0"
   },
   "德州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"齐鲁大地",
@@ -2202,7 +2202,7 @@ const cityData={
     hotels:[{area:"德州市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"德州景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"德州火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"德州风景区",desc:"德州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.2"}, {name:"德州博物馆",desc:"德州著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.0"}, {name:"德州公园",desc:"德州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.3"}, {name:"德州广场",desc:"德州著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.2"}, {name:"德州古街",desc:"德州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.2"}, {name:"德州寺庙",desc:"德州著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.5"}],
     tickets:[{name:"德州博物馆",price:"免费",note:""}, {name:"德州公园",price:"30元",note:"需提前预约"}, {name:"德州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"德州步行街",price:"60元",note:"全年开放"}, {name:"德州文化中心",price:"80元",note:"节假日人多"}, {name:"德州植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#2E7D32"
   },
   "聊城":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"齐鲁大地",
@@ -2217,7 +2217,7 @@ const cityData={
     hotels:[{area:"聊城市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"聊城景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"聊城火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"聊城风景区",desc:"聊城著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"聊城博物馆",desc:"聊城著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"聊城公园",desc:"聊城著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.8"}, {name:"聊城广场",desc:"聊城著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.4"}, {name:"聊城古街",desc:"聊城著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.7"}, {name:"聊城寺庙",desc:"聊城著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"聊城博物馆",price:"免费",note:""}, {name:"聊城公园",price:"30元",note:"需提前预约"}, {name:"聊城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"聊城步行街",price:"60元",note:"全年开放"}, {name:"聊城文化中心",price:"80元",note:"节假日人多"}, {name:"聊城植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#1565C0"
   },
   "滨州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"齐鲁大地",
@@ -2232,7 +2232,7 @@ const cityData={
     hotels:[{area:"滨州市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"滨州景区附近",price:"300-800元/晚",fit:"靠近景点，深度游览"}, {area:"滨州火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"滨州风景区",desc:"滨州著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"滨州博物馆",desc:"滨州著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"滨州公园",desc:"滨州著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.9"}, {name:"滨州广场",desc:"滨州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.9"}, {name:"滨州古街",desc:"滨州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"滨州寺庙",desc:"滨州著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.9"}],
     tickets:[{name:"滨州博物馆",price:"免费",note:""}, {name:"滨州公园",price:"30元",note:"需提前预约"}, {name:"滨州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"滨州步行街",price:"60元",note:"全年开放"}, {name:"滨州文化中心",price:"80元",note:"节假日人多"}, {name:"滨州植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#2E7D32"
   },
   "菏泽":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"齐鲁大地",
@@ -2247,7 +2247,7 @@ const cityData={
     hotels:[{area:"菏泽市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"菏泽景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"菏泽火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"菏泽风景区",desc:"菏泽著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.4"}, {name:"菏泽博物馆",desc:"菏泽著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"菏泽公园",desc:"菏泽著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.4"}, {name:"菏泽广场",desc:"菏泽著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.3"}, {name:"菏泽古街",desc:"菏泽著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"菏泽寺庙",desc:"菏泽著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"菏泽博物馆",price:"免费",note:""}, {name:"菏泽公园",price:"30元",note:"需提前预约"}, {name:"菏泽风景区",price:"50元",note:"建议游览2-3小时"}, {name:"菏泽步行街",price:"60元",note:"全年开放"}, {name:"菏泽文化中心",price:"80元",note:"节假日人多"}, {name:"菏泽植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#9C27B0"
   },
   "郑州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原腹地",
@@ -2307,7 +2307,7 @@ const cityData={
     hotels:[{area:"平顶山市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"平顶山景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"平顶山火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"平顶山博物馆",desc:"平顶山著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.5"}, {name:"平顶山风景区",desc:"平顶山著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.5"}, {name:"平顶山古建筑",desc:"平顶山著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.7"}, {name:"平顶山公园",desc:"平顶山著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.7"}, {name:"平顶山寺庙",desc:"平顶山著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"平顶山广场",desc:"平顶山著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.0"}],
     tickets:[{name:"平顶山博物馆",price:"免费",note:""}, {name:"平顶山公园",price:"30元",note:"需提前预约"}, {name:"平顶山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"平顶山步行街",price:"60元",note:"全年开放"}, {name:"平顶山文化中心",price:"80元",note:"节假日人多"}, {name:"平顶山植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#FF6F00"
   },
   "安阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2322,7 +2322,7 @@ const cityData={
     hotels:[{area:"安阳市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"安阳景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"安阳火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"安阳博物馆",desc:"安阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.4"}, {name:"安阳风景区",desc:"安阳著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.7"}, {name:"安阳古建筑",desc:"安阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"安阳公园",desc:"安阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"安阳寺庙",desc:"安阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.2"}, {name:"安阳广场",desc:"安阳著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.1"}],
     tickets:[{name:"安阳博物馆",price:"免费",note:""}, {name:"安阳公园",price:"30元",note:"需提前预约"}, {name:"安阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"安阳步行街",price:"60元",note:"全年开放"}, {name:"安阳文化中心",price:"80元",note:"节假日人多"}, {name:"安阳植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#0097A7"
   },
   "鹤壁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2337,7 +2337,7 @@ const cityData={
     hotels:[{area:"鹤壁市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"鹤壁景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"鹤壁火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鹤壁博物馆",desc:"鹤壁著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"鹤壁风景区",desc:"鹤壁著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.1"}, {name:"鹤壁古建筑",desc:"鹤壁著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"鹤壁公园",desc:"鹤壁著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.1"}, {name:"鹤壁寺庙",desc:"鹤壁著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"鹤壁广场",desc:"鹤壁著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.6"}],
     tickets:[{name:"鹤壁博物馆",price:"免费",note:""}, {name:"鹤壁公园",price:"30元",note:"需提前预约"}, {name:"鹤壁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鹤壁步行街",price:"60元",note:"全年开放"}, {name:"鹤壁文化中心",price:"80元",note:"节假日人多"}, {name:"鹤壁植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#9C27B0"
   },
   "新乡":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2352,7 +2352,7 @@ const cityData={
     hotels:[{area:"新乡市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"新乡景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"新乡火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"新乡博物馆",desc:"新乡著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"新乡风景区",desc:"新乡著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.7"}, {name:"新乡古建筑",desc:"新乡著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.2"}, {name:"新乡公园",desc:"新乡著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.2"}, {name:"新乡寺庙",desc:"新乡著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"新乡广场",desc:"新乡著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.3"}],
     tickets:[{name:"新乡博物馆",price:"免费",note:""}, {name:"新乡公园",price:"30元",note:"需提前预约"}, {name:"新乡风景区",price:"50元",note:"建议游览2-3小时"}, {name:"新乡步行街",price:"60元",note:"全年开放"}, {name:"新乡文化中心",price:"80元",note:"节假日人多"}, {name:"新乡植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#E85D26"
   },
   "焦作":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2367,7 +2367,7 @@ const cityData={
     hotels:[{area:"焦作市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"焦作景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"焦作火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"焦作博物馆",desc:"焦作著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.5"}, {name:"焦作风景区",desc:"焦作著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.8"}, {name:"焦作古建筑",desc:"焦作著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.9"}, {name:"焦作公园",desc:"焦作著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.1"}, {name:"焦作寺庙",desc:"焦作著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"焦作广场",desc:"焦作著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.6"}],
     tickets:[{name:"焦作博物馆",price:"免费",note:""}, {name:"焦作公园",price:"30元",note:"需提前预约"}, {name:"焦作风景区",price:"50元",note:"建议游览2-3小时"}, {name:"焦作步行街",price:"60元",note:"全年开放"}, {name:"焦作文化中心",price:"80元",note:"节假日人多"}, {name:"焦作植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#00695C"
   },
   "濮阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2382,7 +2382,7 @@ const cityData={
     hotels:[{area:"濮阳市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"濮阳景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"濮阳火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"濮阳博物馆",desc:"濮阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.6"}, {name:"濮阳风景区",desc:"濮阳著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.6"}, {name:"濮阳古建筑",desc:"濮阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.1"}, {name:"濮阳公园",desc:"濮阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"濮阳寺庙",desc:"濮阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.9"}, {name:"濮阳广场",desc:"濮阳著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"濮阳博物馆",price:"免费",note:""}, {name:"濮阳公园",price:"30元",note:"需提前预约"}, {name:"濮阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"濮阳步行街",price:"60元",note:"全年开放"}, {name:"濮阳文化中心",price:"80元",note:"节假日人多"}, {name:"濮阳植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#BF360C"
   },
   "许昌":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2397,7 +2397,7 @@ const cityData={
     hotels:[{area:"许昌市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"许昌景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"许昌火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"许昌博物馆",desc:"许昌著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"许昌风景区",desc:"许昌著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.6"}, {name:"许昌古建筑",desc:"许昌著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.7"}, {name:"许昌公园",desc:"许昌著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.0"}, {name:"许昌寺庙",desc:"许昌著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.6"}, {name:"许昌广场",desc:"许昌著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.4"}],
     tickets:[{name:"许昌博物馆",price:"免费",note:""}, {name:"许昌公园",price:"30元",note:"需提前预约"}, {name:"许昌风景区",price:"50元",note:"建议游览2-3小时"}, {name:"许昌步行街",price:"60元",note:"全年开放"}, {name:"许昌文化中心",price:"80元",note:"节假日人多"}, {name:"许昌植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#E85D26"
   },
   "漯河":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2412,7 +2412,7 @@ const cityData={
     hotels:[{area:"漯河市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"漯河景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"漯河火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"漯河博物馆",desc:"漯河著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.6"}, {name:"漯河风景区",desc:"漯河著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.6"}, {name:"漯河古建筑",desc:"漯河著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.4"}, {name:"漯河公园",desc:"漯河著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.0"}, {name:"漯河寺庙",desc:"漯河著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.2"}, {name:"漯河广场",desc:"漯河著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"漯河博物馆",price:"免费",note:""}, {name:"漯河公园",price:"30元",note:"需提前预约"}, {name:"漯河风景区",price:"50元",note:"建议游览2-3小时"}, {name:"漯河步行街",price:"60元",note:"全年开放"}, {name:"漯河文化中心",price:"80元",note:"节假日人多"}, {name:"漯河植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#0277BD"
   },
   "三门峡":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2427,7 +2427,7 @@ const cityData={
     hotels:[{area:"三门峡市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"三门峡景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"三门峡火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"三门峡博物馆",desc:"三门峡著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.5"}, {name:"三门峡风景区",desc:"三门峡著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"三门峡古建筑",desc:"三门峡著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"三门峡公园",desc:"三门峡著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.4"}, {name:"三门峡寺庙",desc:"三门峡著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.3"}, {name:"三门峡广场",desc:"三门峡著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.5"}],
     tickets:[{name:"三门峡博物馆",price:"免费",note:""}, {name:"三门峡公园",price:"30元",note:"需提前预约"}, {name:"三门峡风景区",price:"50元",note:"建议游览2-3小时"}, {name:"三门峡步行街",price:"60元",note:"全年开放"}, {name:"三门峡文化中心",price:"80元",note:"节假日人多"}, {name:"三门峡植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#AD1457"
   },
   "南阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2442,7 +2442,7 @@ const cityData={
     hotels:[{area:"南阳市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"南阳景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"南阳火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"南阳博物馆",desc:"南阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"南阳风景区",desc:"南阳著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.7"}, {name:"南阳古建筑",desc:"南阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.6"}, {name:"南阳公园",desc:"南阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.3"}, {name:"南阳寺庙",desc:"南阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.9"}, {name:"南阳广场",desc:"南阳著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.7"}],
     tickets:[{name:"南阳博物馆",price:"免费",note:""}, {name:"南阳公园",price:"30元",note:"需提前预约"}, {name:"南阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"南阳步行街",price:"60元",note:"全年开放"}, {name:"南阳文化中心",price:"80元",note:"节假日人多"}, {name:"南阳植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#00695C"
   },
   "商丘":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2457,7 +2457,7 @@ const cityData={
     hotels:[{area:"商丘市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"商丘景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"商丘火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"商丘博物馆",desc:"商丘著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.9"}, {name:"商丘风景区",desc:"商丘著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.4"}, {name:"商丘古建筑",desc:"商丘著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.9"}, {name:"商丘公园",desc:"商丘著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.6"}, {name:"商丘寺庙",desc:"商丘著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.0"}, {name:"商丘广场",desc:"商丘著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.8"}],
     tickets:[{name:"商丘博物馆",price:"免费",note:""}, {name:"商丘公园",price:"30元",note:"需提前预约"}, {name:"商丘风景区",price:"50元",note:"建议游览2-3小时"}, {name:"商丘步行街",price:"60元",note:"全年开放"}, {name:"商丘文化中心",price:"80元",note:"节假日人多"}, {name:"商丘植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#1565C0"
   },
   "信阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2487,7 +2487,7 @@ const cityData={
     hotels:[{area:"周口市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"周口景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"周口火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"周口博物馆",desc:"周口著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"周口风景区",desc:"周口著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"周口古建筑",desc:"周口著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.6"}, {name:"周口公园",desc:"周口著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.2"}, {name:"周口寺庙",desc:"周口著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.1"}, {name:"周口广场",desc:"周口著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.2"}],
     tickets:[{name:"周口博物馆",price:"免费",note:""}, {name:"周口公园",price:"30元",note:"需提前预约"}, {name:"周口风景区",price:"50元",note:"建议游览2-3小时"}, {name:"周口步行街",price:"60元",note:"全年开放"}, {name:"周口文化中心",price:"80元",note:"节假日人多"}, {name:"周口植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#283593"
   },
   "驻马店":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"中原大地",
@@ -2502,7 +2502,7 @@ const cityData={
     hotels:[{area:"驻马店市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"驻马店景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"驻马店火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"驻马店博物馆",desc:"驻马店著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"驻马店风景区",desc:"驻马店著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.1"}, {name:"驻马店古建筑",desc:"驻马店著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.3"}, {name:"驻马店公园",desc:"驻马店著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.8"}, {name:"驻马店寺庙",desc:"驻马店著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.5"}, {name:"驻马店广场",desc:"驻马店著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.8"}],
     tickets:[{name:"驻马店博物馆",price:"免费",note:""}, {name:"驻马店公园",price:"30元",note:"需提前预约"}, {name:"驻马店风景区",price:"50元",note:"建议游览2-3小时"}, {name:"驻马店步行街",price:"60元",note:"全年开放"}, {name:"驻马店文化中心",price:"80元",note:"节假日人多"}, {name:"驻马店植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#0277BD"
   },
   "武汉":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"江城",
@@ -2532,7 +2532,7 @@ const cityData={
     hotels:[{area:"黄石市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"黄石景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"黄石火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"黄石风景区",desc:"黄石著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.6"}, {name:"黄石博物馆",desc:"黄石著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.3"}, {name:"黄石公园",desc:"黄石著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.2"}, {name:"黄石古街",desc:"黄石著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.8"}, {name:"黄石广场",desc:"黄石著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.6"}, {name:"黄石寺庙",desc:"黄石著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"黄石博物馆",price:"免费",note:""}, {name:"黄石公园",price:"30元",note:"需提前预约"}, {name:"黄石风景区",price:"50元",note:"建议游览2-3小时"}, {name:"黄石步行街",price:"60元",note:"全年开放"}, {name:"黄石文化中心",price:"80元",note:"节假日人多"}, {name:"黄石植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#5C6BC0"
   },
   "十堰":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2547,7 +2547,7 @@ const cityData={
     hotels:[{area:"十堰市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"十堰景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"十堰火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"十堰风景区",desc:"十堰著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.5"}, {name:"十堰博物馆",desc:"十堰著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"十堰公园",desc:"十堰著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.5"}, {name:"十堰古街",desc:"十堰著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.2"}, {name:"十堰广场",desc:"十堰著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.3"}, {name:"十堰寺庙",desc:"十堰著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.0"}],
     tickets:[{name:"十堰博物馆",price:"免费",note:""}, {name:"十堰公园",price:"30元",note:"需提前预约"}, {name:"十堰风景区",price:"50元",note:"建议游览2-3小时"}, {name:"十堰步行街",price:"60元",note:"全年开放"}, {name:"十堰文化中心",price:"80元",note:"节假日人多"}, {name:"十堰植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#4E342E"
   },
   "宜昌":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三峡大坝",
@@ -2577,7 +2577,7 @@ const cityData={
     hotels:[{area:"襄阳市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"襄阳景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"襄阳火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"襄阳风景区",desc:"襄阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"襄阳博物馆",desc:"襄阳著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.2"}, {name:"襄阳公园",desc:"襄阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.3"}, {name:"襄阳古街",desc:"襄阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"襄阳广场",desc:"襄阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.0"}, {name:"襄阳寺庙",desc:"襄阳著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.3"}],
     tickets:[{name:"襄阳博物馆",price:"免费",note:""}, {name:"襄阳公园",price:"30元",note:"需提前预约"}, {name:"襄阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"襄阳步行街",price:"60元",note:"全年开放"}, {name:"襄阳文化中心",price:"80元",note:"节假日人多"}, {name:"襄阳植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#0277BD"
   },
   "鄂州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2592,7 +2592,7 @@ const cityData={
     hotels:[{area:"鄂州市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"鄂州景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"鄂州火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"鄂州风景区",desc:"鄂州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"鄂州博物馆",desc:"鄂州著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.2"}, {name:"鄂州公园",desc:"鄂州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.3"}, {name:"鄂州古街",desc:"鄂州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.8"}, {name:"鄂州广场",desc:"鄂州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.1"}, {name:"鄂州寺庙",desc:"鄂州著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"鄂州博物馆",price:"免费",note:""}, {name:"鄂州公园",price:"30元",note:"需提前预约"}, {name:"鄂州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"鄂州步行街",price:"60元",note:"全年开放"}, {name:"鄂州文化中心",price:"80元",note:"节假日人多"}, {name:"鄂州植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#FF6F00"
   },
   "荆门":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2607,7 +2607,7 @@ const cityData={
     hotels:[{area:"荆门市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"荆门景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"荆门火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"荆门风景区",desc:"荆门著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.9"}, {name:"荆门博物馆",desc:"荆门著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"荆门公园",desc:"荆门著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.9"}, {name:"荆门古街",desc:"荆门著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.8"}, {name:"荆门广场",desc:"荆门著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.7"}, {name:"荆门寺庙",desc:"荆门著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"荆门博物馆",price:"免费",note:""}, {name:"荆门公园",price:"30元",note:"需提前预约"}, {name:"荆门风景区",price:"50元",note:"建议游览2-3小时"}, {name:"荆门步行街",price:"60元",note:"全年开放"}, {name:"荆门文化中心",price:"80元",note:"节假日人多"}, {name:"荆门植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#5C6BC0"
   },
   "孝感":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2622,7 +2622,7 @@ const cityData={
     hotels:[{area:"孝感市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"孝感景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"孝感火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"孝感风景区",desc:"孝感著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.2"}, {name:"孝感博物馆",desc:"孝感著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.1"}, {name:"孝感公园",desc:"孝感著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.1"}, {name:"孝感古街",desc:"孝感著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.1"}, {name:"孝感广场",desc:"孝感著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.9"}, {name:"孝感寺庙",desc:"孝感著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"孝感博物馆",price:"免费",note:""}, {name:"孝感公园",price:"30元",note:"需提前预约"}, {name:"孝感风景区",price:"50元",note:"建议游览2-3小时"}, {name:"孝感步行街",price:"60元",note:"全年开放"}, {name:"孝感文化中心",price:"80元",note:"节假日人多"}, {name:"孝感植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#5C6BC0"
   },
   "荆州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2637,7 +2637,7 @@ const cityData={
     hotels:[{area:"荆州市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"荆州景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"荆州火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"荆州风景区",desc:"荆州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.8"}, {name:"荆州博物馆",desc:"荆州著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.8"}, {name:"荆州公园",desc:"荆州著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.5"}, {name:"荆州古街",desc:"荆州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.7"}, {name:"荆州广场",desc:"荆州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.6"}, {name:"荆州寺庙",desc:"荆州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.2"}],
     tickets:[{name:"荆州博物馆",price:"免费",note:""}, {name:"荆州公园",price:"30元",note:"需提前预约"}, {name:"荆州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"荆州步行街",price:"60元",note:"全年开放"}, {name:"荆州文化中心",price:"80元",note:"节假日人多"}, {name:"荆州植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#E85D26"
   },
   "黄冈":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2652,7 +2652,7 @@ const cityData={
     hotels:[{area:"黄冈市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"黄冈景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"黄冈火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"黄冈风景区",desc:"黄冈著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.9"}, {name:"黄冈博物馆",desc:"黄冈著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.6"}, {name:"黄冈公园",desc:"黄冈著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.8"}, {name:"黄冈古街",desc:"黄冈著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.5"}, {name:"黄冈广场",desc:"黄冈著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.1"}, {name:"黄冈寺庙",desc:"黄冈著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.3"}],
     tickets:[{name:"黄冈博物馆",price:"免费",note:""}, {name:"黄冈公园",price:"30元",note:"需提前预约"}, {name:"黄冈风景区",price:"50元",note:"建议游览2-3小时"}, {name:"黄冈步行街",price:"60元",note:"全年开放"}, {name:"黄冈文化中心",price:"80元",note:"节假日人多"}, {name:"黄冈植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#AD1457"
   },
   "咸宁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2667,7 +2667,7 @@ const cityData={
     hotels:[{area:"咸宁市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"咸宁景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"咸宁火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"咸宁风景区",desc:"咸宁著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.0"}, {name:"咸宁博物馆",desc:"咸宁著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"咸宁公园",desc:"咸宁著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.7"}, {name:"咸宁古街",desc:"咸宁著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.5"}, {name:"咸宁广场",desc:"咸宁著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.1"}, {name:"咸宁寺庙",desc:"咸宁著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"咸宁博物馆",price:"免费",note:""}, {name:"咸宁公园",price:"30元",note:"需提前预约"}, {name:"咸宁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"咸宁步行街",price:"60元",note:"全年开放"}, {name:"咸宁文化中心",price:"80元",note:"节假日人多"}, {name:"咸宁植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#2B8A6E"
   },
   "随州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2682,7 +2682,7 @@ const cityData={
     hotels:[{area:"随州市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"随州景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"随州火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"随州风景区",desc:"随州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.0"}, {name:"随州博物馆",desc:"随州著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.4"}, {name:"随州公园",desc:"随州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.8"}, {name:"随州古街",desc:"随州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.1"}, {name:"随州广场",desc:"随州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.6"}, {name:"随州寺庙",desc:"随州著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"随州博物馆",price:"免费",note:""}, {name:"随州公园",price:"30元",note:"需提前预约"}, {name:"随州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"随州步行街",price:"60元",note:"全年开放"}, {name:"随州文化中心",price:"80元",note:"节假日人多"}, {name:"随州植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#1A73E8"
   },
   "恩施":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"荆楚大地",
@@ -2697,7 +2697,7 @@ const cityData={
     hotels:[{area:"恩施市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"恩施景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"恩施火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"恩施风景区",desc:"恩施著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.8"}, {name:"恩施博物馆",desc:"恩施著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.0"}, {name:"恩施公园",desc:"恩施著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.8"}, {name:"恩施古街",desc:"恩施著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.6"}, {name:"恩施广场",desc:"恩施著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.1"}, {name:"恩施寺庙",desc:"恩施著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.2"}],
     tickets:[{name:"恩施博物馆",price:"免费",note:""}, {name:"恩施公园",price:"30元",note:"需提前预约"}, {name:"恩施风景区",price:"50元",note:"建议游览2-3小时"}, {name:"恩施步行街",price:"60元",note:"全年开放"}, {name:"恩施文化中心",price:"80元",note:"节假日人多"}, {name:"恩施植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#283593"
   },
   "长沙":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"星城",
@@ -2727,7 +2727,7 @@ const cityData={
     hotels:[{area:"株洲市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"株洲景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"株洲火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"株洲风景区",desc:"株洲著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"株洲博物馆",desc:"株洲著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"株洲古街",desc:"株洲著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.5"}, {name:"株洲公园",desc:"株洲著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.7"}, {name:"株洲广场",desc:"株洲著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"株洲纪念馆",desc:"株洲著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.1"}],
     tickets:[{name:"株洲博物馆",price:"免费",note:""}, {name:"株洲公园",price:"30元",note:"需提前预约"}, {name:"株洲风景区",price:"50元",note:"建议游览2-3小时"}, {name:"株洲步行街",price:"60元",note:"全年开放"}, {name:"株洲文化中心",price:"80元",note:"节假日人多"}, {name:"株洲植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#6D4C41"
   },
   "湘潭":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2742,7 +2742,7 @@ const cityData={
     hotels:[{area:"湘潭市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"湘潭景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"湘潭火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"湘潭风景区",desc:"湘潭著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.2"}, {name:"湘潭博物馆",desc:"湘潭著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"湘潭古街",desc:"湘潭著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.6"}, {name:"湘潭公园",desc:"湘潭著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.0"}, {name:"湘潭广场",desc:"湘潭著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.6"}, {name:"湘潭纪念馆",desc:"湘潭著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.7"}],
     tickets:[{name:"湘潭博物馆",price:"免费",note:""}, {name:"湘潭公园",price:"30元",note:"需提前预约"}, {name:"湘潭风景区",price:"50元",note:"建议游览2-3小时"}, {name:"湘潭步行街",price:"60元",note:"全年开放"}, {name:"湘潭文化中心",price:"80元",note:"节假日人多"}, {name:"湘潭植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#00838F"
   },
   "衡阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2757,7 +2757,7 @@ const cityData={
     hotels:[{area:"衡阳市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"衡阳景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"衡阳火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"衡阳风景区",desc:"衡阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"衡阳博物馆",desc:"衡阳著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.4"}, {name:"衡阳古街",desc:"衡阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.7"}, {name:"衡阳公园",desc:"衡阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.8"}, {name:"衡阳广场",desc:"衡阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.5"}, {name:"衡阳纪念馆",desc:"衡阳著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"衡阳博物馆",price:"免费",note:""}, {name:"衡阳公园",price:"30元",note:"需提前预约"}, {name:"衡阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"衡阳步行街",price:"60元",note:"全年开放"}, {name:"衡阳文化中心",price:"80元",note:"节假日人多"}, {name:"衡阳植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#2B8A6E"
   },
   "邵阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2772,7 +2772,7 @@ const cityData={
     hotels:[{area:"邵阳市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"邵阳景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"邵阳火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"邵阳风景区",desc:"邵阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.5"}, {name:"邵阳博物馆",desc:"邵阳著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"邵阳古街",desc:"邵阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.0"}, {name:"邵阳公园",desc:"邵阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.4"}, {name:"邵阳广场",desc:"邵阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"邵阳纪念馆",desc:"邵阳著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.5"}],
     tickets:[{name:"邵阳博物馆",price:"免费",note:""}, {name:"邵阳公园",price:"30元",note:"需提前预约"}, {name:"邵阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"邵阳步行街",price:"60元",note:"全年开放"}, {name:"邵阳文化中心",price:"80元",note:"节假日人多"}, {name:"邵阳植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#9C27B0"
   },
   "岳阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"洞庭湖",
@@ -2802,7 +2802,7 @@ const cityData={
     hotels:[{area:"常德市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"常德景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"常德火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"常德风景区",desc:"常德著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.0"}, {name:"常德博物馆",desc:"常德著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.0"}, {name:"常德古街",desc:"常德著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"常德公园",desc:"常德著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"常德广场",desc:"常德著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.2"}, {name:"常德纪念馆",desc:"常德著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.6"}],
     tickets:[{name:"常德博物馆",price:"免费",note:""}, {name:"常德公园",price:"30元",note:"需提前预约"}, {name:"常德风景区",price:"50元",note:"建议游览2-3小时"}, {name:"常德步行街",price:"60元",note:"全年开放"}, {name:"常德文化中心",price:"80元",note:"节假日人多"}, {name:"常德植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#00695C"
   },
   "张家界":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"世界地质公园",
@@ -2832,7 +2832,7 @@ const cityData={
     hotels:[{area:"益阳市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"益阳景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"益阳火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"益阳风景区",desc:"益阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"益阳博物馆",desc:"益阳著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.3"}, {name:"益阳古街",desc:"益阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"益阳公园",desc:"益阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.3"}, {name:"益阳广场",desc:"益阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.6"}, {name:"益阳纪念馆",desc:"益阳著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.2"}],
     tickets:[{name:"益阳博物馆",price:"免费",note:""}, {name:"益阳公园",price:"30元",note:"需提前预约"}, {name:"益阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"益阳步行街",price:"60元",note:"全年开放"}, {name:"益阳文化中心",price:"80元",note:"节假日人多"}, {name:"益阳植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#283593"
   },
   "郴州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2847,7 +2847,7 @@ const cityData={
     hotels:[{area:"郴州市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"郴州景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"郴州火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"郴州风景区",desc:"郴州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.7"}, {name:"郴州博物馆",desc:"郴州著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.6"}, {name:"郴州古街",desc:"郴州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.7"}, {name:"郴州公园",desc:"郴州著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.7"}, {name:"郴州广场",desc:"郴州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.6"}, {name:"郴州纪念馆",desc:"郴州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.7"}],
     tickets:[{name:"郴州博物馆",price:"免费",note:""}, {name:"郴州公园",price:"30元",note:"需提前预约"}, {name:"郴州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"郴州步行街",price:"60元",note:"全年开放"}, {name:"郴州文化中心",price:"80元",note:"节假日人多"}, {name:"郴州植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#E85D26"
   },
   "永州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2862,7 +2862,7 @@ const cityData={
     hotels:[{area:"永州市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"永州景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"永州火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"永州风景区",desc:"永州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.3"}, {name:"永州博物馆",desc:"永州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"永州古街",desc:"永州著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.7"}, {name:"永州公园",desc:"永州著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.3"}, {name:"永州广场",desc:"永州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.3"}, {name:"永州纪念馆",desc:"永州著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.4"}],
     tickets:[{name:"永州博物馆",price:"免费",note:""}, {name:"永州公园",price:"30元",note:"需提前预约"}, {name:"永州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"永州步行街",price:"60元",note:"全年开放"}, {name:"永州文化中心",price:"80元",note:"节假日人多"}, {name:"永州植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#4E342E"
   },
   "怀化":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2877,7 +2877,7 @@ const cityData={
     hotels:[{area:"怀化市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"怀化景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"怀化火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"怀化风景区",desc:"怀化著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.9"}, {name:"怀化博物馆",desc:"怀化著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.1"}, {name:"怀化古街",desc:"怀化著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.2"}, {name:"怀化公园",desc:"怀化著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.4"}, {name:"怀化广场",desc:"怀化著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.9"}, {name:"怀化纪念馆",desc:"怀化著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.6"}],
     tickets:[{name:"怀化博物馆",price:"免费",note:""}, {name:"怀化公园",price:"30元",note:"需提前预约"}, {name:"怀化风景区",price:"50元",note:"建议游览2-3小时"}, {name:"怀化步行街",price:"60元",note:"全年开放"}, {name:"怀化文化中心",price:"80元",note:"节假日人多"}, {name:"怀化植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#1A73E8"
   },
   "娄底":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2892,7 +2892,7 @@ const cityData={
     hotels:[{area:"娄底市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"娄底景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"娄底火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"娄底风景区",desc:"娄底著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.5"}, {name:"娄底博物馆",desc:"娄底著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"娄底古街",desc:"娄底著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.8"}, {name:"娄底公园",desc:"娄底著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.2"}, {name:"娄底广场",desc:"娄底著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.0"}, {name:"娄底纪念馆",desc:"娄底著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.2"}],
     tickets:[{name:"娄底博物馆",price:"免费",note:""}, {name:"娄底公园",price:"30元",note:"需提前预约"}, {name:"娄底风景区",price:"50元",note:"建议游览2-3小时"}, {name:"娄底步行街",price:"60元",note:"全年开放"}, {name:"娄底文化中心",price:"80元",note:"节假日人多"}, {name:"娄底植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#AD1457"
   },
   "湘西":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"芙蓉国度",
@@ -2907,7 +2907,7 @@ const cityData={
     hotels:[{area:"湘西市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"湘西景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"湘西火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"湘西风景区",desc:"湘西著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.9"}, {name:"湘西博物馆",desc:"湘西著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"湘西古街",desc:"湘西著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"湘西公园",desc:"湘西著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.0"}, {name:"湘西广场",desc:"湘西著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.7"}, {name:"湘西纪念馆",desc:"湘西著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"湘西博物馆",price:"免费",note:""}, {name:"湘西公园",price:"30元",note:"需提前预约"}, {name:"湘西风景区",price:"50元",note:"建议游览2-3小时"}, {name:"湘西步行街",price:"60元",note:"全年开放"}, {name:"湘西文化中心",price:"80元",note:"节假日人多"}, {name:"湘西植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#6D4C41"
   },
   "广州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南文化",
@@ -2937,7 +2937,7 @@ const cityData={
     hotels:[{area:"韶关市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"韶关景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"韶关火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"韶关公园",desc:"韶关著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.8"}, {name:"韶关博物馆",desc:"韶关著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.6"}, {name:"韶关古街",desc:"韶关著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.4"}, {name:"韶关广场",desc:"韶关著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"韶关风景区",desc:"韶关著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.6"}, {name:"韶关步行街",desc:"韶关著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"韶关博物馆",price:"免费",note:""}, {name:"韶关公园",price:"30元",note:"需提前预约"}, {name:"韶关风景区",price:"50元",note:"建议游览2-3小时"}, {name:"韶关步行街",price:"60元",note:"全年开放"}, {name:"韶关文化中心",price:"80元",note:"节假日人多"}, {name:"韶关植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#D32F2F"
   },
   "深圳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"科技之城",
@@ -2982,7 +2982,7 @@ const cityData={
     hotels:[{area:"汕头市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"汕头景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"汕头火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"汕头公园",desc:"汕头著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.1"}, {name:"汕头博物馆",desc:"汕头著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"汕头古街",desc:"汕头著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.2"}, {name:"汕头广场",desc:"汕头著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.7"}, {name:"汕头风景区",desc:"汕头著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.3"}, {name:"汕头步行街",desc:"汕头著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"汕头博物馆",price:"免费",note:""}, {name:"汕头公园",price:"30元",note:"需提前预约"}, {name:"汕头风景区",price:"50元",note:"建议游览2-3小时"}, {name:"汕头步行街",price:"60元",note:"全年开放"}, {name:"汕头文化中心",price:"80元",note:"节假日人多"}, {name:"汕头植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#1A73E8"
   },
   "佛山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"武术之乡",
@@ -3012,7 +3012,7 @@ const cityData={
     hotels:[{area:"江门市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"江门景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"江门火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"江门公园",desc:"江门著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.7"}, {name:"江门博物馆",desc:"江门著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.6"}, {name:"江门古街",desc:"江门著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.9"}, {name:"江门广场",desc:"江门著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.2"}, {name:"江门风景区",desc:"江门著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"江门步行街",desc:"江门著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.8"}],
     tickets:[{name:"江门博物馆",price:"免费",note:""}, {name:"江门公园",price:"30元",note:"需提前预约"}, {name:"江门风景区",price:"50元",note:"建议游览2-3小时"}, {name:"江门步行街",price:"60元",note:"全年开放"}, {name:"江门文化中心",price:"80元",note:"节假日人多"}, {name:"江门植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#00838F"
   },
   "湛江":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3027,7 +3027,7 @@ const cityData={
     hotels:[{area:"湛江市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"湛江景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"湛江火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"湛江公园",desc:"湛江著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.1"}, {name:"湛江博物馆",desc:"湛江著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.2"}, {name:"湛江古街",desc:"湛江著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.4"}, {name:"湛江广场",desc:"湛江著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.2"}, {name:"湛江风景区",desc:"湛江著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.6"}, {name:"湛江步行街",desc:"湛江著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.7"}],
     tickets:[{name:"湛江博物馆",price:"免费",note:""}, {name:"湛江公园",price:"30元",note:"需提前预约"}, {name:"湛江风景区",price:"50元",note:"建议游览2-3小时"}, {name:"湛江步行街",price:"60元",note:"全年开放"}, {name:"湛江文化中心",price:"80元",note:"节假日人多"}, {name:"湛江植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#2B8A6E"
   },
   "茂名":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3042,7 +3042,7 @@ const cityData={
     hotels:[{area:"茂名市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"茂名景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"茂名火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"茂名公园",desc:"茂名著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.8"}, {name:"茂名博物馆",desc:"茂名著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.9"}, {name:"茂名古街",desc:"茂名著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"茂名广场",desc:"茂名著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.1"}, {name:"茂名风景区",desc:"茂名著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.4"}, {name:"茂名步行街",desc:"茂名著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.2"}],
     tickets:[{name:"茂名博物馆",price:"免费",note:""}, {name:"茂名公园",price:"30元",note:"需提前预约"}, {name:"茂名风景区",price:"50元",note:"建议游览2-3小时"}, {name:"茂名步行街",price:"60元",note:"全年开放"}, {name:"茂名文化中心",price:"80元",note:"节假日人多"}, {name:"茂名植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#6D4C41"
   },
   "肇庆":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南名郡",
@@ -3072,7 +3072,7 @@ const cityData={
     hotels:[{area:"惠州市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"惠州景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"惠州火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"惠州公园",desc:"惠州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.3"}, {name:"惠州博物馆",desc:"惠州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.6"}, {name:"惠州古街",desc:"惠州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.8"}, {name:"惠州广场",desc:"惠州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.8"}, {name:"惠州风景区",desc:"惠州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.0"}, {name:"惠州步行街",desc:"惠州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"惠州博物馆",price:"免费",note:""}, {name:"惠州公园",price:"30元",note:"需提前预约"}, {name:"惠州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"惠州步行街",price:"60元",note:"全年开放"}, {name:"惠州文化中心",price:"80元",note:"节假日人多"}, {name:"惠州植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#5C6BC0"
   },
   "梅州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3087,7 +3087,7 @@ const cityData={
     hotels:[{area:"梅州市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"梅州景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"梅州火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"梅州公园",desc:"梅州著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.7"}, {name:"梅州博物馆",desc:"梅州著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"梅州古街",desc:"梅州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.4"}, {name:"梅州广场",desc:"梅州著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"梅州风景区",desc:"梅州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.9"}, {name:"梅州步行街",desc:"梅州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.6"}],
     tickets:[{name:"梅州博物馆",price:"免费",note:""}, {name:"梅州公园",price:"30元",note:"需提前预约"}, {name:"梅州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"梅州步行街",price:"60元",note:"全年开放"}, {name:"梅州文化中心",price:"80元",note:"节假日人多"}, {name:"梅州植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#4E342E"
   },
   "汕尾":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3102,7 +3102,7 @@ const cityData={
     hotels:[{area:"汕尾市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"汕尾景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"汕尾火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"汕尾公园",desc:"汕尾著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.7"}, {name:"汕尾博物馆",desc:"汕尾著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"汕尾古街",desc:"汕尾著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.5"}, {name:"汕尾广场",desc:"汕尾著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"汕尾风景区",desc:"汕尾著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.4"}, {name:"汕尾步行街",desc:"汕尾著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.7"}],
     tickets:[{name:"汕尾博物馆",price:"免费",note:""}, {name:"汕尾公园",price:"30元",note:"需提前预约"}, {name:"汕尾风景区",price:"50元",note:"建议游览2-3小时"}, {name:"汕尾步行街",price:"60元",note:"全年开放"}, {name:"汕尾文化中心",price:"80元",note:"节假日人多"}, {name:"汕尾植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#283593"
   },
   "河源":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3117,7 +3117,7 @@ const cityData={
     hotels:[{area:"河源市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"河源景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"河源火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"河源公园",desc:"河源著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.2"}, {name:"河源博物馆",desc:"河源著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.2"}, {name:"河源古街",desc:"河源著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"河源广场",desc:"河源著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.6"}, {name:"河源风景区",desc:"河源著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.7"}, {name:"河源步行街",desc:"河源著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.8"}],
     tickets:[{name:"河源博物馆",price:"免费",note:""}, {name:"河源公园",price:"30元",note:"需提前预约"}, {name:"河源风景区",price:"50元",note:"建议游览2-3小时"}, {name:"河源步行街",price:"60元",note:"全年开放"}, {name:"河源文化中心",price:"80元",note:"节假日人多"}, {name:"河源植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#4E342E"
   },
   "阳江":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3132,7 +3132,7 @@ const cityData={
     hotels:[{area:"阳江市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"阳江景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"阳江火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阳江公园",desc:"阳江著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.5"}, {name:"阳江博物馆",desc:"阳江著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"阳江古街",desc:"阳江著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.3"}, {name:"阳江广场",desc:"阳江著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"阳江风景区",desc:"阳江著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.5"}, {name:"阳江步行街",desc:"阳江著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.4"}],
     tickets:[{name:"阳江博物馆",price:"免费",note:""}, {name:"阳江公园",price:"30元",note:"需提前预约"}, {name:"阳江风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阳江步行街",price:"60元",note:"全年开放"}, {name:"阳江文化中心",price:"80元",note:"节假日人多"}, {name:"阳江植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#2B8A6E"
   },
   "清远":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3147,7 +3147,7 @@ const cityData={
     hotels:[{area:"清远市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"清远景区附近",price:"300-800元/晚",fit:"靠近景点，深度游览"}, {area:"清远火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"清远公园",desc:"清远著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"清远博物馆",desc:"清远著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"清远古街",desc:"清远著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.8"}, {name:"清远广场",desc:"清远著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.9"}, {name:"清远风景区",desc:"清远著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.9"}, {name:"清远步行街",desc:"清远著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"清远博物馆",price:"免费",note:""}, {name:"清远公园",price:"30元",note:"需提前预约"}, {name:"清远风景区",price:"50元",note:"建议游览2-3小时"}, {name:"清远步行街",price:"60元",note:"全年开放"}, {name:"清远文化中心",price:"80元",note:"节假日人多"}, {name:"清远植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#D32F2F"
   },
   "东莞":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"世界工厂",
@@ -3177,7 +3177,7 @@ const cityData={
     hotels:[{area:"中山市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"中山景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"中山火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"中山公园",desc:"中山著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.1"}, {name:"中山博物馆",desc:"中山著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.1"}, {name:"中山古街",desc:"中山著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.7"}, {name:"中山广场",desc:"中山著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.9"}, {name:"中山风景区",desc:"中山著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.2"}, {name:"中山步行街",desc:"中山著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"中山博物馆",price:"免费",note:""}, {name:"中山公园",price:"30元",note:"需提前预约"}, {name:"中山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"中山步行街",price:"60元",note:"全年开放"}, {name:"中山文化中心",price:"80元",note:"节假日人多"}, {name:"中山植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#C2185B"
   },
   "潮州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3192,7 +3192,7 @@ const cityData={
     hotels:[{area:"潮州市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"潮州景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"潮州火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"潮州公园",desc:"潮州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.6"}, {name:"潮州博物馆",desc:"潮州著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"潮州古街",desc:"潮州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"潮州广场",desc:"潮州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.0"}, {name:"潮州风景区",desc:"潮州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.2"}, {name:"潮州步行街",desc:"潮州著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.8"}],
     tickets:[{name:"潮州博物馆",price:"免费",note:""}, {name:"潮州公园",price:"30元",note:"需提前预约"}, {name:"潮州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"潮州步行街",price:"60元",note:"全年开放"}, {name:"潮州文化中心",price:"80元",note:"节假日人多"}, {name:"潮州植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#00838F"
   },
   "揭阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3207,7 +3207,7 @@ const cityData={
     hotels:[{area:"揭阳市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"揭阳景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"揭阳火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"揭阳公园",desc:"揭阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.9"}, {name:"揭阳博物馆",desc:"揭阳著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"揭阳古街",desc:"揭阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.0"}, {name:"揭阳广场",desc:"揭阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"揭阳风景区",desc:"揭阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.1"}, {name:"揭阳步行街",desc:"揭阳著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.0"}],
     tickets:[{name:"揭阳博物馆",price:"免费",note:""}, {name:"揭阳公园",price:"30元",note:"需提前预约"}, {name:"揭阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"揭阳步行街",price:"60元",note:"全年开放"}, {name:"揭阳文化中心",price:"80元",note:"节假日人多"}, {name:"揭阳植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#00838F"
   },
   "云浮":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"岭南风韵",
@@ -3222,7 +3222,7 @@ const cityData={
     hotels:[{area:"云浮市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"云浮景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"云浮火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"云浮公园",desc:"云浮著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.2"}, {name:"云浮博物馆",desc:"云浮著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.5"}, {name:"云浮古街",desc:"云浮著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.1"}, {name:"云浮广场",desc:"云浮著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"云浮风景区",desc:"云浮著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.3"}, {name:"云浮步行街",desc:"云浮著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"云浮博物馆",price:"免费",note:""}, {name:"云浮公园",price:"30元",note:"需提前预约"}, {name:"云浮风景区",price:"50元",note:"建议游览2-3小时"}, {name:"云浮步行街",price:"60元",note:"全年开放"}, {name:"云浮文化中心",price:"80元",note:"节假日人多"}, {name:"云浮植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#0277BD"
   },
   "南宁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"绿城",
@@ -3252,7 +3252,7 @@ const cityData={
     hotels:[{area:"柳州市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"柳州景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"柳州火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"柳州风景区",desc:"柳州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.6"}, {name:"柳州公园",desc:"柳州著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"柳州博物馆",desc:"柳州著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.3"}, {name:"柳州古街",desc:"柳州著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"柳州广场",desc:"柳州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.8"}, {name:"柳州湖泊",desc:"柳州著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.5"}],
     tickets:[{name:"柳州博物馆",price:"免费",note:""}, {name:"柳州公园",price:"30元",note:"需提前预约"}, {name:"柳州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"柳州步行街",price:"60元",note:"全年开放"}, {name:"柳州文化中心",price:"80元",note:"节假日人多"}, {name:"柳州植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#5C6BC0"
   },
   "桂林":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"山水甲天下",
@@ -3282,7 +3282,7 @@ const cityData={
     hotels:[{area:"梧州市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"梧州景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"梧州火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"梧州风景区",desc:"梧州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.4"}, {name:"梧州公园",desc:"梧州著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.2"}, {name:"梧州博物馆",desc:"梧州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"梧州古街",desc:"梧州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.7"}, {name:"梧州广场",desc:"梧州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"梧州湖泊",desc:"梧州著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.7"}],
     tickets:[{name:"梧州博物馆",price:"免费",note:""}, {name:"梧州公园",price:"30元",note:"需提前预约"}, {name:"梧州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"梧州步行街",price:"60元",note:"全年开放"}, {name:"梧州文化中心",price:"80元",note:"节假日人多"}, {name:"梧州植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#0097A7"
   },
   "北海":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3297,7 +3297,7 @@ const cityData={
     hotels:[{area:"北海市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"北海景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"北海火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"北海风景区",desc:"北海著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.6"}, {name:"北海公园",desc:"北海著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"北海博物馆",desc:"北海著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"北海古街",desc:"北海著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.0"}, {name:"北海广场",desc:"北海著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.6"}, {name:"北海湖泊",desc:"北海著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.5"}],
     tickets:[{name:"北海博物馆",price:"免费",note:""}, {name:"北海公园",price:"30元",note:"需提前预约"}, {name:"北海风景区",price:"50元",note:"建议游览2-3小时"}, {name:"北海步行街",price:"60元",note:"全年开放"}, {name:"北海文化中心",price:"80元",note:"节假日人多"}, {name:"北海植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#00838F"
   },
   "防城港":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3312,7 +3312,7 @@ const cityData={
     hotels:[{area:"防城港市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"防城港景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"防城港火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"防城港风景区",desc:"防城港著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.7"}, {name:"防城港公园",desc:"防城港著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.3"}, {name:"防城港博物馆",desc:"防城港著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"防城港古街",desc:"防城港著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.8"}, {name:"防城港广场",desc:"防城港著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.6"}, {name:"防城港湖泊",desc:"防城港著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.5"}],
     tickets:[{name:"防城港博物馆",price:"免费",note:""}, {name:"防城港公园",price:"30元",note:"需提前预约"}, {name:"防城港风景区",price:"50元",note:"建议游览2-3小时"}, {name:"防城港步行街",price:"60元",note:"全年开放"}, {name:"防城港文化中心",price:"80元",note:"节假日人多"}, {name:"防城港植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#5D4037"
   },
   "钦州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3327,7 +3327,7 @@ const cityData={
     hotels:[{area:"钦州市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"钦州景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"钦州火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"钦州风景区",desc:"钦州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"钦州公园",desc:"钦州著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.8"}, {name:"钦州博物馆",desc:"钦州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"钦州古街",desc:"钦州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.7"}, {name:"钦州广场",desc:"钦州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.8"}, {name:"钦州湖泊",desc:"钦州著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.4"}],
     tickets:[{name:"钦州博物馆",price:"免费",note:""}, {name:"钦州公园",price:"30元",note:"需提前预约"}, {name:"钦州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"钦州步行街",price:"60元",note:"全年开放"}, {name:"钦州文化中心",price:"80元",note:"节假日人多"}, {name:"钦州植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#283593"
   },
   "贵港":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3357,7 +3357,7 @@ const cityData={
     hotels:[{area:"玉林市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"玉林景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"玉林火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"玉林风景区",desc:"玉林著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.3"}, {name:"玉林公园",desc:"玉林著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.4"}, {name:"玉林博物馆",desc:"玉林著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.2"}, {name:"玉林古街",desc:"玉林著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.1"}, {name:"玉林广场",desc:"玉林著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.8"}, {name:"玉林湖泊",desc:"玉林著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.8"}],
     tickets:[{name:"玉林博物馆",price:"免费",note:""}, {name:"玉林公园",price:"30元",note:"需提前预约"}, {name:"玉林风景区",price:"50元",note:"建议游览2-3小时"}, {name:"玉林步行街",price:"60元",note:"全年开放"}, {name:"玉林文化中心",price:"80元",note:"节假日人多"}, {name:"玉林植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#2E7D32"
   },
   "百色":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3372,7 +3372,7 @@ const cityData={
     hotels:[{area:"百色市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"百色景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"百色火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"百色风景区",desc:"百色著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.8"}, {name:"百色公园",desc:"百色著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"百色博物馆",desc:"百色著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.3"}, {name:"百色古街",desc:"百色著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.8"}, {name:"百色广场",desc:"百色著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.7"}, {name:"百色湖泊",desc:"百色著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.1"}],
     tickets:[{name:"百色博物馆",price:"免费",note:""}, {name:"百色公园",price:"30元",note:"需提前预约"}, {name:"百色风景区",price:"50元",note:"建议游览2-3小时"}, {name:"百色步行街",price:"60元",note:"全年开放"}, {name:"百色文化中心",price:"80元",note:"节假日人多"}, {name:"百色植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#FF6F00"
   },
   "贺州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3387,7 +3387,7 @@ const cityData={
     hotels:[{area:"贺州市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"贺州景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"贺州火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"贺州风景区",desc:"贺州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.9"}, {name:"贺州公园",desc:"贺州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"贺州博物馆",desc:"贺州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.7"}, {name:"贺州古街",desc:"贺州著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.8"}, {name:"贺州广场",desc:"贺州著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.2"}, {name:"贺州湖泊",desc:"贺州著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.2"}],
     tickets:[{name:"贺州博物馆",price:"免费",note:""}, {name:"贺州公园",price:"30元",note:"需提前预约"}, {name:"贺州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"贺州步行街",price:"60元",note:"全年开放"}, {name:"贺州文化中心",price:"80元",note:"节假日人多"}, {name:"贺州植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#FF6F00"
   },
   "河池":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3402,7 +3402,7 @@ const cityData={
     hotels:[{area:"河池市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"河池景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"河池火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"河池风景区",desc:"河池著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"河池公园",desc:"河池著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.5"}, {name:"河池博物馆",desc:"河池著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"河池古街",desc:"河池著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"河池广场",desc:"河池著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.5"}, {name:"河池湖泊",desc:"河池著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.9"}],
     tickets:[{name:"河池博物馆",price:"免费",note:""}, {name:"河池公园",price:"30元",note:"需提前预约"}, {name:"河池风景区",price:"50元",note:"建议游览2-3小时"}, {name:"河池步行街",price:"60元",note:"全年开放"}, {name:"河池文化中心",price:"80元",note:"节假日人多"}, {name:"河池植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#D32F2F"
   },
   "来宾":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3417,7 +3417,7 @@ const cityData={
     hotels:[{area:"来宾市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"来宾景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"来宾火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"来宾风景区",desc:"来宾著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.1"}, {name:"来宾公园",desc:"来宾著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.3"}, {name:"来宾博物馆",desc:"来宾著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.7"}, {name:"来宾古街",desc:"来宾著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.2"}, {name:"来宾广场",desc:"来宾著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.6"}, {name:"来宾湖泊",desc:"来宾著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.6"}],
     tickets:[{name:"来宾博物馆",price:"免费",note:""}, {name:"来宾公园",price:"30元",note:"需提前预约"}, {name:"来宾风景区",price:"50元",note:"建议游览2-3小时"}, {name:"来宾步行街",price:"60元",note:"全年开放"}, {name:"来宾文化中心",price:"80元",note:"节假日人多"}, {name:"来宾植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#E85D26"
   },
   "崇左":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"八桂大地",
@@ -3432,7 +3432,7 @@ const cityData={
     hotels:[{area:"崇左市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"崇左景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"崇左火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"崇左风景区",desc:"崇左著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"崇左公园",desc:"崇左著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.5"}, {name:"崇左博物馆",desc:"崇左著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.5"}, {name:"崇左古街",desc:"崇左著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.6"}, {name:"崇左广场",desc:"崇左著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"崇左湖泊",desc:"崇左著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.9"}],
     tickets:[{name:"崇左博物馆",price:"免费",note:""}, {name:"崇左公园",price:"30元",note:"需提前预约"}, {name:"崇左风景区",price:"50元",note:"建议游览2-3小时"}, {name:"崇左步行街",price:"60元",note:"全年开放"}, {name:"崇左文化中心",price:"80元",note:"节假日人多"}, {name:"崇左植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#FF6F00"
   },
   "海口":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"椰城",
@@ -3477,7 +3477,7 @@ const cityData={
     hotels:[{area:"三沙市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"三沙景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"三沙火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"三沙海滩",desc:"三沙著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.5"}, {name:"三沙公园",desc:"三沙著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.2"}, {name:"三沙风景区",desc:"三沙著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.1"}, {name:"三沙博物馆",desc:"三沙著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.2"}, {name:"三沙广场",desc:"三沙著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.6"}, {name:"三沙夜市",desc:"三沙著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"三沙博物馆",price:"免费",note:""}, {name:"三沙公园",price:"30元",note:"需提前预约"}, {name:"三沙风景区",price:"50元",note:"建议游览2-3小时"}, {name:"三沙步行街",price:"60元",note:"全年开放"}, {name:"三沙文化中心",price:"80元",note:"节假日人多"}, {name:"三沙植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#BF360C"
   },
   "儋州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"热带天堂",
@@ -3492,7 +3492,7 @@ const cityData={
     hotels:[{area:"儋州市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"儋州景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"儋州火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"儋州海滩",desc:"儋州著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"儋州公园",desc:"儋州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"儋州风景区",desc:"儋州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.8"}, {name:"儋州博物馆",desc:"儋州著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.7"}, {name:"儋州广场",desc:"儋州著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.3"}, {name:"儋州夜市",desc:"儋州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"儋州博物馆",price:"免费",note:""}, {name:"儋州公园",price:"30元",note:"需提前预约"}, {name:"儋州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"儋州步行街",price:"60元",note:"全年开放"}, {name:"儋州文化中心",price:"80元",note:"节假日人多"}, {name:"儋州植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#5D4037"
   },
   "成都":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3537,7 +3537,7 @@ const cityData={
     hotels:[{area:"攀枝花市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"攀枝花景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"攀枝花火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"攀枝花风景区",desc:"攀枝花著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.0"}, {name:"攀枝花博物馆",desc:"攀枝花著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.2"}, {name:"攀枝花古街",desc:"攀枝花著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.4"}, {name:"攀枝花公园",desc:"攀枝花著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"攀枝花寺庙",desc:"攀枝花著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.5"}, {name:"攀枝花广场",desc:"攀枝花著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.8"}],
     tickets:[{name:"攀枝花博物馆",price:"免费",note:""}, {name:"攀枝花公园",price:"30元",note:"需提前预约"}, {name:"攀枝花风景区",price:"50元",note:"建议游览2-3小时"}, {name:"攀枝花步行街",price:"60元",note:"全年开放"}, {name:"攀枝花文化中心",price:"80元",note:"节假日人多"}, {name:"攀枝花植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#4E342E"
   },
   "泸州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3552,7 +3552,7 @@ const cityData={
     hotels:[{area:"泸州市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"泸州景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"泸州火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"泸州风景区",desc:"泸州著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.4"}, {name:"泸州博物馆",desc:"泸州著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.8"}, {name:"泸州古街",desc:"泸州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"泸州公园",desc:"泸州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.4"}, {name:"泸州寺庙",desc:"泸州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.9"}, {name:"泸州广场",desc:"泸州著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.2"}],
     tickets:[{name:"泸州博物馆",price:"免费",note:""}, {name:"泸州公园",price:"30元",note:"需提前预约"}, {name:"泸州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"泸州步行街",price:"60元",note:"全年开放"}, {name:"泸州文化中心",price:"80元",note:"节假日人多"}, {name:"泸州植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#00838F"
   },
   "德阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3582,7 +3582,7 @@ const cityData={
     hotels:[{area:"绵阳市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"绵阳景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"绵阳火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"绵阳风景区",desc:"绵阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"绵阳博物馆",desc:"绵阳著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.9"}, {name:"绵阳古街",desc:"绵阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.9"}, {name:"绵阳公园",desc:"绵阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.3"}, {name:"绵阳寺庙",desc:"绵阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.4"}, {name:"绵阳广场",desc:"绵阳著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"绵阳博物馆",price:"免费",note:""}, {name:"绵阳公园",price:"30元",note:"需提前预约"}, {name:"绵阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"绵阳步行街",price:"60元",note:"全年开放"}, {name:"绵阳文化中心",price:"80元",note:"节假日人多"}, {name:"绵阳植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#2B8A6E"
   },
   "广元":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3597,7 +3597,7 @@ const cityData={
     hotels:[{area:"广元市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"广元景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"广元火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"广元风景区",desc:"广元著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.4"}, {name:"广元博物馆",desc:"广元著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.5"}, {name:"广元古街",desc:"广元著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.3"}, {name:"广元公园",desc:"广元著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.7"}, {name:"广元寺庙",desc:"广元著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.8"}, {name:"广元广场",desc:"广元著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"广元博物馆",price:"免费",note:""}, {name:"广元公园",price:"30元",note:"需提前预约"}, {name:"广元风景区",price:"50元",note:"建议游览2-3小时"}, {name:"广元步行街",price:"60元",note:"全年开放"}, {name:"广元文化中心",price:"80元",note:"节假日人多"}, {name:"广元植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#9C27B0"
   },
   "遂宁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3612,7 +3612,7 @@ const cityData={
     hotels:[{area:"遂宁市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"遂宁景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"遂宁火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"遂宁风景区",desc:"遂宁著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.6"}, {name:"遂宁博物馆",desc:"遂宁著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.4"}, {name:"遂宁古街",desc:"遂宁著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.5"}, {name:"遂宁公园",desc:"遂宁著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"遂宁寺庙",desc:"遂宁著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.2"}, {name:"遂宁广场",desc:"遂宁著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.4"}],
     tickets:[{name:"遂宁博物馆",price:"免费",note:""}, {name:"遂宁公园",price:"30元",note:"需提前预约"}, {name:"遂宁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"遂宁步行街",price:"60元",note:"全年开放"}, {name:"遂宁文化中心",price:"80元",note:"节假日人多"}, {name:"遂宁植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#283593"
   },
   "内江":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3627,7 +3627,7 @@ const cityData={
     hotels:[{area:"内江市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"内江景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"内江火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"内江风景区",desc:"内江著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"内江博物馆",desc:"内江著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.8"}, {name:"内江古街",desc:"内江著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.3"}, {name:"内江公园",desc:"内江著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"内江寺庙",desc:"内江著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.6"}, {name:"内江广场",desc:"内江著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"内江博物馆",price:"免费",note:""}, {name:"内江公园",price:"30元",note:"需提前预约"}, {name:"内江风景区",price:"50元",note:"建议游览2-3小时"}, {name:"内江步行街",price:"60元",note:"全年开放"}, {name:"内江文化中心",price:"80元",note:"节假日人多"}, {name:"内江植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#C2185B"
   },
   "乐山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"美食之都",
@@ -3657,7 +3657,7 @@ const cityData={
     hotels:[{area:"南充市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"南充景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"南充火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"南充风景区",desc:"南充著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.7"}, {name:"南充博物馆",desc:"南充著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.8"}, {name:"南充古街",desc:"南充著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.5"}, {name:"南充公园",desc:"南充著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.8"}, {name:"南充寺庙",desc:"南充著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.4"}, {name:"南充广场",desc:"南充著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"南充博物馆",price:"免费",note:""}, {name:"南充公园",price:"30元",note:"需提前预约"}, {name:"南充风景区",price:"50元",note:"建议游览2-3小时"}, {name:"南充步行街",price:"60元",note:"全年开放"}, {name:"南充文化中心",price:"80元",note:"节假日人多"}, {name:"南充植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#2E7D32"
   },
   "眉山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3672,7 +3672,7 @@ const cityData={
     hotels:[{area:"眉山市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"眉山景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"眉山火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"眉山风景区",desc:"眉山著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.3"}, {name:"眉山博物馆",desc:"眉山著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.4"}, {name:"眉山古街",desc:"眉山著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"眉山公园",desc:"眉山著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.3"}, {name:"眉山寺庙",desc:"眉山著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.3"}, {name:"眉山广场",desc:"眉山著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.5"}],
     tickets:[{name:"眉山博物馆",price:"免费",note:""}, {name:"眉山公园",price:"30元",note:"需提前预约"}, {name:"眉山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"眉山步行街",price:"60元",note:"全年开放"}, {name:"眉山文化中心",price:"80元",note:"节假日人多"}, {name:"眉山植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#AD1457"
   },
   "宜宾":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"万里长江第一城",
@@ -3702,7 +3702,7 @@ const cityData={
     hotels:[{area:"广安市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"广安景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"广安火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"广安风景区",desc:"广安著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.9"}, {name:"广安博物馆",desc:"广安著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"广安古街",desc:"广安著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"广安公园",desc:"广安著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.3"}, {name:"广安寺庙",desc:"广安著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.8"}, {name:"广安广场",desc:"广安著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.4"}],
     tickets:[{name:"广安博物馆",price:"免费",note:""}, {name:"广安公园",price:"30元",note:"需提前预约"}, {name:"广安风景区",price:"50元",note:"建议游览2-3小时"}, {name:"广安步行街",price:"60元",note:"全年开放"}, {name:"广安文化中心",price:"80元",note:"节假日人多"}, {name:"广安植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#C2185B"
   },
   "达州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3717,7 +3717,7 @@ const cityData={
     hotels:[{area:"达州市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"达州景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"达州火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"达州风景区",desc:"达州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"达州博物馆",desc:"达州著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.9"}, {name:"达州古街",desc:"达州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.5"}, {name:"达州公园",desc:"达州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"达州寺庙",desc:"达州著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.9"}, {name:"达州广场",desc:"达州著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"达州博物馆",price:"免费",note:""}, {name:"达州公园",price:"30元",note:"需提前预约"}, {name:"达州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"达州步行街",price:"60元",note:"全年开放"}, {name:"达州文化中心",price:"80元",note:"节假日人多"}, {name:"达州植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#BF360C"
   },
   "雅安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3732,7 +3732,7 @@ const cityData={
     hotels:[{area:"雅安市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"雅安景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"雅安火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"雅安风景区",desc:"雅安著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"雅安博物馆",desc:"雅安著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.2"}, {name:"雅安古街",desc:"雅安著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.6"}, {name:"雅安公园",desc:"雅安著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.2"}, {name:"雅安寺庙",desc:"雅安著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.4"}, {name:"雅安广场",desc:"雅安著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.7"}],
     tickets:[{name:"雅安博物馆",price:"免费",note:""}, {name:"雅安公园",price:"30元",note:"需提前预约"}, {name:"雅安风景区",price:"50元",note:"建议游览2-3小时"}, {name:"雅安步行街",price:"60元",note:"全年开放"}, {name:"雅安文化中心",price:"80元",note:"节假日人多"}, {name:"雅安植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#2E7D32"
   },
   "巴中":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3747,7 +3747,7 @@ const cityData={
     hotels:[{area:"巴中市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"巴中景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"巴中火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"巴中风景区",desc:"巴中著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"巴中博物馆",desc:"巴中著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"巴中古街",desc:"巴中著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.7"}, {name:"巴中公园",desc:"巴中著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.7"}, {name:"巴中寺庙",desc:"巴中著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"巴中广场",desc:"巴中著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.1"}],
     tickets:[{name:"巴中博物馆",price:"免费",note:""}, {name:"巴中公园",price:"30元",note:"需提前预约"}, {name:"巴中风景区",price:"50元",note:"建议游览2-3小时"}, {name:"巴中步行街",price:"60元",note:"全年开放"}, {name:"巴中文化中心",price:"80元",note:"节假日人多"}, {name:"巴中植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#AD1457"
   },
   "资阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3762,7 +3762,7 @@ const cityData={
     hotels:[{area:"资阳市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"资阳景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"资阳火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"资阳风景区",desc:"资阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.8"}, {name:"资阳博物馆",desc:"资阳著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"资阳古街",desc:"资阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.5"}, {name:"资阳公园",desc:"资阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"资阳寺庙",desc:"资阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"资阳广场",desc:"资阳著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.4"}],
     tickets:[{name:"资阳博物馆",price:"免费",note:""}, {name:"资阳公园",price:"30元",note:"需提前预约"}, {name:"资阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"资阳步行街",price:"60元",note:"全年开放"}, {name:"资阳文化中心",price:"80元",note:"节假日人多"}, {name:"资阳植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#1565C0"
   },
   "阿坝":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3777,7 +3777,7 @@ const cityData={
     hotels:[{area:"阿坝市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"阿坝景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"阿坝火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阿坝风景区",desc:"阿坝著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.3"}, {name:"阿坝博物馆",desc:"阿坝著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.0"}, {name:"阿坝古街",desc:"阿坝著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.9"}, {name:"阿坝公园",desc:"阿坝著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.3"}, {name:"阿坝寺庙",desc:"阿坝著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.7"}, {name:"阿坝广场",desc:"阿坝著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"阿坝博物馆",price:"免费",note:""}, {name:"阿坝公园",price:"30元",note:"需提前预约"}, {name:"阿坝风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阿坝步行街",price:"60元",note:"全年开放"}, {name:"阿坝文化中心",price:"80元",note:"节假日人多"}, {name:"阿坝植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#E85D26"
   },
   "甘孜":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3792,7 +3792,7 @@ const cityData={
     hotels:[{area:"甘孜市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"甘孜景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"甘孜火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"甘孜风景区",desc:"甘孜著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"甘孜博物馆",desc:"甘孜著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.7"}, {name:"甘孜古街",desc:"甘孜著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.2"}, {name:"甘孜公园",desc:"甘孜著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.7"}, {name:"甘孜寺庙",desc:"甘孜著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"甘孜广场",desc:"甘孜著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.2"}],
     tickets:[{name:"甘孜博物馆",price:"免费",note:""}, {name:"甘孜公园",price:"30元",note:"需提前预约"}, {name:"甘孜风景区",price:"50元",note:"建议游览2-3小时"}, {name:"甘孜步行街",price:"60元",note:"全年开放"}, {name:"甘孜文化中心",price:"80元",note:"节假日人多"}, {name:"甘孜植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#E85D26"
   },
   "凉山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天府之国",
@@ -3807,7 +3807,7 @@ const cityData={
     hotels:[{area:"凉山市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"凉山景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"凉山火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"凉山风景区",desc:"凉山著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"凉山博物馆",desc:"凉山著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.6"}, {name:"凉山古街",desc:"凉山著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.0"}, {name:"凉山公园",desc:"凉山著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"凉山寺庙",desc:"凉山著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"凉山广场",desc:"凉山著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.3"}],
     tickets:[{name:"凉山博物馆",price:"免费",note:""}, {name:"凉山公园",price:"30元",note:"需提前预约"}, {name:"凉山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"凉山步行街",price:"60元",note:"全年开放"}, {name:"凉山文化中心",price:"80元",note:"节假日人多"}, {name:"凉山植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#283593"
   },
   "贵阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"避暑之都",
@@ -3837,7 +3837,7 @@ const cityData={
     hotels:[{area:"六盘水市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"六盘水景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"六盘水火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"六盘水风景区",desc:"六盘水著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.9"}, {name:"六盘水博物馆",desc:"六盘水著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.2"}, {name:"六盘水古街",desc:"六盘水著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"六盘水公园",desc:"六盘水著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.2"}, {name:"六盘水广场",desc:"六盘水著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"六盘水瀑布",desc:"六盘水著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.6"}],
     tickets:[{name:"六盘水博物馆",price:"免费",note:""}, {name:"六盘水公园",price:"30元",note:"需提前预约"}, {name:"六盘水风景区",price:"50元",note:"建议游览2-3小时"}, {name:"六盘水步行街",price:"60元",note:"全年开放"}, {name:"六盘水文化中心",price:"80元",note:"节假日人多"}, {name:"六盘水植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#AD1457"
   },
   "遵义":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"红色之城",
@@ -3867,7 +3867,7 @@ const cityData={
     hotels:[{area:"安顺市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"安顺景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"安顺火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"安顺风景区",desc:"安顺著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.8"}, {name:"安顺博物馆",desc:"安顺著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.9"}, {name:"安顺古街",desc:"安顺著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"安顺公园",desc:"安顺著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.0"}, {name:"安顺广场",desc:"安顺著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.5"}, {name:"安顺瀑布",desc:"安顺著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.7"}],
     tickets:[{name:"安顺博物馆",price:"免费",note:""}, {name:"安顺公园",price:"30元",note:"需提前预约"}, {name:"安顺风景区",price:"50元",note:"建议游览2-3小时"}, {name:"安顺步行街",price:"60元",note:"全年开放"}, {name:"安顺文化中心",price:"80元",note:"节假日人多"}, {name:"安顺植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#AD1457"
   },
   "毕节":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"多彩贵州",
@@ -3882,7 +3882,7 @@ const cityData={
     hotels:[{area:"毕节市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"毕节景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"毕节火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"毕节风景区",desc:"毕节著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.1"}, {name:"毕节博物馆",desc:"毕节著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.7"}, {name:"毕节古街",desc:"毕节著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"毕节公园",desc:"毕节著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.9"}, {name:"毕节广场",desc:"毕节著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"毕节瀑布",desc:"毕节著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.7"}],
     tickets:[{name:"毕节博物馆",price:"免费",note:""}, {name:"毕节公园",price:"30元",note:"需提前预约"}, {name:"毕节风景区",price:"50元",note:"建议游览2-3小时"}, {name:"毕节步行街",price:"60元",note:"全年开放"}, {name:"毕节文化中心",price:"80元",note:"节假日人多"}, {name:"毕节植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#0277BD"
   },
   "铜仁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"梵天净土",
@@ -3912,7 +3912,7 @@ const cityData={
     hotels:[{area:"黔西南市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"黔西南景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"黔西南火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"黔西南风景区",desc:"黔西南著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.4"}, {name:"黔西南博物馆",desc:"黔西南著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.8"}, {name:"黔西南古街",desc:"黔西南著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.1"}, {name:"黔西南公园",desc:"黔西南著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.1"}, {name:"黔西南广场",desc:"黔西南著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.7"}, {name:"黔西南瀑布",desc:"黔西南著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.3"}],
     tickets:[{name:"黔西南博物馆",price:"免费",note:""}, {name:"黔西南公园",price:"30元",note:"需提前预约"}, {name:"黔西南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"黔西南步行街",price:"60元",note:"全年开放"}, {name:"黔西南文化中心",price:"80元",note:"节假日人多"}, {name:"黔西南植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#9C27B0"
   },
   "黔东南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"多彩贵州",
@@ -3927,7 +3927,7 @@ const cityData={
     hotels:[{area:"黔东南市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"黔东南景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"黔东南火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"黔东南风景区",desc:"黔东南著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.1"}, {name:"黔东南博物馆",desc:"黔东南著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"黔东南古街",desc:"黔东南著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"黔东南公园",desc:"黔东南著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"黔东南广场",desc:"黔东南著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.0"}, {name:"黔东南瀑布",desc:"黔东南著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"黔东南博物馆",price:"免费",note:""}, {name:"黔东南公园",price:"30元",note:"需提前预约"}, {name:"黔东南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"黔东南步行街",price:"60元",note:"全年开放"}, {name:"黔东南文化中心",price:"80元",note:"节假日人多"}, {name:"黔东南植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#00838F"
   },
   "黔南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"多彩贵州",
@@ -3942,7 +3942,7 @@ const cityData={
     hotels:[{area:"黔南市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"黔南景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"黔南火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"黔南风景区",desc:"黔南著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.8"}, {name:"黔南博物馆",desc:"黔南著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.6"}, {name:"黔南古街",desc:"黔南著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.4"}, {name:"黔南公园",desc:"黔南著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.1"}, {name:"黔南广场",desc:"黔南著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.7"}, {name:"黔南瀑布",desc:"黔南著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.7"}],
     tickets:[{name:"黔南博物馆",price:"免费",note:""}, {name:"黔南公园",price:"30元",note:"需提前预约"}, {name:"黔南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"黔南步行街",price:"60元",note:"全年开放"}, {name:"黔南文化中心",price:"80元",note:"节假日人多"}, {name:"黔南植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#00838F"
   },
   "昆明":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"春城",
@@ -3987,7 +3987,7 @@ const cityData={
     hotels:[{area:"玉溪市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"玉溪景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"玉溪火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"玉溪风景区",desc:"玉溪著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.5"}, {name:"玉溪古镇",desc:"玉溪著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.5"}, {name:"玉溪湖泊",desc:"玉溪著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.5"}, {name:"玉溪博物馆",desc:"玉溪著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.4"}, {name:"玉溪寺庙",desc:"玉溪著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.7"}, {name:"玉溪广场",desc:"玉溪著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.3"}],
     tickets:[{name:"玉溪博物馆",price:"免费",note:""}, {name:"玉溪公园",price:"30元",note:"需提前预约"}, {name:"玉溪风景区",price:"50元",note:"建议游览2-3小时"}, {name:"玉溪步行街",price:"60元",note:"全年开放"}, {name:"玉溪文化中心",price:"80元",note:"节假日人多"}, {name:"玉溪植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#6D4C41"
   },
   "保山":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"彩云之南",
@@ -4002,7 +4002,7 @@ const cityData={
     hotels:[{area:"保山市中心",price:"300-1000元/晚",fit:"交通便利，出行方便"}, {area:"保山景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"保山火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"保山风景区",desc:"保山著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.4"}, {name:"保山古镇",desc:"保山著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.4"}, {name:"保山湖泊",desc:"保山著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"保山博物馆",desc:"保山著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.5"}, {name:"保山寺庙",desc:"保山著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.3"}, {name:"保山广场",desc:"保山著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.8"}],
     tickets:[{name:"保山博物馆",price:"免费",note:""}, {name:"保山公园",price:"30元",note:"需提前预约"}, {name:"保山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"保山步行街",price:"60元",note:"全年开放"}, {name:"保山文化中心",price:"80元",note:"节假日人多"}, {name:"保山植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#2E7D32"
   },
   "昭通":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"彩云之南",
@@ -4047,7 +4047,7 @@ const cityData={
     hotels:[{area:"普洱市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"普洱景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"普洱火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"普洱风景区",desc:"普洱著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.6"}, {name:"普洱古镇",desc:"普洱著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.5"}, {name:"普洱湖泊",desc:"普洱著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.0"}, {name:"普洱博物馆",desc:"普洱著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.3"}, {name:"普洱寺庙",desc:"普洱著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.8"}, {name:"普洱广场",desc:"普洱著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"普洱博物馆",price:"免费",note:""}, {name:"普洱公园",price:"30元",note:"需提前预约"}, {name:"普洱风景区",price:"50元",note:"建议游览2-3小时"}, {name:"普洱步行街",price:"60元",note:"全年开放"}, {name:"普洱文化中心",price:"80元",note:"节假日人多"}, {name:"普洱植物园",price:"100元",note:""}],
-    color:"#1A73E8"
+    color:"#1565C0"
   },
   "临沧":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"彩云之南",
@@ -4077,7 +4077,7 @@ const cityData={
     hotels:[{area:"楚雄市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"楚雄景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"楚雄火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"楚雄风景区",desc:"楚雄著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.1"}, {name:"楚雄古镇",desc:"楚雄著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.4"}, {name:"楚雄湖泊",desc:"楚雄著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"楚雄博物馆",desc:"楚雄著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.5"}, {name:"楚雄寺庙",desc:"楚雄著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.6"}, {name:"楚雄广场",desc:"楚雄著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.5"}],
     tickets:[{name:"楚雄博物馆",price:"免费",note:""}, {name:"楚雄公园",price:"30元",note:"需提前预约"}, {name:"楚雄风景区",price:"50元",note:"建议游览2-3小时"}, {name:"楚雄步行街",price:"60元",note:"全年开放"}, {name:"楚雄文化中心",price:"80元",note:"节假日人多"}, {name:"楚雄植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#E85D26"
   },
   "红河":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"彩云之南",
@@ -4107,7 +4107,7 @@ const cityData={
     hotels:[{area:"文山市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"文山景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"文山火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"文山风景区",desc:"文山著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"文山古镇",desc:"文山著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"文山湖泊",desc:"文山著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.5"}, {name:"文山博物馆",desc:"文山著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"文山寺庙",desc:"文山著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.7"}, {name:"文山广场",desc:"文山著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"文山博物馆",price:"免费",note:""}, {name:"文山公园",price:"30元",note:"需提前预约"}, {name:"文山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"文山步行街",price:"60元",note:"全年开放"}, {name:"文山文化中心",price:"80元",note:"节假日人多"}, {name:"文山植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#0277BD"
   },
   "西双版纳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"热带雨林",
@@ -4152,7 +4152,7 @@ const cityData={
     hotels:[{area:"德宏市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"德宏景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"德宏火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"德宏风景区",desc:"德宏著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"德宏古镇",desc:"德宏著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"德宏湖泊",desc:"德宏著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.0"}, {name:"德宏博物馆",desc:"德宏著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.3"}, {name:"德宏寺庙",desc:"德宏著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.5"}, {name:"德宏广场",desc:"德宏著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.1"}],
     tickets:[{name:"德宏博物馆",price:"免费",note:""}, {name:"德宏公园",price:"30元",note:"需提前预约"}, {name:"德宏风景区",price:"50元",note:"建议游览2-3小时"}, {name:"德宏步行街",price:"60元",note:"全年开放"}, {name:"德宏文化中心",price:"80元",note:"节假日人多"}, {name:"德宏植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#5D4037"
   },
   "怒江":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"彩云之南",
@@ -4167,7 +4167,7 @@ const cityData={
     hotels:[{area:"怒江市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"怒江景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"怒江火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"怒江风景区",desc:"怒江著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.4"}, {name:"怒江古镇",desc:"怒江著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.0"}, {name:"怒江湖泊",desc:"怒江著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"怒江博物馆",desc:"怒江著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.3"}, {name:"怒江寺庙",desc:"怒江著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.2"}, {name:"怒江广场",desc:"怒江著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"怒江博物馆",price:"免费",note:""}, {name:"怒江公园",price:"30元",note:"需提前预约"}, {name:"怒江风景区",price:"50元",note:"建议游览2-3小时"}, {name:"怒江步行街",price:"60元",note:"全年开放"}, {name:"怒江文化中心",price:"80元",note:"节假日人多"}, {name:"怒江植物园",price:"100元",note:""}],
-    color:"#2B8A6E"
+    color:"#AD1457"
   },
   "迪庆":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"彩云之南",
@@ -4182,7 +4182,7 @@ const cityData={
     hotels:[{area:"迪庆市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"迪庆景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"迪庆火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"迪庆风景区",desc:"迪庆著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.9"}, {name:"迪庆古镇",desc:"迪庆著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.3"}, {name:"迪庆湖泊",desc:"迪庆著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.1"}, {name:"迪庆博物馆",desc:"迪庆著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.1"}, {name:"迪庆寺庙",desc:"迪庆著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.6"}, {name:"迪庆广场",desc:"迪庆著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.8"}],
     tickets:[{name:"迪庆博物馆",price:"免费",note:""}, {name:"迪庆公园",price:"30元",note:"需提前预约"}, {name:"迪庆风景区",price:"50元",note:"建议游览2-3小时"}, {name:"迪庆步行街",price:"60元",note:"全年开放"}, {name:"迪庆文化中心",price:"80元",note:"节假日人多"}, {name:"迪庆植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#E85D26"
   },
   "拉萨":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"日光之城",
@@ -4227,7 +4227,7 @@ const cityData={
     hotels:[{area:"昌都市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"昌都景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"昌都火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"昌都寺庙",desc:"昌都著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.8"}, {name:"昌都湖泊",desc:"昌都著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.9"}, {name:"昌都风景区",desc:"昌都著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.4"}, {name:"昌都博物馆",desc:"昌都著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.8"}, {name:"昌都广场",desc:"昌都著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.1"}, {name:"昌都雪山",desc:"昌都著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"昌都博物馆",price:"免费",note:""}, {name:"昌都公园",price:"30元",note:"需提前预约"}, {name:"昌都风景区",price:"50元",note:"建议游览2-3小时"}, {name:"昌都步行街",price:"60元",note:"全年开放"}, {name:"昌都文化中心",price:"80元",note:"节假日人多"}, {name:"昌都植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#5C6BC0"
   },
   "林芝":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"雪域江南",
@@ -4257,7 +4257,7 @@ const cityData={
     hotels:[{area:"山南市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"山南景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"山南火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"山南寺庙",desc:"山南著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.5"}, {name:"山南湖泊",desc:"山南著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"山南风景区",desc:"山南著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.3"}, {name:"山南博物馆",desc:"山南著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"山南广场",desc:"山南著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.1"}, {name:"山南雪山",desc:"山南著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.0"}],
     tickets:[{name:"山南博物馆",price:"免费",note:""}, {name:"山南公园",price:"30元",note:"需提前预约"}, {name:"山南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"山南步行街",price:"60元",note:"全年开放"}, {name:"山南文化中心",price:"80元",note:"节假日人多"}, {name:"山南植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#AD1457"
   },
   "那曲":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"世界屋脊",
@@ -4272,7 +4272,7 @@ const cityData={
     hotels:[{area:"那曲市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"那曲景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"那曲火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"那曲寺庙",desc:"那曲著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.5"}, {name:"那曲湖泊",desc:"那曲著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.6"}, {name:"那曲风景区",desc:"那曲著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"那曲博物馆",desc:"那曲著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.5"}, {name:"那曲广场",desc:"那曲著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.5"}, {name:"那曲雪山",desc:"那曲著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.7"}],
     tickets:[{name:"那曲博物馆",price:"免费",note:""}, {name:"那曲公园",price:"30元",note:"需提前预约"}, {name:"那曲风景区",price:"50元",note:"建议游览2-3小时"}, {name:"那曲步行街",price:"60元",note:"全年开放"}, {name:"那曲文化中心",price:"80元",note:"节假日人多"}, {name:"那曲植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#5D4037"
   },
   "阿里":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"世界屋脊",
@@ -4287,7 +4287,7 @@ const cityData={
     hotels:[{area:"阿里市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"阿里景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"阿里火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阿里寺庙",desc:"阿里著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.8"}, {name:"阿里湖泊",desc:"阿里著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.4"}, {name:"阿里风景区",desc:"阿里著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.3"}, {name:"阿里博物馆",desc:"阿里著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"阿里广场",desc:"阿里著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.4"}, {name:"阿里雪山",desc:"阿里著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"阿里博物馆",price:"免费",note:""}, {name:"阿里公园",price:"30元",note:"需提前预约"}, {name:"阿里风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阿里步行街",price:"60元",note:"全年开放"}, {name:"阿里文化中心",price:"80元",note:"节假日人多"}, {name:"阿里植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#9C27B0"
   },
   "西安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"千年古都",
@@ -4317,7 +4317,7 @@ const cityData={
     hotels:[{area:"铜川市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"铜川景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"铜川火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"铜川博物馆",desc:"铜川著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.6"}, {name:"铜川古建筑",desc:"铜川著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"铜川风景区",desc:"铜川著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.7"}, {name:"铜川公园",desc:"铜川著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"铜川广场",desc:"铜川著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.6"}, {name:"铜川城墙",desc:"铜川著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.5"}],
     tickets:[{name:"铜川博物馆",price:"免费",note:""}, {name:"铜川公园",price:"30元",note:"需提前预约"}, {name:"铜川风景区",price:"50元",note:"建议游览2-3小时"}, {name:"铜川步行街",price:"60元",note:"全年开放"}, {name:"铜川文化中心",price:"80元",note:"节假日人多"}, {name:"铜川植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#4E342E"
   },
   "宝鸡":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4332,7 +4332,7 @@ const cityData={
     hotels:[{area:"宝鸡市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"宝鸡景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"宝鸡火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"宝鸡博物馆",desc:"宝鸡著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.3"}, {name:"宝鸡古建筑",desc:"宝鸡著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"宝鸡风景区",desc:"宝鸡著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.3"}, {name:"宝鸡公园",desc:"宝鸡著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.1"}, {name:"宝鸡广场",desc:"宝鸡著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.9"}, {name:"宝鸡城墙",desc:"宝鸡著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"宝鸡博物馆",price:"免费",note:""}, {name:"宝鸡公园",price:"30元",note:"需提前预约"}, {name:"宝鸡风景区",price:"50元",note:"建议游览2-3小时"}, {name:"宝鸡步行街",price:"60元",note:"全年开放"}, {name:"宝鸡文化中心",price:"80元",note:"节假日人多"}, {name:"宝鸡植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#9C27B0"
   },
   "咸阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4347,7 +4347,7 @@ const cityData={
     hotels:[{area:"咸阳市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"咸阳景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"咸阳火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"咸阳博物馆",desc:"咸阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.8"}, {name:"咸阳古建筑",desc:"咸阳著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.6"}, {name:"咸阳风景区",desc:"咸阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.7"}, {name:"咸阳公园",desc:"咸阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.0"}, {name:"咸阳广场",desc:"咸阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.0"}, {name:"咸阳城墙",desc:"咸阳著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.0"}],
     tickets:[{name:"咸阳博物馆",price:"免费",note:""}, {name:"咸阳公园",price:"30元",note:"需提前预约"}, {name:"咸阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"咸阳步行街",price:"60元",note:"全年开放"}, {name:"咸阳文化中心",price:"80元",note:"节假日人多"}, {name:"咸阳植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#5D4037"
   },
   "渭南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4362,7 +4362,7 @@ const cityData={
     hotels:[{area:"渭南市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"渭南景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"渭南火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"渭南博物馆",desc:"渭南著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"渭南古建筑",desc:"渭南著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"渭南风景区",desc:"渭南著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.7"}, {name:"渭南公园",desc:"渭南著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.8"}, {name:"渭南广场",desc:"渭南著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.3"}, {name:"渭南城墙",desc:"渭南著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"渭南博物馆",price:"免费",note:""}, {name:"渭南公园",price:"30元",note:"需提前预约"}, {name:"渭南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"渭南步行街",price:"60元",note:"全年开放"}, {name:"渭南文化中心",price:"80元",note:"节假日人多"}, {name:"渭南植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#00838F"
   },
   "延安":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4377,7 +4377,7 @@ const cityData={
     hotels:[{area:"延安市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"延安景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"延安火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"延安博物馆",desc:"延安著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.5"}, {name:"延安古建筑",desc:"延安著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.3"}, {name:"延安风景区",desc:"延安著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.6"}, {name:"延安公园",desc:"延安著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.5"}, {name:"延安广场",desc:"延安著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.4"}, {name:"延安城墙",desc:"延安著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.8"}],
     tickets:[{name:"延安博物馆",price:"免费",note:""}, {name:"延安公园",price:"30元",note:"需提前预约"}, {name:"延安风景区",price:"50元",note:"建议游览2-3小时"}, {name:"延安步行街",price:"60元",note:"全年开放"}, {name:"延安文化中心",price:"80元",note:"节假日人多"}, {name:"延安植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#00695C"
   },
   "汉中":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4392,7 +4392,7 @@ const cityData={
     hotels:[{area:"汉中市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"汉中景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"汉中火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"汉中博物馆",desc:"汉中著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.6"}, {name:"汉中古建筑",desc:"汉中著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"汉中风景区",desc:"汉中著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.3"}, {name:"汉中公园",desc:"汉中著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"汉中广场",desc:"汉中著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"汉中城墙",desc:"汉中著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"汉中博物馆",price:"免费",note:""}, {name:"汉中公园",price:"30元",note:"需提前预约"}, {name:"汉中风景区",price:"50元",note:"建议游览2-3小时"}, {name:"汉中步行街",price:"60元",note:"全年开放"}, {name:"汉中文化中心",price:"80元",note:"节假日人多"}, {name:"汉中植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#283593"
   },
   "榆林":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4407,7 +4407,7 @@ const cityData={
     hotels:[{area:"榆林市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"榆林景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"榆林火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"榆林博物馆",desc:"榆林著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.7"}, {name:"榆林古建筑",desc:"榆林著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.8"}, {name:"榆林风景区",desc:"榆林著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.8"}, {name:"榆林公园",desc:"榆林著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"榆林广场",desc:"榆林著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.3"}, {name:"榆林城墙",desc:"榆林著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.0"}],
     tickets:[{name:"榆林博物馆",price:"免费",note:""}, {name:"榆林公园",price:"30元",note:"需提前预约"}, {name:"榆林风景区",price:"50元",note:"建议游览2-3小时"}, {name:"榆林步行街",price:"60元",note:"全年开放"}, {name:"榆林文化中心",price:"80元",note:"节假日人多"}, {name:"榆林植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#4E342E"
   },
   "安康":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"三秦大地",
@@ -4437,7 +4437,7 @@ const cityData={
     hotels:[{area:"商洛市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"商洛景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"商洛火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"商洛博物馆",desc:"商洛著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.1"}, {name:"商洛古建筑",desc:"商洛著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.7"}, {name:"商洛风景区",desc:"商洛著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.6"}, {name:"商洛公园",desc:"商洛著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.2"}, {name:"商洛广场",desc:"商洛著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.4"}, {name:"商洛城墙",desc:"商洛著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"商洛博物馆",price:"免费",note:""}, {name:"商洛公园",price:"30元",note:"需提前预约"}, {name:"商洛风景区",price:"50元",note:"建议游览2-3小时"}, {name:"商洛步行街",price:"60元",note:"全年开放"}, {name:"商洛文化中心",price:"80元",note:"节假日人多"}, {name:"商洛植物园",price:"100元",note:""}],
-    color:"#0097A7"
+    color:"#6D4C41"
   },
   "兰州":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"黄河之都",
@@ -4467,7 +4467,7 @@ const cityData={
     hotels:[{area:"嘉峪关市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"嘉峪关景区附近",price:"300-500元/晚",fit:"靠近景点，深度游览"}, {area:"嘉峪关火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"嘉峪关风景区",desc:"嘉峪关著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.3"}, {name:"嘉峪关博物馆",desc:"嘉峪关著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.3"}, {name:"嘉峪关公园",desc:"嘉峪关著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"嘉峪关寺庙",desc:"嘉峪关著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.1"}, {name:"嘉峪关广场",desc:"嘉峪关著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.1"}, {name:"嘉峪关古城",desc:"嘉峪关著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.5"}],
     tickets:[{name:"嘉峪关博物馆",price:"免费",note:""}, {name:"嘉峪关公园",price:"30元",note:"需提前预约"}, {name:"嘉峪关风景区",price:"50元",note:"建议游览2-3小时"}, {name:"嘉峪关步行街",price:"60元",note:"全年开放"}, {name:"嘉峪关文化中心",price:"80元",note:"节假日人多"}, {name:"嘉峪关植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#5C6BC0"
   },
   "金昌":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4482,7 +4482,7 @@ const cityData={
     hotels:[{area:"金昌市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"金昌景区附近",price:"300-800元/晚",fit:"靠近景点，深度游览"}, {area:"金昌火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"金昌风景区",desc:"金昌著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"金昌博物馆",desc:"金昌著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.8"}, {name:"金昌公园",desc:"金昌著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.1"}, {name:"金昌寺庙",desc:"金昌著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"金昌广场",desc:"金昌著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"金昌古城",desc:"金昌著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.8"}],
     tickets:[{name:"金昌博物馆",price:"免费",note:""}, {name:"金昌公园",price:"30元",note:"需提前预约"}, {name:"金昌风景区",price:"50元",note:"建议游览2-3小时"}, {name:"金昌步行街",price:"60元",note:"全年开放"}, {name:"金昌文化中心",price:"80元",note:"节假日人多"}, {name:"金昌植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#BF360C"
   },
   "白银":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4497,7 +4497,7 @@ const cityData={
     hotels:[{area:"白银市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"白银景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"白银火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"白银风景区",desc:"白银著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.6"}, {name:"白银博物馆",desc:"白银著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.4"}, {name:"白银公园",desc:"白银著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"白银寺庙",desc:"白银著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.2"}, {name:"白银广场",desc:"白银著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"白银古城",desc:"白银著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"白银博物馆",price:"免费",note:""}, {name:"白银公园",price:"30元",note:"需提前预约"}, {name:"白银风景区",price:"50元",note:"建议游览2-3小时"}, {name:"白银步行街",price:"60元",note:"全年开放"}, {name:"白银文化中心",price:"80元",note:"节假日人多"}, {name:"白银植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#FF6F00"
   },
   "天水":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4512,7 +4512,7 @@ const cityData={
     hotels:[{area:"天水市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"天水景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"天水火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"天水风景区",desc:"天水著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.7"}, {name:"天水博物馆",desc:"天水著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"天水公园",desc:"天水著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.7"}, {name:"天水寺庙",desc:"天水著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.4"}, {name:"天水广场",desc:"天水著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.4"}, {name:"天水古城",desc:"天水著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.2"}],
     tickets:[{name:"天水博物馆",price:"免费",note:""}, {name:"天水公园",price:"30元",note:"需提前预约"}, {name:"天水风景区",price:"50元",note:"建议游览2-3小时"}, {name:"天水步行街",price:"60元",note:"全年开放"}, {name:"天水文化中心",price:"80元",note:"节假日人多"}, {name:"天水植物园",price:"100元",note:""}],
-    color:"#D32F2F"
+    color:"#00838F"
   },
   "武威":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4527,7 +4527,7 @@ const cityData={
     hotels:[{area:"武威市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"武威景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"武威火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"武威风景区",desc:"武威著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"武威博物馆",desc:"武威著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"武威公园",desc:"武威著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"武威寺庙",desc:"武威著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.1"}, {name:"武威广场",desc:"武威著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.6"}, {name:"武威古城",desc:"武威著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.7"}],
     tickets:[{name:"武威博物馆",price:"免费",note:""}, {name:"武威公园",price:"30元",note:"需提前预约"}, {name:"武威风景区",price:"50元",note:"建议游览2-3小时"}, {name:"武威步行街",price:"60元",note:"全年开放"}, {name:"武威文化中心",price:"80元",note:"节假日人多"}, {name:"武威植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#1A73E8"
   },
   "张掖":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"丹霞奇观",
@@ -4557,7 +4557,7 @@ const cityData={
     hotels:[{area:"平凉市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"平凉景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"平凉火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"平凉风景区",desc:"平凉著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"平凉博物馆",desc:"平凉著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.2"}, {name:"平凉公园",desc:"平凉著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.3"}, {name:"平凉寺庙",desc:"平凉著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.3"}, {name:"平凉广场",desc:"平凉著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.6"}, {name:"平凉古城",desc:"平凉著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.9"}],
     tickets:[{name:"平凉博物馆",price:"免费",note:""}, {name:"平凉公园",price:"30元",note:"需提前预约"}, {name:"平凉风景区",price:"50元",note:"建议游览2-3小时"}, {name:"平凉步行街",price:"60元",note:"全年开放"}, {name:"平凉文化中心",price:"80元",note:"节假日人多"}, {name:"平凉植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#5C6BC0"
   },
   "酒泉":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4572,7 +4572,7 @@ const cityData={
     hotels:[{area:"酒泉市中心",price:"400-600元/晚",fit:"交通便利，出行方便"}, {area:"酒泉景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"酒泉火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"酒泉风景区",desc:"酒泉著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.5"}, {name:"酒泉博物馆",desc:"酒泉著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.3"}, {name:"酒泉公园",desc:"酒泉著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.4"}, {name:"酒泉寺庙",desc:"酒泉著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.5"}, {name:"酒泉广场",desc:"酒泉著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.2"}, {name:"酒泉古城",desc:"酒泉著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.2"}],
     tickets:[{name:"酒泉博物馆",price:"免费",note:""}, {name:"酒泉公园",price:"30元",note:"需提前预约"}, {name:"酒泉风景区",price:"50元",note:"建议游览2-3小时"}, {name:"酒泉步行街",price:"60元",note:"全年开放"}, {name:"酒泉文化中心",price:"80元",note:"节假日人多"}, {name:"酒泉植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#FF6F00"
   },
   "庆阳":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4587,7 +4587,7 @@ const cityData={
     hotels:[{area:"庆阳市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"庆阳景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"庆阳火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"庆阳风景区",desc:"庆阳著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.6"}, {name:"庆阳博物馆",desc:"庆阳著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.8"}, {name:"庆阳公园",desc:"庆阳著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.5"}, {name:"庆阳寺庙",desc:"庆阳著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.6"}, {name:"庆阳广场",desc:"庆阳著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.5"}, {name:"庆阳古城",desc:"庆阳著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.7"}],
     tickets:[{name:"庆阳博物馆",price:"免费",note:""}, {name:"庆阳公园",price:"30元",note:"需提前预约"}, {name:"庆阳风景区",price:"50元",note:"建议游览2-3小时"}, {name:"庆阳步行街",price:"60元",note:"全年开放"}, {name:"庆阳文化中心",price:"80元",note:"节假日人多"}, {name:"庆阳植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#E85D26"
   },
   "定西":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4602,7 +4602,7 @@ const cityData={
     hotels:[{area:"定西市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"定西景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"定西火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"定西风景区",desc:"定西著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.3"}, {name:"定西博物馆",desc:"定西著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.4"}, {name:"定西公园",desc:"定西著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"定西寺庙",desc:"定西著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.7"}, {name:"定西广场",desc:"定西著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"定西古城",desc:"定西著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.5"}],
     tickets:[{name:"定西博物馆",price:"免费",note:""}, {name:"定西公园",price:"30元",note:"需提前预约"}, {name:"定西风景区",price:"50元",note:"建议游览2-3小时"}, {name:"定西步行街",price:"60元",note:"全年开放"}, {name:"定西文化中心",price:"80元",note:"节假日人多"}, {name:"定西植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#2E7D32"
   },
   "陇南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4617,7 +4617,7 @@ const cityData={
     hotels:[{area:"陇南市中心",price:"400-1000元/晚",fit:"交通便利，出行方便"}, {area:"陇南景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"陇南火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"陇南风景区",desc:"陇南著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.4"}, {name:"陇南博物馆",desc:"陇南著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.5"}, {name:"陇南公园",desc:"陇南著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.4"}, {name:"陇南寺庙",desc:"陇南著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.3"}, {name:"陇南广场",desc:"陇南著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.6"}, {name:"陇南古城",desc:"陇南著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.7"}],
     tickets:[{name:"陇南博物馆",price:"免费",note:""}, {name:"陇南公园",price:"30元",note:"需提前预约"}, {name:"陇南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"陇南步行街",price:"60元",note:"全年开放"}, {name:"陇南文化中心",price:"80元",note:"节假日人多"}, {name:"陇南植物园",price:"100元",note:""}],
-    color:"#E85D26"
+    color:"#0097A7"
   },
   "临夏":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"陇原大地",
@@ -4632,7 +4632,7 @@ const cityData={
     hotels:[{area:"临夏市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"临夏景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"临夏火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"临夏风景区",desc:"临夏著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"临夏博物馆",desc:"临夏著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.3"}, {name:"临夏公园",desc:"临夏著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.0"}, {name:"临夏寺庙",desc:"临夏著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"临夏广场",desc:"临夏著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.7"}, {name:"临夏古城",desc:"临夏著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.4"}],
     tickets:[{name:"临夏博物馆",price:"免费",note:""}, {name:"临夏公园",price:"30元",note:"需提前预约"}, {name:"临夏风景区",price:"50元",note:"建议游览2-3小时"}, {name:"临夏步行街",price:"60元",note:"全年开放"}, {name:"临夏文化中心",price:"80元",note:"节假日人多"}, {name:"临夏植物园",price:"100元",note:""}],
-    color:"#AD1457"
+    color:"#6D4C41"
   },
   "甘南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"秘境甘南",
@@ -4677,7 +4677,7 @@ const cityData={
     hotels:[{area:"海东市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"海东景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"海东火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"海东湖泊",desc:"海东著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.6"}, {name:"海东风景区",desc:"海东著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.5"}, {name:"海东寺庙",desc:"海东著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.0"}, {name:"海东博物馆",desc:"海东著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.7"}, {name:"海东公园",desc:"海东著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.0"}, {name:"海东草原",desc:"海东著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.4"}],
     tickets:[{name:"海东博物馆",price:"免费",note:""}, {name:"海东公园",price:"30元",note:"需提前预约"}, {name:"海东风景区",price:"50元",note:"建议游览2-3小时"}, {name:"海东步行街",price:"60元",note:"全年开放"}, {name:"海东文化中心",price:"80元",note:"节假日人多"}, {name:"海东植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#6D4C41"
   },
   "海北":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"大美青海",
@@ -4692,7 +4692,7 @@ const cityData={
     hotels:[{area:"海北市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"海北景区附近",price:"300-700元/晚",fit:"靠近景点，深度游览"}, {area:"海北火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"海北湖泊",desc:"海北著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"海北风景区",desc:"海北著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.1"}, {name:"海北寺庙",desc:"海北著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.6"}, {name:"海北博物馆",desc:"海北著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.5"}, {name:"海北公园",desc:"海北著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.8"}, {name:"海北草原",desc:"海北著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.2"}],
     tickets:[{name:"海北博物馆",price:"免费",note:""}, {name:"海北公园",price:"30元",note:"需提前预约"}, {name:"海北风景区",price:"50元",note:"建议游览2-3小时"}, {name:"海北步行街",price:"60元",note:"全年开放"}, {name:"海北文化中心",price:"80元",note:"节假日人多"}, {name:"海北植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#0097A7"
   },
   "黄南":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"大美青海",
@@ -4722,7 +4722,7 @@ const cityData={
     hotels:[{area:"海南州市中心",price:"200-1000元/晚",fit:"交通便利，出行方便"}, {area:"海南州景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"海南州火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"海南州湖泊",desc:"海南州著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.6"}, {name:"海南州风景区",desc:"海南州著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.3"}, {name:"海南州寺庙",desc:"海南州著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"海南州博物馆",desc:"海南州著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.4"}, {name:"海南州公园",desc:"海南州著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.7"}, {name:"海南州草原",desc:"海南州著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.8"}],
     tickets:[{name:"海南州博物馆",price:"免费",note:""}, {name:"海南州公园",price:"30元",note:"需提前预约"}, {name:"海南州风景区",price:"50元",note:"建议游览2-3小时"}, {name:"海南州步行街",price:"60元",note:"全年开放"}, {name:"海南州文化中心",price:"80元",note:"节假日人多"}, {name:"海南州植物园",price:"100元",note:""}],
-    color:"#0277BD"
+    color:"#2E7D32"
   },
   "果洛":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"大美青海",
@@ -4737,7 +4737,7 @@ const cityData={
     hotels:[{area:"果洛市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"果洛景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"果洛火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"果洛湖泊",desc:"果洛著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.6"}, {name:"果洛风景区",desc:"果洛著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.1"}, {name:"果洛寺庙",desc:"果洛著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"果洛博物馆",desc:"果洛著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.1"}, {name:"果洛公园",desc:"果洛著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.6"}, {name:"果洛草原",desc:"果洛著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.0"}],
     tickets:[{name:"果洛博物馆",price:"免费",note:""}, {name:"果洛公园",price:"30元",note:"需提前预约"}, {name:"果洛风景区",price:"50元",note:"建议游览2-3小时"}, {name:"果洛步行街",price:"60元",note:"全年开放"}, {name:"果洛文化中心",price:"80元",note:"节假日人多"}, {name:"果洛植物园",price:"100元",note:""}],
-    color:"#1565C0"
+    color:"#283593"
   },
   "玉树":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"大美青海",
@@ -4752,7 +4752,7 @@ const cityData={
     hotels:[{area:"玉树市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"玉树景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"玉树火车站/机场附近",price:"200-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"玉树湖泊",desc:"玉树著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"玉树风景区",desc:"玉树著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.4"}, {name:"玉树寺庙",desc:"玉树著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.8"}, {name:"玉树博物馆",desc:"玉树著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"玉树公园",desc:"玉树著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.3"}, {name:"玉树草原",desc:"玉树著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.7"}],
     tickets:[{name:"玉树博物馆",price:"免费",note:""}, {name:"玉树公园",price:"30元",note:"需提前预约"}, {name:"玉树风景区",price:"50元",note:"建议游览2-3小时"}, {name:"玉树步行街",price:"60元",note:"全年开放"}, {name:"玉树文化中心",price:"80元",note:"节假日人多"}, {name:"玉树植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#4E342E"
   },
   "海西":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"大美青海",
@@ -4767,7 +4767,7 @@ const cityData={
     hotels:[{area:"海西市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"海西景区附近",price:"300-400元/晚",fit:"靠近景点，深度游览"}, {area:"海西火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"海西湖泊",desc:"海西著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"海西风景区",desc:"海西著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.0"}, {name:"海西寺庙",desc:"海西著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.6"}, {name:"海西博物馆",desc:"海西著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.6"}, {name:"海西公园",desc:"海西著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.6"}, {name:"海西草原",desc:"海西著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.4"}],
     tickets:[{name:"海西博物馆",price:"免费",note:""}, {name:"海西公园",price:"30元",note:"需提前预约"}, {name:"海西风景区",price:"50元",note:"建议游览2-3小时"}, {name:"海西步行街",price:"60元",note:"全年开放"}, {name:"海西文化中心",price:"80元",note:"节假日人多"}, {name:"海西植物园",price:"100元",note:""}],
-    color:"#00838F"
+    color:"#6D4C41"
   },
   "银川":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"塞上江南",
@@ -4797,7 +4797,7 @@ const cityData={
     hotels:[{area:"石嘴山市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"石嘴山景区附近",price:"400-400元/晚",fit:"靠近景点，深度游览"}, {area:"石嘴山火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"石嘴山风景区",desc:"石嘴山著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.3"}, {name:"石嘴山博物馆",desc:"石嘴山著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.0"}, {name:"石嘴山公园",desc:"石嘴山著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.2"}, {name:"石嘴山寺庙",desc:"石嘴山著名的休闲场所，适合休闲观光",tag:"休闲",time:"2小时",rating:"4.6"}, {name:"石嘴山广场",desc:"石嘴山著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.8"}, {name:"石嘴山古城",desc:"石嘴山著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.1"}],
     tickets:[{name:"石嘴山博物馆",price:"免费",note:""}, {name:"石嘴山公园",price:"30元",note:"需提前预约"}, {name:"石嘴山风景区",price:"50元",note:"建议游览2-3小时"}, {name:"石嘴山步行街",price:"60元",note:"全年开放"}, {name:"石嘴山文化中心",price:"80元",note:"节假日人多"}, {name:"石嘴山植物园",price:"100元",note:""}],
-    color:"#5C6BC0"
+    color:"#E85D26"
   },
   "吴忠":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"塞上江南",
@@ -4812,7 +4812,7 @@ const cityData={
     hotels:[{area:"吴忠市中心",price:"300-700元/晚",fit:"交通便利，出行方便"}, {area:"吴忠景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"吴忠火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"吴忠风景区",desc:"吴忠著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.7"}, {name:"吴忠博物馆",desc:"吴忠著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.4"}, {name:"吴忠公园",desc:"吴忠著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.8"}, {name:"吴忠寺庙",desc:"吴忠著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.7"}, {name:"吴忠广场",desc:"吴忠著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.1"}, {name:"吴忠古城",desc:"吴忠著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.7"}],
     tickets:[{name:"吴忠博物馆",price:"免费",note:""}, {name:"吴忠公园",price:"30元",note:"需提前预约"}, {name:"吴忠风景区",price:"50元",note:"建议游览2-3小时"}, {name:"吴忠步行街",price:"60元",note:"全年开放"}, {name:"吴忠文化中心",price:"80元",note:"节假日人多"}, {name:"吴忠植物园",price:"100元",note:""}],
-    color:"#283593"
+    color:"#9C27B0"
   },
   "固原":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"塞上江南",
@@ -4827,7 +4827,7 @@ const cityData={
     hotels:[{area:"固原市中心",price:"300-800元/晚",fit:"交通便利，出行方便"}, {area:"固原景区附近",price:"200-400元/晚",fit:"靠近景点，深度游览"}, {area:"固原火车站/机场附近",price:"300-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"固原风景区",desc:"固原著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.1"}, {name:"固原博物馆",desc:"固原著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.1"}, {name:"固原公园",desc:"固原著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"固原寺庙",desc:"固原著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"固原广场",desc:"固原著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.2"}, {name:"固原古城",desc:"固原著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.0"}],
     tickets:[{name:"固原博物馆",price:"免费",note:""}, {name:"固原公园",price:"30元",note:"需提前预约"}, {name:"固原风景区",price:"50元",note:"建议游览2-3小时"}, {name:"固原步行街",price:"60元",note:"全年开放"}, {name:"固原文化中心",price:"80元",note:"节假日人多"}, {name:"固原植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#0277BD"
   },
   "中卫":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"塞上江南",
@@ -4842,7 +4842,7 @@ const cityData={
     hotels:[{area:"中卫市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"中卫景区附近",price:"400-500元/晚",fit:"靠近景点，深度游览"}, {area:"中卫火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"中卫风景区",desc:"中卫著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"中卫博物馆",desc:"中卫著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.4"}, {name:"中卫公园",desc:"中卫著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.5"}, {name:"中卫寺庙",desc:"中卫著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"中卫广场",desc:"中卫著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.4"}, {name:"中卫古城",desc:"中卫著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"中卫博物馆",price:"免费",note:""}, {name:"中卫公园",price:"30元",note:"需提前预约"}, {name:"中卫风景区",price:"50元",note:"建议游览2-3小时"}, {name:"中卫步行街",price:"60元",note:"全年开放"}, {name:"中卫文化中心",price:"80元",note:"节假日人多"}, {name:"中卫植物园",price:"100元",note:""}],
-    color:"#4E342E"
+    color:"#00695C"
   },
   "乌鲁木齐":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"天山",
@@ -4872,7 +4872,7 @@ const cityData={
     hotels:[{area:"克拉玛依市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"克拉玛依景区附近",price:"200-600元/晚",fit:"靠近景点，深度游览"}, {area:"克拉玛依火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"克拉玛依风景区",desc:"克拉玛依著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.7"}, {name:"克拉玛依巴扎",desc:"克拉玛依著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.8"}, {name:"克拉玛依博物馆",desc:"克拉玛依著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.4"}, {name:"克拉玛依公园",desc:"克拉玛依著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.6"}, {name:"克拉玛依清真寺",desc:"克拉玛依著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.0"}, {name:"克拉玛依广场",desc:"克拉玛依著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.3"}],
     tickets:[{name:"克拉玛依博物馆",price:"免费",note:""}, {name:"克拉玛依公园",price:"30元",note:"需提前预约"}, {name:"克拉玛依风景区",price:"50元",note:"建议游览2-3小时"}, {name:"克拉玛依步行街",price:"60元",note:"全年开放"}, {name:"克拉玛依文化中心",price:"80元",note:"节假日人多"}, {name:"克拉玛依植物园",price:"100元",note:""}],
-    color:"#FF6F00"
+    color:"#283593"
   },
   "吐鲁番":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4887,7 +4887,7 @@ const cityData={
     hotels:[{area:"吐鲁番市中心",price:"200-900元/晚",fit:"交通便利，出行方便"}, {area:"吐鲁番景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"吐鲁番火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"吐鲁番风景区",desc:"吐鲁番著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"吐鲁番巴扎",desc:"吐鲁番著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.2"}, {name:"吐鲁番博物馆",desc:"吐鲁番著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.8"}, {name:"吐鲁番公园",desc:"吐鲁番著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.7"}, {name:"吐鲁番清真寺",desc:"吐鲁番著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.2"}, {name:"吐鲁番广场",desc:"吐鲁番著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.7"}],
     tickets:[{name:"吐鲁番博物馆",price:"免费",note:""}, {name:"吐鲁番公园",price:"30元",note:"需提前预约"}, {name:"吐鲁番风景区",price:"50元",note:"建议游览2-3小时"}, {name:"吐鲁番步行街",price:"60元",note:"全年开放"}, {name:"吐鲁番文化中心",price:"80元",note:"节假日人多"}, {name:"吐鲁番植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#AD1457"
   },
   "哈密":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4902,7 +4902,7 @@ const cityData={
     hotels:[{area:"哈密市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"哈密景区附近",price:"400-600元/晚",fit:"靠近景点，深度游览"}, {area:"哈密火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"哈密风景区",desc:"哈密著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.2"}, {name:"哈密巴扎",desc:"哈密著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.9"}, {name:"哈密博物馆",desc:"哈密著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.3"}, {name:"哈密公园",desc:"哈密著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"哈密清真寺",desc:"哈密著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.3"}, {name:"哈密广场",desc:"哈密著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.8"}],
     tickets:[{name:"哈密博物馆",price:"免费",note:""}, {name:"哈密公园",price:"30元",note:"需提前预约"}, {name:"哈密风景区",price:"50元",note:"建议游览2-3小时"}, {name:"哈密步行街",price:"60元",note:"全年开放"}, {name:"哈密文化中心",price:"80元",note:"节假日人多"}, {name:"哈密植物园",price:"100元",note:""}],
-    color:"#9C27B0"
+    color:"#00838F"
   },
   "昌吉":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4917,7 +4917,7 @@ const cityData={
     hotels:[{area:"昌吉市中心",price:"300-600元/晚",fit:"交通便利，出行方便"}, {area:"昌吉景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"昌吉火车站/机场附近",price:"200-400元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"昌吉风景区",desc:"昌吉著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.4"}, {name:"昌吉巴扎",desc:"昌吉著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"昌吉博物馆",desc:"昌吉著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.4"}, {name:"昌吉公园",desc:"昌吉著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.2"}, {name:"昌吉清真寺",desc:"昌吉著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.5"}, {name:"昌吉广场",desc:"昌吉著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.9"}],
     tickets:[{name:"昌吉博物馆",price:"免费",note:""}, {name:"昌吉公园",price:"30元",note:"需提前预约"}, {name:"昌吉风景区",price:"50元",note:"建议游览2-3小时"}, {name:"昌吉步行街",price:"60元",note:"全年开放"}, {name:"昌吉文化中心",price:"80元",note:"节假日人多"}, {name:"昌吉植物园",price:"100元",note:""}],
-    color:"#6D4C41"
+    color:"#D32F2F"
   },
   "博尔塔拉":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4932,7 +4932,7 @@ const cityData={
     hotels:[{area:"博尔塔拉市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"博尔塔拉景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"博尔塔拉火车站/机场附近",price:"100-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"博尔塔拉风景区",desc:"博尔塔拉著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.7"}, {name:"博尔塔拉巴扎",desc:"博尔塔拉著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"博尔塔拉博物馆",desc:"博尔塔拉著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"博尔塔拉公园",desc:"博尔塔拉著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.2"}, {name:"博尔塔拉清真寺",desc:"博尔塔拉著名的休闲场所，适合历史文化探索",tag:"历史",time:"1-2小时",rating:"4.0"}, {name:"博尔塔拉广场",desc:"博尔塔拉著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.3"}],
     tickets:[{name:"博尔塔拉博物馆",price:"免费",note:""}, {name:"博尔塔拉公园",price:"30元",note:"需提前预约"}, {name:"博尔塔拉风景区",price:"50元",note:"建议游览2-3小时"}, {name:"博尔塔拉步行街",price:"60元",note:"全年开放"}, {name:"博尔塔拉文化中心",price:"80元",note:"节假日人多"}, {name:"博尔塔拉植物园",price:"100元",note:""}],
-    color:"#C2185B"
+    color:"#0097A7"
   },
   "巴音郭楞":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4947,7 +4947,7 @@ const cityData={
     hotels:[{area:"巴音郭楞市中心",price:"500-600元/晚",fit:"交通便利，出行方便"}, {area:"巴音郭楞景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"巴音郭楞火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"巴音郭楞风景区",desc:"巴音郭楞著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.0"}, {name:"巴音郭楞巴扎",desc:"巴音郭楞著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.7"}, {name:"巴音郭楞博物馆",desc:"巴音郭楞著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.9"}, {name:"巴音郭楞公园",desc:"巴音郭楞著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"巴音郭楞清真寺",desc:"巴音郭楞著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.7"}, {name:"巴音郭楞广场",desc:"巴音郭楞著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.6"}],
     tickets:[{name:"巴音郭楞博物馆",price:"免费",note:""}, {name:"巴音郭楞公园",price:"30元",note:"需提前预约"}, {name:"巴音郭楞风景区",price:"50元",note:"建议游览2-3小时"}, {name:"巴音郭楞步行街",price:"60元",note:"全年开放"}, {name:"巴音郭楞文化中心",price:"80元",note:"节假日人多"}, {name:"巴音郭楞植物园",price:"100元",note:""}],
-    color:"#D32F2F"
+    color:"#1565C0"
   },
   "阿克苏":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4962,7 +4962,7 @@ const cityData={
     hotels:[{area:"阿克苏市中心",price:"400-800元/晚",fit:"交通便利，出行方便"}, {area:"阿克苏景区附近",price:"200-800元/晚",fit:"靠近景点，深度游览"}, {area:"阿克苏火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"阿克苏风景区",desc:"阿克苏著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.6"}, {name:"阿克苏巴扎",desc:"阿克苏著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.1"}, {name:"阿克苏博物馆",desc:"阿克苏著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.2"}, {name:"阿克苏公园",desc:"阿克苏著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.6"}, {name:"阿克苏清真寺",desc:"阿克苏著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.8"}, {name:"阿克苏广场",desc:"阿克苏著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.8"}],
     tickets:[{name:"阿克苏博物馆",price:"免费",note:""}, {name:"阿克苏公园",price:"30元",note:"需提前预约"}, {name:"阿克苏风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阿克苏步行街",price:"60元",note:"全年开放"}, {name:"阿克苏文化中心",price:"80元",note:"节假日人多"}, {name:"阿克苏植物园",price:"100元",note:""}],
-    color:"#BF360C"
+    color:"#2E7D32"
   },
   "克孜勒苏":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -4977,7 +4977,7 @@ const cityData={
     hotels:[{area:"克孜勒苏市中心",price:"400-900元/晚",fit:"交通便利，出行方便"}, {area:"克孜勒苏景区附近",price:"400-800元/晚",fit:"靠近景点，深度游览"}, {area:"克孜勒苏火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"克孜勒苏风景区",desc:"克孜勒苏著名的旅游景点，适合历史文化探索",tag:"必去",time:"半天",rating:"4.6"}, {name:"克孜勒苏巴扎",desc:"克孜勒苏著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.7"}, {name:"克孜勒苏博物馆",desc:"克孜勒苏著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.4"}, {name:"克孜勒苏公园",desc:"克孜勒苏著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.7"}, {name:"克孜勒苏清真寺",desc:"克孜勒苏著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.7"}, {name:"克孜勒苏广场",desc:"克孜勒苏著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.2"}],
     tickets:[{name:"克孜勒苏博物馆",price:"免费",note:""}, {name:"克孜勒苏公园",price:"30元",note:"需提前预约"}, {name:"克孜勒苏风景区",price:"50元",note:"建议游览2-3小时"}, {name:"克孜勒苏步行街",price:"60元",note:"全年开放"}, {name:"克孜勒苏文化中心",price:"80元",note:"节假日人多"}, {name:"克孜勒苏植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#9C27B0"
   },
   "喀什":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -5007,7 +5007,7 @@ const cityData={
     hotels:[{area:"和田市中心",price:"300-900元/晚",fit:"交通便利，出行方便"}, {area:"和田景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"和田火车站/机场附近",price:"300-300元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"和田风景区",desc:"和田著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.4"}, {name:"和田巴扎",desc:"和田著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.5"}, {name:"和田博物馆",desc:"和田著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.4"}, {name:"和田公园",desc:"和田著名的休闲场所，适合休闲观光",tag:"休闲",time:"半天",rating:"4.4"}, {name:"和田清真寺",desc:"和田著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.0"}, {name:"和田广场",desc:"和田著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.1"}],
     tickets:[{name:"和田博物馆",price:"免费",note:""}, {name:"和田公园",price:"30元",note:"需提前预约"}, {name:"和田风景区",price:"50元",note:"建议游览2-3小时"}, {name:"和田步行街",price:"60元",note:"全年开放"}, {name:"和田文化中心",price:"80元",note:"节假日人多"}, {name:"和田植物园",price:"100元",note:""}],
-    color:"#5D4037"
+    color:"#283593"
   },
   "伊犁":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -5022,7 +5022,7 @@ const cityData={
     hotels:[{area:"伊犁市中心",price:"500-900元/晚",fit:"交通便利，出行方便"}, {area:"伊犁景区附近",price:"300-800元/晚",fit:"靠近景点，深度游览"}, {area:"伊犁火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"伊犁风景区",desc:"伊犁著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.7"}, {name:"伊犁巴扎",desc:"伊犁著名的旅游景点，适合休闲观光",tag:"文化",time:"2-3小时",rating:"4.4"}, {name:"伊犁博物馆",desc:"伊犁著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.7"}, {name:"伊犁公园",desc:"伊犁著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"伊犁清真寺",desc:"伊犁著名的休闲场所，适合历史文化探索",tag:"历史",time:"3-4小时",rating:"4.4"}, {name:"伊犁广场",desc:"伊犁著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.6"}],
     tickets:[{name:"伊犁博物馆",price:"免费",note:""}, {name:"伊犁公园",price:"30元",note:"需提前预约"}, {name:"伊犁风景区",price:"50元",note:"建议游览2-3小时"}, {name:"伊犁步行街",price:"60元",note:"全年开放"}, {name:"伊犁文化中心",price:"80元",note:"节假日人多"}, {name:"伊犁植物园",price:"100元",note:""}],
-    color:"#00695C"
+    color:"#0277BD"
   },
   "塔城":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -5037,7 +5037,7 @@ const cityData={
     hotels:[{area:"塔城市中心",price:"200-800元/晚",fit:"交通便利，出行方便"}, {area:"塔城景区附近",price:"200-700元/晚",fit:"靠近景点，深度游览"}, {area:"塔城火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
     spots:[{name:"塔城风景区",desc:"塔城著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.2"}, {name:"塔城巴扎",desc:"塔城著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.0"}, {name:"塔城博物馆",desc:"塔城著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.9"}, {name:"塔城公园",desc:"塔城著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.3"}, {name:"塔城清真寺",desc:"塔城著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.9"}, {name:"塔城广场",desc:"塔城著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.3"}],
     tickets:[{name:"塔城博物馆",price:"免费",note:""}, {name:"塔城公园",price:"30元",note:"需提前预约"}, {name:"塔城风景区",price:"50元",note:"建议游览2-3小时"}, {name:"塔城步行街",price:"60元",note:"全年开放"}, {name:"塔城文化中心",price:"80元",note:"节假日人多"}, {name:"塔城植物园",price:"100元",note:""}],
-    color:"#2E7D32"
+    color:"#1A73E8"
   },
   "阿勒泰":{
     emoji:"&#x1F3D6;&#xFE0F;",tag:"西域风情",
@@ -5053,13 +5053,148 @@ const cityData={
     spots:[{name:"阿勒泰风景区",desc:"阿勒泰著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.7"}, {name:"阿勒泰巴扎",desc:"阿勒泰著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"阿勒泰博物馆",desc:"阿勒泰著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.7"}, {name:"阿勒泰公园",desc:"阿勒泰著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.1"}, {name:"阿勒泰清真寺",desc:"阿勒泰著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.1"}, {name:"阿勒泰广场",desc:"阿勒泰著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.4"}],
     tickets:[{name:"阿勒泰博物馆",price:"免费",note:""}, {name:"阿勒泰公园",price:"30元",note:"需提前预约"}, {name:"阿勒泰风景区",price:"50元",note:"建议游览2-3小时"}, {name:"阿勒泰步行街",price:"60元",note:"全年开放"}, {name:"阿勒泰文化中心",price:"80元",note:"节假日人多"}, {name:"阿勒泰植物园",price:"100元",note:""}],
     color:"#2E7D32"
+  },
+  "香港":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"东方之珠",
+    subtitle:"香港——香港东方之珠的代表城市",
+    description:"香港著名的休闲场所，适合休闲观光",
+    bestSeason:"全年适宜",
+    avgCost:"500-800元/3天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"3-4天",
+    highlights:["国际都市", "维港夜景", "购物天堂", "中西合璧"],
+    food:[{name:"白切鸡",restaurant:"香港老字号",price:"人均40-80元",emoji:"&#x1F986;"}, {name:"烧鹅",restaurant:"香港特色餐厅",price:"人均10-25元",emoji:"&#x1F35C;"}, {name:"肠粉",restaurant:"香港本地名店",price:"人均20-40元",emoji:"&#x1F372;"}, {name:"虾饺",restaurant:"香港街头老店",price:"人均40-80元",emoji:"&#x1F356;"}, {name:"双皮奶",restaurant:"香港人气小店",price:"人均40-80元",emoji:"&#x1F9C0;"}, {name:"煲仔饭",restaurant:"香港传统名铺",price:"人均20-40元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"香港市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"香港景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"香港火车站/机场附近",price:"300-600元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"香港维港",desc:"香港著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.6"}, {name:"香港山顶",desc:"香港著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.9"}, {name:"香港公园",desc:"香港著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.2"}, {name:"香港博物馆",desc:"香港著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.5"}, {name:"香港步行街",desc:"香港著名的休闲场所，适合历史文化探索",tag:"历史",time:"1小时",rating:"4.8"}, {name:"香港寺庙",desc:"香港著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.3"}],
+    tickets:[{name:"香港博物馆",price:"免费",note:""}, {name:"香港公园",price:"30元",note:"需提前预约"}, {name:"香港风景区",price:"50元",note:"建议游览2-3小时"}, {name:"香港步行街",price:"60元",note:"全年开放"}, {name:"香港文化中心",price:"80元",note:"节假日人多"}, {name:"香港植物园",price:"100元",note:""}],
+    color:"#0097A7"
+  },
+  "澳门":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"濠江之城",
+    subtitle:"澳门——澳门濠江之城的代表城市",
+    description:"澳门著名的休闲场所，适合休闲观光",
+    bestSeason:"全年适宜",
+    avgCost:"500-800元/4天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"3-4天",
+    highlights:["葡式建筑", "博彩娱乐", "世界文化遗产", "美食之都"],
+    food:[{name:"白切鸡",restaurant:"澳门老字号",price:"人均25-50元",emoji:"&#x1F986;"}, {name:"烧鹅",restaurant:"澳门特色餐厅",price:"人均25-50元",emoji:"&#x1F35C;"}, {name:"肠粉",restaurant:"澳门本地名店",price:"人均25-50元",emoji:"&#x1F372;"}, {name:"虾饺",restaurant:"澳门街头老店",price:"人均25-50元",emoji:"&#x1F356;"}, {name:"双皮奶",restaurant:"澳门人气小店",price:"人均30-60元",emoji:"&#x1F9C0;"}, {name:"煲仔饭",restaurant:"澳门传统名铺",price:"人均40-80元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"澳门市中心",price:"200-700元/晚",fit:"交通便利，出行方便"}, {area:"澳门景区附近",price:"400-700元/晚",fit:"靠近景点，深度游览"}, {area:"澳门火车站/机场附近",price:"200-500元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"澳门大三巴",desc:"澳门著名的旅游景点，适合历史文化探索",tag:"必去",time:"2-3小时",rating:"4.7"}, {name:"澳门赌场",desc:"澳门著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.7"}, {name:"澳门博物馆",desc:"澳门著名的旅游景点，适合历史文化探索",tag:"自然",time:"半天",rating:"4.1"}, {name:"澳门教堂",desc:"澳门著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.5"}, {name:"澳门公园",desc:"澳门著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.2"}, {name:"澳门广场",desc:"澳门著名的休闲场所，适合休闲观光",tag:"网红",time:"半天",rating:"4.9"}],
+    tickets:[{name:"澳门博物馆",price:"免费",note:""}, {name:"澳门公园",price:"30元",note:"需提前预约"}, {name:"澳门风景区",price:"50元",note:"建议游览2-3小时"}, {name:"澳门步行街",price:"60元",note:"全年开放"}, {name:"澳门文化中心",price:"80元",note:"节假日人多"}, {name:"澳门植物园",price:"100元",note:""}],
+    color:"#5C6BC0"
+  },
+  "台北":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"台湾省会",
+    subtitle:"台北——台湾台湾省会的代表城市",
+    description:"台北著名的休闲场所，适合休闲观光",
+    bestSeason:"冬春季（11月-次年3月）",
+    avgCost:"400-600元/5天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"3-4天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"台北老字号",price:"人均15-30元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"台北特色餐厅",price:"人均30-60元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"台北本地名店",price:"人均10-25元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"台北街头老店",price:"人均25-50元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"台北人气小店",price:"人均30-60元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"台北传统名铺",price:"人均20-40元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"台北市中心",price:"500-1000元/晚",fit:"交通便利，出行方便"}, {area:"台北景区附近",price:"200-500元/晚",fit:"靠近景点，深度游览"}, {area:"台北火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"台北夜市",desc:"台北著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.5"}, {name:"台北风景区",desc:"台北著名的旅游景点，适合休闲观光",tag:"文化",time:"1-2小时",rating:"4.7"}, {name:"台北博物馆",desc:"台北著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.8"}, {name:"台北古街",desc:"台北著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.4"}, {name:"台北公园",desc:"台北著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.4"}, {name:"台北广场",desc:"台北著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.7"}],
+    tickets:[{name:"台北博物馆",price:"免费",note:""}, {name:"台北公园",price:"30元",note:"需提前预约"}, {name:"台北风景区",price:"50元",note:"建议游览2-3小时"}, {name:"台北步行街",price:"60元",note:"全年开放"}, {name:"台北文化中心",price:"80元",note:"节假日人多"}, {name:"台北植物园",price:"100元",note:""}],
+    color:"#BF360C"
+  },
+  "高雄":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"宝岛台湾",
+    subtitle:"高雄——台湾宝岛台湾的代表城市",
+    description:"高雄著名的休闲场所，适合休闲观光",
+    bestSeason:"全年适宜",
+    avgCost:"400-800元/5天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"4-5天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"高雄老字号",price:"人均15-30元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"高雄特色餐厅",price:"人均10-25元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"高雄本地名店",price:"人均10-25元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"高雄街头老店",price:"人均25-50元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"高雄人气小店",price:"人均30-60元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"高雄传统名铺",price:"人均20-40元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"高雄市中心",price:"500-700元/晚",fit:"交通便利，出行方便"}, {area:"高雄景区附近",price:"100-400元/晚",fit:"靠近景点，深度游览"}, {area:"高雄火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"高雄夜市",desc:"高雄著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.5"}, {name:"高雄风景区",desc:"高雄著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.5"}, {name:"高雄博物馆",desc:"高雄著名的旅游景点，适合历史文化探索",tag:"自然",time:"1小时",rating:"4.4"}, {name:"高雄古街",desc:"高雄著名的休闲场所，适合休闲观光",tag:"休闲",time:"3-4小时",rating:"4.6"}, {name:"高雄公园",desc:"高雄著名的休闲场所，适合历史文化探索",tag:"历史",time:"半天",rating:"4.9"}, {name:"高雄广场",desc:"高雄著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.3"}],
+    tickets:[{name:"高雄博物馆",price:"免费",note:""}, {name:"高雄公园",price:"30元",note:"需提前预约"}, {name:"高雄风景区",price:"50元",note:"建议游览2-3小时"}, {name:"高雄步行街",price:"60元",note:"全年开放"}, {name:"高雄文化中心",price:"80元",note:"节假日人多"}, {name:"高雄植物园",price:"100元",note:""}],
+    color:"#5C6BC0"
+  },
+  "台中":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"宝岛台湾",
+    subtitle:"台中——台湾宝岛台湾的代表城市",
+    description:"台中著名的休闲场所，适合休闲观光",
+    bestSeason:"冬春季（11月-次年3月）",
+    avgCost:"200-1200元/4天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"2-6天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"台中老字号",price:"人均15-30元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"台中特色餐厅",price:"人均20-40元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"台中本地名店",price:"人均25-50元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"台中街头老店",price:"人均30-60元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"台中人气小店",price:"人均10-25元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"台中传统名铺",price:"人均20-40元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"台中市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"台中景区附近",price:"100-600元/晚",fit:"靠近景点，深度游览"}, {area:"台中火车站/机场附近",price:"200-600元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"台中夜市",desc:"台中著名的旅游景点，适合历史文化探索",tag:"必去",time:"2小时",rating:"4.8"}, {name:"台中风景区",desc:"台中著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.0"}, {name:"台中博物馆",desc:"台中著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.5"}, {name:"台中古街",desc:"台中著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.5"}, {name:"台中公园",desc:"台中著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.2"}, {name:"台中广场",desc:"台中著名的休闲场所，适合休闲观光",tag:"网红",time:"1-2小时",rating:"4.5"}],
+    tickets:[{name:"台中博物馆",price:"免费",note:""}, {name:"台中公园",price:"30元",note:"需提前预约"}, {name:"台中风景区",price:"50元",note:"建议游览2-3小时"}, {name:"台中步行街",price:"60元",note:"全年开放"}, {name:"台中文化中心",price:"80元",note:"节假日人多"}, {name:"台中植物园",price:"100元",note:""}],
+    color:"#00695C"
+  },
+  "台南":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"宝岛台湾",
+    subtitle:"台南——台湾宝岛台湾的代表城市",
+    description:"台南著名的休闲场所，适合休闲观光",
+    bestSeason:"全年适宜",
+    avgCost:"600-800元/4天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"4-5天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"台南老字号",price:"人均25-50元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"台南特色餐厅",price:"人均10-25元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"台南本地名店",price:"人均10-25元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"台南街头老店",price:"人均10-25元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"台南人气小店",price:"人均25-50元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"台南传统名铺",price:"人均15-30元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"台南市中心",price:"400-700元/晚",fit:"交通便利，出行方便"}, {area:"台南景区附近",price:"100-500元/晚",fit:"靠近景点，深度游览"}, {area:"台南火车站/机场附近",price:"300-500元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"台南夜市",desc:"台南著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.7"}, {name:"台南风景区",desc:"台南著名的旅游景点，适合休闲观光",tag:"文化",time:"半天",rating:"4.3"}, {name:"台南博物馆",desc:"台南著名的旅游景点，适合历史文化探索",tag:"自然",time:"2-3小时",rating:"4.1"}, {name:"台南古街",desc:"台南著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.5"}, {name:"台南公园",desc:"台南著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.7"}, {name:"台南广场",desc:"台南著名的休闲场所，适合休闲观光",tag:"网红",time:"1小时",rating:"4.6"}],
+    tickets:[{name:"台南博物馆",price:"免费",note:""}, {name:"台南公园",price:"30元",note:"需提前预约"}, {name:"台南风景区",price:"50元",note:"建议游览2-3小时"}, {name:"台南步行街",price:"60元",note:"全年开放"}, {name:"台南文化中心",price:"80元",note:"节假日人多"}, {name:"台南植物园",price:"100元",note:""}],
+    color:"#5D4037"
+  },
+  "基隆":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"宝岛台湾",
+    subtitle:"基隆——台湾宝岛台湾的代表城市",
+    description:"基隆著名的休闲场所，适合休闲观光",
+    bestSeason:"冬春季（11月-次年3月）",
+    avgCost:"600-1100元/5天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"4-4天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"基隆老字号",price:"人均30-60元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"基隆特色餐厅",price:"人均30-60元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"基隆本地名店",price:"人均15-30元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"基隆街头老店",price:"人均15-30元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"基隆人气小店",price:"人均20-40元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"基隆传统名铺",price:"人均15-30元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"基隆市中心",price:"500-800元/晚",fit:"交通便利，出行方便"}, {area:"基隆景区附近",price:"300-600元/晚",fit:"靠近景点，深度游览"}, {area:"基隆火车站/机场附近",price:"100-600元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"基隆夜市",desc:"基隆著名的旅游景点，适合历史文化探索",tag:"必去",time:"1小时",rating:"4.5"}, {name:"基隆风景区",desc:"基隆著名的旅游景点，适合休闲观光",tag:"文化",time:"3-4小时",rating:"4.2"}, {name:"基隆博物馆",desc:"基隆著名的旅游景点，适合历史文化探索",tag:"自然",time:"3-4小时",rating:"4.0"}, {name:"基隆古街",desc:"基隆著名的休闲场所，适合休闲观光",tag:"休闲",time:"1-2小时",rating:"4.2"}, {name:"基隆公园",desc:"基隆著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.1"}, {name:"基隆广场",desc:"基隆著名的休闲场所，适合休闲观光",tag:"网红",time:"2-3小时",rating:"4.3"}],
+    tickets:[{name:"基隆博物馆",price:"免费",note:""}, {name:"基隆公园",price:"30元",note:"需提前预约"}, {name:"基隆风景区",price:"50元",note:"建议游览2-3小时"}, {name:"基隆步行街",price:"60元",note:"全年开放"}, {name:"基隆文化中心",price:"80元",note:"节假日人多"}, {name:"基隆植物园",price:"100元",note:""}],
+    color:"#C2185B"
+  },
+  "新竹":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"宝岛台湾",
+    subtitle:"新竹——台湾宝岛台湾的代表城市",
+    description:"新竹著名的休闲场所，适合休闲观光",
+    bestSeason:"全年适宜",
+    avgCost:"300-600元/4天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"4-4天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"新竹老字号",price:"人均15-30元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"新竹特色餐厅",price:"人均15-30元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"新竹本地名店",price:"人均30-60元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"新竹街头老店",price:"人均30-60元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"新竹人气小店",price:"人均15-30元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"新竹传统名铺",price:"人均20-40元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"新竹市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"新竹景区附近",price:"100-700元/晚",fit:"靠近景点，深度游览"}, {area:"新竹火车站/机场附近",price:"100-500元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"新竹夜市",desc:"新竹著名的旅游景点，适合历史文化探索",tag:"必去",time:"1-2小时",rating:"4.1"}, {name:"新竹风景区",desc:"新竹著名的旅游景点，适合休闲观光",tag:"文化",time:"2小时",rating:"4.0"}, {name:"新竹博物馆",desc:"新竹著名的旅游景点，适合历史文化探索",tag:"自然",time:"1-2小时",rating:"4.7"}, {name:"新竹古街",desc:"新竹著名的休闲场所，适合休闲观光",tag:"休闲",time:"1小时",rating:"4.2"}, {name:"新竹公园",desc:"新竹著名的休闲场所，适合历史文化探索",tag:"历史",time:"2-3小时",rating:"4.2"}, {name:"新竹广场",desc:"新竹著名的休闲场所，适合休闲观光",tag:"网红",time:"3-4小时",rating:"4.0"}],
+    tickets:[{name:"新竹博物馆",price:"免费",note:""}, {name:"新竹公园",price:"30元",note:"需提前预约"}, {name:"新竹风景区",price:"50元",note:"建议游览2-3小时"}, {name:"新竹步行街",price:"60元",note:"全年开放"}, {name:"新竹文化中心",price:"80元",note:"节假日人多"}, {name:"新竹植物园",price:"100元",note:""}],
+    color:"#00838F"
+  },
+  "嘉义":{
+    emoji:"&#x1F3D6;&#xFE0F;",tag:"宝岛台湾",
+    subtitle:"嘉义——台湾宝岛台湾的代表城市",
+    description:"嘉义著名的休闲场所，适合休闲观光",
+    bestSeason:"全年适宜",
+    avgCost:"400-1000元/4天",
+    transport:"飞机/高铁可达，市内公交便利",
+    stayDays:"3-4天",
+    highlights:["夜市文化", "自然风光", "原住民文化", "文创产业"],
+    food:[{name:"当地特色菜",restaurant:"嘉义老字号",price:"人均40-80元",emoji:"&#x1F986;"}, {name:"地方小吃",restaurant:"嘉义特色餐厅",price:"人均10-25元",emoji:"&#x1F35C;"}, {name:"传统美食",restaurant:"嘉义本地名店",price:"人均40-80元",emoji:"&#x1F372;"}, {name:"风味菜肴",restaurant:"嘉义街头老店",price:"人均20-40元",emoji:"&#x1F356;"}, {name:"招牌菜",restaurant:"嘉义人气小店",price:"人均40-80元",emoji:"&#x1F9C0;"}, {name:"时令小菜",restaurant:"嘉义传统名铺",price:"人均40-80元",emoji:"&#x1F95A;"}],
+    hotels:[{area:"嘉义市中心",price:"200-600元/晚",fit:"交通便利，出行方便"}, {area:"嘉义景区附近",price:"100-800元/晚",fit:"靠近景点，深度游览"}, {area:"嘉义火车站/机场附近",price:"100-400元/晚",fit:"中转住宿，经济实惠"}],
+    spots:[{name:"嘉义夜市",desc:"嘉义著名的旅游景点，适合历史文化探索",tag:"必去",time:"3-4小时",rating:"4.2"}, {name:"嘉义风景区",desc:"嘉义著名的旅游景点，适合休闲观光",tag:"文化",time:"1小时",rating:"4.0"}, {name:"嘉义博物馆",desc:"嘉义著名的旅游景点，适合历史文化探索",tag:"自然",time:"2小时",rating:"4.1"}, {name:"嘉义古街",desc:"嘉义著名的休闲场所，适合休闲观光",tag:"休闲",time:"2-3小时",rating:"4.8"}, {name:"嘉义公园",desc:"嘉义著名的休闲场所，适合历史文化探索",tag:"历史",time:"2小时",rating:"4.4"}, {name:"嘉义广场",desc:"嘉义著名的休闲场所，适合休闲观光",tag:"网红",time:"2小时",rating:"4.5"}],
+    tickets:[{name:"嘉义博物馆",price:"免费",note:""}, {name:"嘉义公园",price:"30元",note:"需提前预约"}, {name:"嘉义风景区",price:"50元",note:"建议游览2-3小时"}, {name:"嘉义步行街",price:"60元",note:"全年开放"}, {name:"嘉义文化中心",price:"80元",note:"节假日人多"}, {name:"嘉义植物园",price:"100元",note:""}],
+    color:"#9C27B0"
   }
 };
 
 const cityThumbs={
-  "北京":{color:"#C41230",desc:"历史文化"},   "天津":{color:"#E67E22",desc:"近代租界"},   "上海":{color:"#FF6B35",desc:"国际都市"},   "重庆":{color:"#E74C3C",desc:"山城"},   "石家庄":{color:"#00838F",desc:"河北省会"},   "唐山":{color:"#5C6BC0",desc:"燕赵大地"},   "秦皇岛":{color:"#4A90D9",desc:"海滨度假"},   "邯郸":{color:"#9C27B0",desc:"燕赵大地"},   "邢台":{color:"#00695C",desc:"燕赵大地"},   "保定":{color:"#FF6F00",desc:"燕赵大地"},   "张家口":{color:"#E85D26",desc:"燕赵大地"},   "承德":{color:"#2ECC71",desc:"避暑山庄"},   "沧州":{color:"#0277BD",desc:"燕赵大地"},   "廊坊":{color:"#5D4037",desc:"燕赵大地"},   "衡水":{color:"#5C6BC0",desc:"燕赵大地"},   "太原":{color:"#8B4513",desc:"龙城"},   "大同":{color:"#1565C0",desc:"三晋大地"},   "阳泉":{color:"#6D4C41",desc:"三晋大地"},   "长治":{color:"#6D4C41",desc:"三晋大地"},   "晋城":{color:"#BF360C",desc:"三晋大地"},   "朔州":{color:"#2B8A6E",desc:"三晋大地"},   "晋中":{color:"#B8860B",desc:"晋商故里"},   "运城":{color:"#2E7D32",desc:"三晋大地"},   "忻州":{color:"#0097A7",desc:"三晋大地"},   "临汾":{color:"#2B8A6E",desc:"三晋大地"},   "吕梁":{color:"#0277BD",desc:"三晋大地"},   "呼和浩特":{color:"#27AE60",desc:"青城"},   "包头":{color:"#6D4C41",desc:"草原风情"},   "乌海":{color:"#1565C0",desc:"草原风情"},   "赤峰":{color:"#4E342E",desc:"草原风情"},   "通辽":{color:"#283593",desc:"草原风情"},   "鄂尔多斯":{color:"#5C6BC0",desc:"草原风情"},   "呼伦贝尔":{color:"#AD1457",desc:"草原风情"},   "巴彦淖尔":{color:"#5C6BC0",desc:"草原风情"},   "乌兰察布":{color:"#C2185B",desc:"草原风情"},   "兴安盟":{color:"#4E342E",desc:"草原风情"},   "锡林郭勒盟":{color:"#C2185B",desc:"草原风情"},   "阿拉善盟":{color:"#E85D26",desc:"草原风情"},   "沈阳":{color:"#C0392B",desc:"盛京古都"},   "大连":{color:"#1E90FF",desc:"北方明珠"},   "鞍山":{color:"#1565C0",desc:"东北明珠"},   "抚顺":{color:"#D32F2F",desc:"东北明珠"},   "本溪":{color:"#BF360C",desc:"东北明珠"},   "丹东":{color:"#D32F2F",desc:"东北明珠"},   "锦州":{color:"#E85D26",desc:"东北明珠"},   "营口":{color:"#283593",desc:"东北明珠"},   "阜新":{color:"#0097A7",desc:"东北明珠"},   "辽阳":{color:"#C2185B",desc:"东北明珠"},   "盘锦":{color:"#AD1457",desc:"东北明珠"},   "铁岭":{color:"#BF360C",desc:"东北明珠"},   "朝阳":{color:"#00695C",desc:"东北明珠"},   "葫芦岛":{color:"#283593",desc:"东北明珠"},   "长春":{color:"#2980B9",desc:"汽车城"},   "吉林":{color:"#FF6F00",desc:"白山松水"},   "四平":{color:"#1565C0",desc:"白山松水"},   "辽源":{color:"#1A73E8",desc:"白山松水"},   "通化":{color:"#2E7D32",desc:"白山松水"},   "白山":{color:"#D32F2F",desc:"白山松水"},   "松原":{color:"#C2185B",desc:"白山松水"},   "白城":{color:"#9C27B0",desc:"白山松水"},   "延边":{color:"#00838F",desc:"白山松水"},   "哈尔滨":{color:"#3498DB",desc:"冰城"},   "齐齐哈尔":{color:"#00695C",desc:"冰城夏都"},   "鸡西":{color:"#5D4037",desc:"冰城夏都"},   "鹤岗":{color:"#283593",desc:"冰城夏都"},   "双鸭山":{color:"#FF6F00",desc:"冰城夏都"},   "大庆":{color:"#2B8A6E",desc:"冰城夏都"},   "伊春":{color:"#2E7D32",desc:"冰城夏都"},   "佳木斯":{color:"#1565C0",desc:"冰城夏都"},   "七台河":{color:"#4E342E",desc:"冰城夏都"},   "牡丹江":{color:"#FF6F00",desc:"冰城夏都"},   "黑河":{color:"#1565C0",desc:"冰城夏都"},   "绥化":{color:"#2E7D32",desc:"冰城夏都"},   "大兴安岭":{color:"#1565C0",desc:"冰城夏都"},   "南京":{color:"#9B59B6",desc:"六朝古都"},   "无锡":{color:"#2ECC71",desc:"太湖明珠"},   "徐州":{color:"#4E342E",desc:"水韵江苏"},   "常州":{color:"#4E342E",desc:"水韵江苏"},   "苏州":{color:"#27AE60",desc:"园林之城"},   "南通":{color:"#4E342E",desc:"水韵江苏"},   "连云港":{color:"#AD1457",desc:"水韵江苏"},   "淮安":{color:"#5D4037",desc:"水韵江苏"},   "盐城":{color:"#0277BD",desc:"水韵江苏"},   "扬州":{color:"#5B8C5A",desc:"江南水乡"},   "镇江":{color:"#4E342E",desc:"水韵江苏"},   "泰州":{color:"#1565C0",desc:"水韵江苏"},   "宿迁":{color:"#00838F",desc:"水韵江苏"},   "杭州":{color:"#27AE60",desc:"人间天堂"},   "宁波":{color:"#2980B9",desc:"东方大港"},   "温州":{color:"#1ABC9C",desc:"瓯越文化"},   "嘉兴":{color:"#CD5C5C",desc:"南湖红船"},   "湖州":{color:"#556B2F",desc:"丝绸之府"},   "绍兴":{color:"#6B8E7B",desc:"文化名城"},   "金华":{color:"#A0522D",desc:"火腿之乡"},   "衢州":{color:"#4682B4",desc:"南孔圣地"},   "舟山":{color:"#4169E1",desc:"海天佛国"},   "台州":{color:"#20B2AA",desc:"山海之城"},   "丽水":{color:"#228B22",desc:"浙江绿谷"},   "合肥":{color:"#3498DB",desc:"科教之城"},   "芜湖":{color:"#C2185B",desc:"徽风皖韵"},   "蚌埠":{color:"#5C6BC0",desc:"徽风皖韵"},   "淮南":{color:"#C2185B",desc:"徽风皖韵"},   "马鞍山":{color:"#FF6F00",desc:"徽风皖韵"},   "淮北":{color:"#2B8A6E",desc:"徽风皖韵"},   "铜陵":{color:"#00695C",desc:"徽风皖韵"},   "安庆":{color:"#2B8A6E",desc:"徽风皖韵"},   "黄山":{color:"#2C3E50",desc:"天下第一奇山"},   "滁州":{color:"#00838F",desc:"徽风皖韵"},   "阜阳":{color:"#FF6F00",desc:"徽风皖韵"},   "宿州":{color:"#FF6F00",desc:"徽风皖韵"},   "六安":{color:"#1A73E8",desc:"徽风皖韵"},   "亳州":{color:"#5D4037",desc:"徽风皖韵"},   "池州":{color:"#1A73E8",desc:"徽风皖韵"},   "宣城":{color:"#E85D26",desc:"徽风皖韵"},   "福州":{color:"#27AE60",desc:"有福之州"},   "厦门":{color:"#3498DB",desc:"海上花园"},   "莆田":{color:"#FF6F00",desc:"八闽大地"},   "三明":{color:"#5D4037",desc:"八闽大地"},   "泉州":{color:"#B22222",desc:"世遗之城"},   "漳州":{color:"#BF360C",desc:"八闽大地"},   "南平":{color:"#E85D26",desc:"八闽大地"},   "龙岩":{color:"#283593",desc:"八闽大地"},   "宁德":{color:"#E85D26",desc:"八闽大地"},   "南昌":{color:"#E74C3C",desc:"英雄城"},   "景德镇":{color:"#2E6B8A",desc:"千年瓷都"},   "萍乡":{color:"#4E342E",desc:"物华天宝"},   "九江":{color:"#2980B9",desc:"庐山"},   "新余":{color:"#00695C",desc:"物华天宝"},   "鹰潭":{color:"#283593",desc:"物华天宝"},   "赣州":{color:"#FF6F00",desc:"物华天宝"},   "吉安":{color:"#AD1457",desc:"物华天宝"},   "宜春":{color:"#9C27B0",desc:"物华天宝"},   "抚州":{color:"#9C27B0",desc:"物华天宝"},   "上饶":{color:"#5C6BC0",desc:"物华天宝"},   "济南":{color:"#2980B9",desc:"泉城"},   "青岛":{color:"#2980B9",desc:"海滨之城"},   "淄博":{color:"#8B0000",desc:"齐文化之源"},   "枣庄":{color:"#283593",desc:"齐鲁大地"},   "东营":{color:"#4E342E",desc:"齐鲁大地"},   "烟台":{color:"#3498DB",desc:"仙境海岸"},   "潍坊":{color:"#D32F2F",desc:"齐鲁大地"},   "济宁":{color:"#9C27B0",desc:"齐鲁大地"},   "泰安":{color:"#2E8B57",desc:"五岳之首"},   "威海":{color:"#3B7DD8",desc:"海滨花园"},   "日照":{color:"#FF8C00",desc:"日出先照"},   "临沂":{color:"#00838F",desc:"齐鲁大地"},   "德州":{color:"#AD1457",desc:"齐鲁大地"},   "聊城":{color:"#E85D26",desc:"齐鲁大地"},   "滨州":{color:"#6D4C41",desc:"齐鲁大地"},   "菏泽":{color:"#5D4037",desc:"齐鲁大地"},   "郑州":{color:"#D35400",desc:"中原腹地"},   "开封":{color:"#8B4513",desc:"八朝古都"},   "洛阳":{color:"#9B59B6",desc:"千年帝都"},   "平顶山":{color:"#AD1457",desc:"中原大地"},   "安阳":{color:"#4E342E",desc:"中原大地"},   "鹤壁":{color:"#1565C0",desc:"中原大地"},   "新乡":{color:"#1A73E8",desc:"中原大地"},   "焦作":{color:"#0097A7",desc:"中原大地"},   "濮阳":{color:"#9C27B0",desc:"中原大地"},   "许昌":{color:"#1A73E8",desc:"中原大地"},   "漯河":{color:"#00838F",desc:"中原大地"},   "三门峡":{color:"#6D4C41",desc:"中原大地"},   "南阳":{color:"#0277BD",desc:"中原大地"},   "商丘":{color:"#0097A7",desc:"中原大地"},   "信阳":{color:"#1565C0",desc:"中原大地"},   "周口":{color:"#2E7D32",desc:"中原大地"},   "驻马店":{color:"#AD1457",desc:"中原大地"},   "武汉":{color:"#F39C12",desc:"江城"},   "黄石":{color:"#E85D26",desc:"荆楚大地"},   "十堰":{color:"#2E7D32",desc:"荆楚大地"},   "宜昌":{color:"#27AE60",desc:"三峡大坝"},   "襄阳":{color:"#4E342E",desc:"荆楚大地"},   "鄂州":{color:"#E85D26",desc:"荆楚大地"},   "荆门":{color:"#4E342E",desc:"荆楚大地"},   "孝感":{color:"#0277BD",desc:"荆楚大地"},   "荆州":{color:"#C2185B",desc:"荆楚大地"},   "黄冈":{color:"#5D4037",desc:"荆楚大地"},   "咸宁":{color:"#5D4037",desc:"荆楚大地"},   "随州":{color:"#BF360C",desc:"荆楚大地"},   "恩施":{color:"#FF6F00",desc:"荆楚大地"},   "长沙":{color:"#E74C3C",desc:"星城"},   "株洲":{color:"#1565C0",desc:"芙蓉国度"},   "湘潭":{color:"#1A73E8",desc:"芙蓉国度"},   "衡阳":{color:"#00838F",desc:"芙蓉国度"},   "邵阳":{color:"#0277BD",desc:"芙蓉国度"},   "岳阳":{color:"#27AE60",desc:"洞庭湖"},   "常德":{color:"#00838F",desc:"芙蓉国度"},   "张家界":{color:"#1E8449",desc:"世界地质公园"},   "益阳":{color:"#BF360C",desc:"芙蓉国度"},   "郴州":{color:"#00695C",desc:"芙蓉国度"},   "永州":{color:"#1565C0",desc:"芙蓉国度"},   "怀化":{color:"#0097A7",desc:"芙蓉国度"},   "娄底":{color:"#2B8A6E",desc:"芙蓉国度"},   "湘西":{color:"#00838F",desc:"芙蓉国度"},   "广州":{color:"#E67E22",desc:"岭南文化"},   "韶关":{color:"#1565C0",desc:"岭南风韵"},   "深圳":{color:"#2C3E50",desc:"科技之城"},   "珠海":{color:"#3498DB",desc:"百岛之市"},   "汕头":{color:"#FF6F00",desc:"岭南风韵"},   "佛山":{color:"#E67E22",desc:"武术之乡"},   "江门":{color:"#0097A7",desc:"岭南风韵"},   "湛江":{color:"#0097A7",desc:"岭南风韵"},   "茂名":{color:"#4E342E",desc:"岭南风韵"},   "肇庆":{color:"#3CB371",desc:"岭南名郡"},   "惠州":{color:"#5D4037",desc:"岭南风韵"},   "梅州":{color:"#AD1457",desc:"岭南风韵"},   "汕尾":{color:"#C2185B",desc:"岭南风韵"},   "河源":{color:"#0277BD",desc:"岭南风韵"},   "阳江":{color:"#0097A7",desc:"岭南风韵"},   "清远":{color:"#FF6F00",desc:"岭南风韵"},   "东莞":{color:"#2ECC71",desc:"世界工厂"},   "中山":{color:"#00695C",desc:"岭南风韵"},   "潮州":{color:"#AD1457",desc:"岭南风韵"},   "揭阳":{color:"#2B8A6E",desc:"岭南风韵"},   "云浮":{color:"#5D4037",desc:"岭南风韵"},   "南宁":{color:"#2ECC71",desc:"绿城"},   "柳州":{color:"#00695C",desc:"八桂大地"},   "桂林":{color:"#27AE60",desc:"山水甲天下"},   "梧州":{color:"#2E7D32",desc:"八桂大地"},   "北海":{color:"#2E7D32",desc:"八桂大地"},   "防城港":{color:"#00695C",desc:"八桂大地"},   "钦州":{color:"#4E342E",desc:"八桂大地"},   "贵港":{color:"#00838F",desc:"八桂大地"},   "玉林":{color:"#FF6F00",desc:"八桂大地"},   "百色":{color:"#E85D26",desc:"八桂大地"},   "贺州":{color:"#E85D26",desc:"八桂大地"},   "河池":{color:"#00838F",desc:"八桂大地"},   "来宾":{color:"#1565C0",desc:"八桂大地"},   "崇左":{color:"#C2185B",desc:"八桂大地"},   "海口":{color:"#1ABC9C",desc:"椰城"},   "三亚":{color:"#00B4D8",desc:"热带天堂"},   "三沙":{color:"#0097A7",desc:"热带天堂"},   "儋州":{color:"#00838F",desc:"热带天堂"},   "成都":{color:"#2ECC71",desc:"天府之国"},   "自贡":{color:"#DC143C",desc:"恐龙之乡"},   "攀枝花":{color:"#2E7D32",desc:"天府之国"},   "泸州":{color:"#1565C0",desc:"天府之国"},   "德阳":{color:"#6D4C41",desc:"天府之国"},   "绵阳":{color:"#BF360C",desc:"天府之国"},   "广元":{color:"#BF360C",desc:"天府之国"},   "遂宁":{color:"#AD1457",desc:"天府之国"},   "内江":{color:"#5C6BC0",desc:"天府之国"},   "乐山":{color:"#DAA520",desc:"美食之都"},   "南充":{color:"#AD1457",desc:"天府之国"},   "眉山":{color:"#E85D26",desc:"天府之国"},   "宜宾":{color:"#2E8B57",desc:"万里长江第一城"},   "广安":{color:"#BF360C",desc:"天府之国"},   "达州":{color:"#0277BD",desc:"天府之国"},   "雅安":{color:"#5C6BC0",desc:"天府之国"},   "巴中":{color:"#00838F",desc:"天府之国"},   "资阳":{color:"#E85D26",desc:"天府之国"},   "阿坝":{color:"#1A73E8",desc:"天府之国"},   "甘孜":{color:"#5C6BC0",desc:"天府之国"},   "凉山":{color:"#1A73E8",desc:"天府之国"},   "贵阳":{color:"#16A085",desc:"避暑之都"},   "六盘水":{color:"#6D4C41",desc:"多彩贵州"},   "遵义":{color:"#8B0000",desc:"红色之城"},   "安顺":{color:"#2B8A6E",desc:"多彩贵州"},   "毕节":{color:"#1A73E8",desc:"多彩贵州"},   "铜仁":{color:"#32CD32",desc:"梵天净土"},   "黔西南":{color:"#283593",desc:"多彩贵州"},   "黔东南":{color:"#1565C0",desc:"多彩贵州"},   "黔南":{color:"#0097A7",desc:"多彩贵州"},   "昆明":{color:"#2ECC71",desc:"春城"},   "曲靖":{color:"#DAA520",desc:"珠江源"},   "玉溪":{color:"#00695C",desc:"彩云之南"},   "保山":{color:"#0277BD",desc:"彩云之南"},   "昭通":{color:"#5D4037",desc:"彩云之南"},   "丽江":{color:"#8E44AD",desc:"古城风情"},   "普洱":{color:"#1A73E8",desc:"彩云之南"},   "临沧":{color:"#C2185B",desc:"彩云之南"},   "楚雄":{color:"#283593",desc:"彩云之南"},   "红河":{color:"#1A73E8",desc:"彩云之南"},   "文山":{color:"#283593",desc:"彩云之南"},   "西双版纳":{color:"#228B22",desc:"热带雨林"},   "大理":{color:"#1ABC9C",desc:"风花雪月"},   "德宏":{color:"#2B8A6E",desc:"彩云之南"},   "怒江":{color:"#2B8A6E",desc:"彩云之南"},   "迪庆":{color:"#AD1457",desc:"彩云之南"},   "拉萨":{color:"#C0392B",desc:"日光之城"},   "日喀则":{color:"#E74C3C",desc:"珠峰门户"},   "昌都":{color:"#FF6F00",desc:"世界屋脊"},   "林芝":{color:"#FF69B4",desc:"雪域江南"},   "山南":{color:"#4E342E",desc:"世界屋脊"},   "那曲":{color:"#00838F",desc:"世界屋脊"},   "阿里":{color:"#2E7D32",desc:"世界屋脊"},   "西安":{color:"#8B4513",desc:"千年古都"},   "铜川":{color:"#5D4037",desc:"三秦大地"},   "宝鸡":{color:"#5D4037",desc:"三秦大地"},   "咸阳":{color:"#9C27B0",desc:"三秦大地"},   "渭南":{color:"#E85D26",desc:"三秦大地"},   "延安":{color:"#283593",desc:"三秦大地"},   "汉中":{color:"#2E7D32",desc:"三秦大地"},   "榆林":{color:"#1565C0",desc:"三秦大地"},   "安康":{color:"#FF6F00",desc:"三秦大地"},   "商洛":{color:"#0097A7",desc:"三秦大地"},   "兰州":{color:"#D35400",desc:"黄河之都"},   "嘉峪关":{color:"#9C27B0",desc:"陇原大地"},   "金昌":{color:"#1565C0",desc:"陇原大地"},   "白银":{color:"#00838F",desc:"陇原大地"},   "天水":{color:"#D32F2F",desc:"陇原大地"},   "武威":{color:"#6D4C41",desc:"陇原大地"},   "张掖":{color:"#D4553A",desc:"丹霞奇观"},   "平凉":{color:"#5D4037",desc:"陇原大地"},   "酒泉":{color:"#00838F",desc:"陇原大地"},   "庆阳":{color:"#BF360C",desc:"陇原大地"},   "定西":{color:"#C2185B",desc:"陇原大地"},   "陇南":{color:"#E85D26",desc:"陇原大地"},   "临夏":{color:"#AD1457",desc:"陇原大地"},   "甘南":{color:"#4B0082",desc:"秘境甘南"},   "西宁":{color:"#1ABC9C",desc:"夏都"},   "海东":{color:"#5C6BC0",desc:"大美青海"},   "海北":{color:"#2E7D32",desc:"大美青海"},   "黄南":{color:"#FF6F00",desc:"大美青海"},   "海南州":{color:"#0277BD",desc:"大美青海"},   "果洛":{color:"#1565C0",desc:"大美青海"},   "玉树":{color:"#FF6F00",desc:"大美青海"},   "海西":{color:"#00838F",desc:"大美青海"},   "银川":{color:"#F39C12",desc:"塞上江南"},   "石嘴山":{color:"#5C6BC0",desc:"塞上江南"},   "吴忠":{color:"#283593",desc:"塞上江南"},   "固原":{color:"#5D4037",desc:"塞上江南"},   "中卫":{color:"#4E342E",desc:"塞上江南"},   "乌鲁木齐":{color:"#E74C3C",desc:"天山"},   "克拉玛依":{color:"#FF6F00",desc:"西域风情"},   "吐鲁番":{color:"#C2185B",desc:"西域风情"},   "哈密":{color:"#9C27B0",desc:"西域风情"},   "昌吉":{color:"#6D4C41",desc:"西域风情"},   "博尔塔拉":{color:"#C2185B",desc:"西域风情"},   "巴音郭楞":{color:"#D32F2F",desc:"西域风情"},   "阿克苏":{color:"#BF360C",desc:"西域风情"},   "克孜勒苏":{color:"#00695C",desc:"西域风情"},   "喀什":{color:"#CD853F",desc:"西域风情"},   "和田":{color:"#5D4037",desc:"西域风情"},   "伊犁":{color:"#00695C",desc:"西域风情"},   "塔城":{color:"#2E7D32",desc:"西域风情"},   "阿勒泰":{color:"#2E7D32",desc:"西域风情"}
+  "北京":{color:"#C41230",desc:"历史文化"},   "天津":{color:"#E67E22",desc:"近代租界"},   "上海":{color:"#FF6B35",desc:"国际都市"},   "重庆":{color:"#E74C3C",desc:"山城"},   "石家庄":{color:"#5D4037",desc:"河北省会"},   "唐山":{color:"#5C6BC0",desc:"燕赵大地"},   "秦皇岛":{color:"#4A90D9",desc:"海滨度假"},   "邯郸":{color:"#5D4037",desc:"燕赵大地"},   "邢台":{color:"#FF6F00",desc:"燕赵大地"},   "保定":{color:"#AD1457",desc:"燕赵大地"},   "张家口":{color:"#0277BD",desc:"燕赵大地"},   "承德":{color:"#2ECC71",desc:"避暑山庄"},   "沧州":{color:"#FF6F00",desc:"燕赵大地"},   "廊坊":{color:"#C2185B",desc:"燕赵大地"},   "衡水":{color:"#BF360C",desc:"燕赵大地"},   "太原":{color:"#8B4513",desc:"龙城"},   "大同":{color:"#1565C0",desc:"三晋大地"},   "阳泉":{color:"#FF6F00",desc:"三晋大地"},   "长治":{color:"#5C6BC0",desc:"三晋大地"},   "晋城":{color:"#2B8A6E",desc:"三晋大地"},   "朔州":{color:"#FF6F00",desc:"三晋大地"},   "晋中":{color:"#B8860B",desc:"晋商故里"},   "运城":{color:"#BF360C",desc:"三晋大地"},   "忻州":{color:"#E85D26",desc:"三晋大地"},   "临汾":{color:"#2B8A6E",desc:"三晋大地"},   "吕梁":{color:"#6D4C41",desc:"三晋大地"},   "呼和浩特":{color:"#27AE60",desc:"青城"},   "包头":{color:"#AD1457",desc:"草原风情"},   "乌海":{color:"#283593",desc:"草原风情"},   "赤峰":{color:"#0277BD",desc:"草原风情"},   "通辽":{color:"#6D4C41",desc:"草原风情"},   "鄂尔多斯":{color:"#2B8A6E",desc:"草原风情"},   "呼伦贝尔":{color:"#BF360C",desc:"草原风情"},   "巴彦淖尔":{color:"#2B8A6E",desc:"草原风情"},   "乌兰察布":{color:"#00695C",desc:"草原风情"},   "兴安盟":{color:"#2B8A6E",desc:"草原风情"},   "锡林郭勒盟":{color:"#2B8A6E",desc:"草原风情"},   "阿拉善盟":{color:"#BF360C",desc:"草原风情"},   "沈阳":{color:"#C0392B",desc:"盛京古都"},   "大连":{color:"#1E90FF",desc:"北方明珠"},   "鞍山":{color:"#5D4037",desc:"东北明珠"},   "抚顺":{color:"#283593",desc:"东北明珠"},   "本溪":{color:"#6D4C41",desc:"东北明珠"},   "丹东":{color:"#BF360C",desc:"东北明珠"},   "锦州":{color:"#BF360C",desc:"东北明珠"},   "营口":{color:"#00838F",desc:"东北明珠"},   "阜新":{color:"#00838F",desc:"东北明珠"},   "辽阳":{color:"#E85D26",desc:"东北明珠"},   "盘锦":{color:"#4E342E",desc:"东北明珠"},   "铁岭":{color:"#5D4037",desc:"东北明珠"},   "朝阳":{color:"#AD1457",desc:"东北明珠"},   "葫芦岛":{color:"#C2185B",desc:"东北明珠"},   "长春":{color:"#2980B9",desc:"汽车城"},   "吉林":{color:"#5D4037",desc:"白山松水"},   "四平":{color:"#D32F2F",desc:"白山松水"},   "辽源":{color:"#00695C",desc:"白山松水"},   "通化":{color:"#D32F2F",desc:"白山松水"},   "白山":{color:"#5C6BC0",desc:"白山松水"},   "松原":{color:"#1565C0",desc:"白山松水"},   "白城":{color:"#6D4C41",desc:"白山松水"},   "延边":{color:"#2E7D32",desc:"白山松水"},   "哈尔滨":{color:"#3498DB",desc:"冰城"},   "齐齐哈尔":{color:"#BF360C",desc:"冰城夏都"},   "鸡西":{color:"#FF6F00",desc:"冰城夏都"},   "鹤岗":{color:"#5C6BC0",desc:"冰城夏都"},   "双鸭山":{color:"#0277BD",desc:"冰城夏都"},   "大庆":{color:"#D32F2F",desc:"冰城夏都"},   "伊春":{color:"#C2185B",desc:"冰城夏都"},   "佳木斯":{color:"#1565C0",desc:"冰城夏都"},   "七台河":{color:"#C2185B",desc:"冰城夏都"},   "牡丹江":{color:"#2B8A6E",desc:"冰城夏都"},   "黑河":{color:"#6D4C41",desc:"冰城夏都"},   "绥化":{color:"#C2185B",desc:"冰城夏都"},   "大兴安岭":{color:"#4E342E",desc:"冰城夏都"},   "南京":{color:"#9B59B6",desc:"六朝古都"},   "无锡":{color:"#2ECC71",desc:"太湖明珠"},   "徐州":{color:"#2E7D32",desc:"水韵江苏"},   "常州":{color:"#2E7D32",desc:"水韵江苏"},   "苏州":{color:"#27AE60",desc:"园林之城"},   "南通":{color:"#1A73E8",desc:"水韵江苏"},   "连云港":{color:"#4E342E",desc:"水韵江苏"},   "淮安":{color:"#4E342E",desc:"水韵江苏"},   "盐城":{color:"#2B8A6E",desc:"水韵江苏"},   "扬州":{color:"#5B8C5A",desc:"江南水乡"},   "镇江":{color:"#4E342E",desc:"水韵江苏"},   "泰州":{color:"#C2185B",desc:"水韵江苏"},   "宿迁":{color:"#2B8A6E",desc:"水韵江苏"},   "杭州":{color:"#27AE60",desc:"人间天堂"},   "宁波":{color:"#2980B9",desc:"东方大港"},   "温州":{color:"#1ABC9C",desc:"瓯越文化"},   "嘉兴":{color:"#CD5C5C",desc:"南湖红船"},   "湖州":{color:"#556B2F",desc:"丝绸之府"},   "绍兴":{color:"#6B8E7B",desc:"文化名城"},   "金华":{color:"#A0522D",desc:"火腿之乡"},   "衢州":{color:"#4682B4",desc:"南孔圣地"},   "舟山":{color:"#4169E1",desc:"海天佛国"},   "台州":{color:"#20B2AA",desc:"山海之城"},   "丽水":{color:"#228B22",desc:"浙江绿谷"},   "合肥":{color:"#3498DB",desc:"科教之城"},   "芜湖":{color:"#E85D26",desc:"徽风皖韵"},   "蚌埠":{color:"#0097A7",desc:"徽风皖韵"},   "淮南":{color:"#BF360C",desc:"徽风皖韵"},   "马鞍山":{color:"#2B8A6E",desc:"徽风皖韵"},   "淮北":{color:"#5C6BC0",desc:"徽风皖韵"},   "铜陵":{color:"#C2185B",desc:"徽风皖韵"},   "安庆":{color:"#E85D26",desc:"徽风皖韵"},   "黄山":{color:"#2C3E50",desc:"天下第一奇山"},   "滁州":{color:"#5D4037",desc:"徽风皖韵"},   "阜阳":{color:"#6D4C41",desc:"徽风皖韵"},   "宿州":{color:"#00695C",desc:"徽风皖韵"},   "六安":{color:"#6D4C41",desc:"徽风皖韵"},   "亳州":{color:"#E85D26",desc:"徽风皖韵"},   "池州":{color:"#FF6F00",desc:"徽风皖韵"},   "宣城":{color:"#5D4037",desc:"徽风皖韵"},   "福州":{color:"#27AE60",desc:"有福之州"},   "厦门":{color:"#3498DB",desc:"海上花园"},   "莆田":{color:"#5C6BC0",desc:"八闽大地"},   "三明":{color:"#BF360C",desc:"八闽大地"},   "泉州":{color:"#B22222",desc:"世遗之城"},   "漳州":{color:"#C2185B",desc:"八闽大地"},   "南平":{color:"#AD1457",desc:"八闽大地"},   "龙岩":{color:"#5D4037",desc:"八闽大地"},   "宁德":{color:"#2B8A6E",desc:"八闽大地"},   "南昌":{color:"#E74C3C",desc:"英雄城"},   "景德镇":{color:"#2E6B8A",desc:"千年瓷都"},   "萍乡":{color:"#4E342E",desc:"物华天宝"},   "九江":{color:"#2980B9",desc:"庐山"},   "新余":{color:"#D32F2F",desc:"物华天宝"},   "鹰潭":{color:"#6D4C41",desc:"物华天宝"},   "赣州":{color:"#1A73E8",desc:"物华天宝"},   "吉安":{color:"#283593",desc:"物华天宝"},   "宜春":{color:"#BF360C",desc:"物华天宝"},   "抚州":{color:"#1565C0",desc:"物华天宝"},   "上饶":{color:"#4E342E",desc:"物华天宝"},   "济南":{color:"#2980B9",desc:"泉城"},   "青岛":{color:"#2980B9",desc:"海滨之城"},   "淄博":{color:"#8B0000",desc:"齐文化之源"},   "枣庄":{color:"#C2185B",desc:"齐鲁大地"},   "东营":{color:"#283593",desc:"齐鲁大地"},   "烟台":{color:"#3498DB",desc:"仙境海岸"},   "潍坊":{color:"#BF360C",desc:"齐鲁大地"},   "济宁":{color:"#0097A7",desc:"齐鲁大地"},   "泰安":{color:"#2E8B57",desc:"五岳之首"},   "威海":{color:"#3B7DD8",desc:"海滨花园"},   "日照":{color:"#FF8C00",desc:"日出先照"},   "临沂":{color:"#5C6BC0",desc:"齐鲁大地"},   "德州":{color:"#2E7D32",desc:"齐鲁大地"},   "聊城":{color:"#1565C0",desc:"齐鲁大地"},   "滨州":{color:"#2E7D32",desc:"齐鲁大地"},   "菏泽":{color:"#9C27B0",desc:"齐鲁大地"},   "郑州":{color:"#D35400",desc:"中原腹地"},   "开封":{color:"#8B4513",desc:"八朝古都"},   "洛阳":{color:"#9B59B6",desc:"千年帝都"},   "平顶山":{color:"#FF6F00",desc:"中原大地"},   "安阳":{color:"#0097A7",desc:"中原大地"},   "鹤壁":{color:"#9C27B0",desc:"中原大地"},   "新乡":{color:"#E85D26",desc:"中原大地"},   "焦作":{color:"#00695C",desc:"中原大地"},   "濮阳":{color:"#BF360C",desc:"中原大地"},   "许昌":{color:"#E85D26",desc:"中原大地"},   "漯河":{color:"#0277BD",desc:"中原大地"},   "三门峡":{color:"#AD1457",desc:"中原大地"},   "南阳":{color:"#00695C",desc:"中原大地"},   "商丘":{color:"#1565C0",desc:"中原大地"},   "信阳":{color:"#1565C0",desc:"中原大地"},   "周口":{color:"#283593",desc:"中原大地"},   "驻马店":{color:"#0277BD",desc:"中原大地"},   "武汉":{color:"#F39C12",desc:"江城"},   "黄石":{color:"#5C6BC0",desc:"荆楚大地"},   "十堰":{color:"#4E342E",desc:"荆楚大地"},   "宜昌":{color:"#27AE60",desc:"三峡大坝"},   "襄阳":{color:"#0277BD",desc:"荆楚大地"},   "鄂州":{color:"#FF6F00",desc:"荆楚大地"},   "荆门":{color:"#5C6BC0",desc:"荆楚大地"},   "孝感":{color:"#5C6BC0",desc:"荆楚大地"},   "荆州":{color:"#E85D26",desc:"荆楚大地"},   "黄冈":{color:"#AD1457",desc:"荆楚大地"},   "咸宁":{color:"#2B8A6E",desc:"荆楚大地"},   "随州":{color:"#1A73E8",desc:"荆楚大地"},   "恩施":{color:"#283593",desc:"荆楚大地"},   "长沙":{color:"#E74C3C",desc:"星城"},   "株洲":{color:"#6D4C41",desc:"芙蓉国度"},   "湘潭":{color:"#00838F",desc:"芙蓉国度"},   "衡阳":{color:"#2B8A6E",desc:"芙蓉国度"},   "邵阳":{color:"#9C27B0",desc:"芙蓉国度"},   "岳阳":{color:"#27AE60",desc:"洞庭湖"},   "常德":{color:"#00695C",desc:"芙蓉国度"},   "张家界":{color:"#1E8449",desc:"世界地质公园"},   "益阳":{color:"#283593",desc:"芙蓉国度"},   "郴州":{color:"#E85D26",desc:"芙蓉国度"},   "永州":{color:"#4E342E",desc:"芙蓉国度"},   "怀化":{color:"#1A73E8",desc:"芙蓉国度"},   "娄底":{color:"#AD1457",desc:"芙蓉国度"},   "湘西":{color:"#6D4C41",desc:"芙蓉国度"},   "广州":{color:"#E67E22",desc:"岭南文化"},   "韶关":{color:"#D32F2F",desc:"岭南风韵"},   "深圳":{color:"#2C3E50",desc:"科技之城"},   "珠海":{color:"#3498DB",desc:"百岛之市"},   "汕头":{color:"#1A73E8",desc:"岭南风韵"},   "佛山":{color:"#E67E22",desc:"武术之乡"},   "江门":{color:"#00838F",desc:"岭南风韵"},   "湛江":{color:"#2B8A6E",desc:"岭南风韵"},   "茂名":{color:"#6D4C41",desc:"岭南风韵"},   "肇庆":{color:"#3CB371",desc:"岭南名郡"},   "惠州":{color:"#5C6BC0",desc:"岭南风韵"},   "梅州":{color:"#4E342E",desc:"岭南风韵"},   "汕尾":{color:"#283593",desc:"岭南风韵"},   "河源":{color:"#4E342E",desc:"岭南风韵"},   "阳江":{color:"#2B8A6E",desc:"岭南风韵"},   "清远":{color:"#D32F2F",desc:"岭南风韵"},   "东莞":{color:"#2ECC71",desc:"世界工厂"},   "中山":{color:"#C2185B",desc:"岭南风韵"},   "潮州":{color:"#00838F",desc:"岭南风韵"},   "揭阳":{color:"#00838F",desc:"岭南风韵"},   "云浮":{color:"#0277BD",desc:"岭南风韵"},   "南宁":{color:"#2ECC71",desc:"绿城"},   "柳州":{color:"#5C6BC0",desc:"八桂大地"},   "桂林":{color:"#27AE60",desc:"山水甲天下"},   "梧州":{color:"#0097A7",desc:"八桂大地"},   "北海":{color:"#00838F",desc:"八桂大地"},   "防城港":{color:"#5D4037",desc:"八桂大地"},   "钦州":{color:"#283593",desc:"八桂大地"},   "贵港":{color:"#00838F",desc:"八桂大地"},   "玉林":{color:"#2E7D32",desc:"八桂大地"},   "百色":{color:"#FF6F00",desc:"八桂大地"},   "贺州":{color:"#FF6F00",desc:"八桂大地"},   "河池":{color:"#D32F2F",desc:"八桂大地"},   "来宾":{color:"#E85D26",desc:"八桂大地"},   "崇左":{color:"#FF6F00",desc:"八桂大地"},   "海口":{color:"#1ABC9C",desc:"椰城"},   "三亚":{color:"#00B4D8",desc:"热带天堂"},   "三沙":{color:"#BF360C",desc:"热带天堂"},   "儋州":{color:"#5D4037",desc:"热带天堂"},   "成都":{color:"#2ECC71",desc:"天府之国"},   "自贡":{color:"#DC143C",desc:"恐龙之乡"},   "攀枝花":{color:"#4E342E",desc:"天府之国"},   "泸州":{color:"#00838F",desc:"天府之国"},   "德阳":{color:"#6D4C41",desc:"天府之国"},   "绵阳":{color:"#2B8A6E",desc:"天府之国"},   "广元":{color:"#9C27B0",desc:"天府之国"},   "遂宁":{color:"#283593",desc:"天府之国"},   "内江":{color:"#C2185B",desc:"天府之国"},   "乐山":{color:"#DAA520",desc:"美食之都"},   "南充":{color:"#2E7D32",desc:"天府之国"},   "眉山":{color:"#AD1457",desc:"天府之国"},   "宜宾":{color:"#2E8B57",desc:"万里长江第一城"},   "广安":{color:"#C2185B",desc:"天府之国"},   "达州":{color:"#BF360C",desc:"天府之国"},   "雅安":{color:"#2E7D32",desc:"天府之国"},   "巴中":{color:"#AD1457",desc:"天府之国"},   "资阳":{color:"#1565C0",desc:"天府之国"},   "阿坝":{color:"#E85D26",desc:"天府之国"},   "甘孜":{color:"#E85D26",desc:"天府之国"},   "凉山":{color:"#283593",desc:"天府之国"},   "贵阳":{color:"#16A085",desc:"避暑之都"},   "六盘水":{color:"#AD1457",desc:"多彩贵州"},   "遵义":{color:"#8B0000",desc:"红色之城"},   "安顺":{color:"#AD1457",desc:"多彩贵州"},   "毕节":{color:"#0277BD",desc:"多彩贵州"},   "铜仁":{color:"#32CD32",desc:"梵天净土"},   "黔西南":{color:"#9C27B0",desc:"多彩贵州"},   "黔东南":{color:"#00838F",desc:"多彩贵州"},   "黔南":{color:"#00838F",desc:"多彩贵州"},   "昆明":{color:"#2ECC71",desc:"春城"},   "曲靖":{color:"#DAA520",desc:"珠江源"},   "玉溪":{color:"#6D4C41",desc:"彩云之南"},   "保山":{color:"#2E7D32",desc:"彩云之南"},   "昭通":{color:"#5D4037",desc:"彩云之南"},   "丽江":{color:"#8E44AD",desc:"古城风情"},   "普洱":{color:"#1565C0",desc:"彩云之南"},   "临沧":{color:"#C2185B",desc:"彩云之南"},   "楚雄":{color:"#E85D26",desc:"彩云之南"},   "红河":{color:"#1A73E8",desc:"彩云之南"},   "文山":{color:"#0277BD",desc:"彩云之南"},   "西双版纳":{color:"#228B22",desc:"热带雨林"},   "大理":{color:"#1ABC9C",desc:"风花雪月"},   "德宏":{color:"#5D4037",desc:"彩云之南"},   "怒江":{color:"#AD1457",desc:"彩云之南"},   "迪庆":{color:"#E85D26",desc:"彩云之南"},   "拉萨":{color:"#C0392B",desc:"日光之城"},   "日喀则":{color:"#E74C3C",desc:"珠峰门户"},   "昌都":{color:"#5C6BC0",desc:"世界屋脊"},   "林芝":{color:"#FF69B4",desc:"雪域江南"},   "山南":{color:"#AD1457",desc:"世界屋脊"},   "那曲":{color:"#5D4037",desc:"世界屋脊"},   "阿里":{color:"#9C27B0",desc:"世界屋脊"},   "西安":{color:"#8B4513",desc:"千年古都"},   "铜川":{color:"#4E342E",desc:"三秦大地"},   "宝鸡":{color:"#9C27B0",desc:"三秦大地"},   "咸阳":{color:"#5D4037",desc:"三秦大地"},   "渭南":{color:"#00838F",desc:"三秦大地"},   "延安":{color:"#00695C",desc:"三秦大地"},   "汉中":{color:"#283593",desc:"三秦大地"},   "榆林":{color:"#4E342E",desc:"三秦大地"},   "安康":{color:"#FF6F00",desc:"三秦大地"},   "商洛":{color:"#6D4C41",desc:"三秦大地"},   "兰州":{color:"#D35400",desc:"黄河之都"},   "嘉峪关":{color:"#5C6BC0",desc:"陇原大地"},   "金昌":{color:"#BF360C",desc:"陇原大地"},   "白银":{color:"#FF6F00",desc:"陇原大地"},   "天水":{color:"#00838F",desc:"陇原大地"},   "武威":{color:"#1A73E8",desc:"陇原大地"},   "张掖":{color:"#D4553A",desc:"丹霞奇观"},   "平凉":{color:"#5C6BC0",desc:"陇原大地"},   "酒泉":{color:"#FF6F00",desc:"陇原大地"},   "庆阳":{color:"#E85D26",desc:"陇原大地"},   "定西":{color:"#2E7D32",desc:"陇原大地"},   "陇南":{color:"#0097A7",desc:"陇原大地"},   "临夏":{color:"#6D4C41",desc:"陇原大地"},   "甘南":{color:"#4B0082",desc:"秘境甘南"},   "西宁":{color:"#1ABC9C",desc:"夏都"},   "海东":{color:"#6D4C41",desc:"大美青海"},   "海北":{color:"#0097A7",desc:"大美青海"},   "黄南":{color:"#FF6F00",desc:"大美青海"},   "海南州":{color:"#2E7D32",desc:"大美青海"},   "果洛":{color:"#283593",desc:"大美青海"},   "玉树":{color:"#4E342E",desc:"大美青海"},   "海西":{color:"#6D4C41",desc:"大美青海"},   "银川":{color:"#F39C12",desc:"塞上江南"},   "石嘴山":{color:"#E85D26",desc:"塞上江南"},   "吴忠":{color:"#9C27B0",desc:"塞上江南"},   "固原":{color:"#0277BD",desc:"塞上江南"},   "中卫":{color:"#00695C",desc:"塞上江南"},   "乌鲁木齐":{color:"#E74C3C",desc:"天山"},   "克拉玛依":{color:"#283593",desc:"西域风情"},   "吐鲁番":{color:"#AD1457",desc:"西域风情"},   "哈密":{color:"#00838F",desc:"西域风情"},   "昌吉":{color:"#D32F2F",desc:"西域风情"},   "博尔塔拉":{color:"#0097A7",desc:"西域风情"},   "巴音郭楞":{color:"#1565C0",desc:"西域风情"},   "阿克苏":{color:"#2E7D32",desc:"西域风情"},   "克孜勒苏":{color:"#9C27B0",desc:"西域风情"},   "喀什":{color:"#CD853F",desc:"西域风情"},   "和田":{color:"#283593",desc:"西域风情"},   "伊犁":{color:"#0277BD",desc:"西域风情"},   "塔城":{color:"#1A73E8",desc:"西域风情"},   "阿勒泰":{color:"#2E7D32",desc:"西域风情"},   "香港":{color:"#0097A7",desc:"东方之珠"},   "澳门":{color:"#5C6BC0",desc:"濠江之城"},   "台北":{color:"#BF360C",desc:"台湾省会"},   "高雄":{color:"#5C6BC0",desc:"宝岛台湾"},   "台中":{color:"#00695C",desc:"宝岛台湾"},   "台南":{color:"#5D4037",desc:"宝岛台湾"},   "基隆":{color:"#C2185B",desc:"宝岛台湾"},   "新竹":{color:"#00838F",desc:"宝岛台湾"},   "嘉义":{color:"#9C27B0",desc:"宝岛台湾"}
 };
 
 const popularCities=["北京", "天津", "上海", "重庆", "石家庄", "唐山", "秦皇岛", "邯郸", "邢台", "保定", "张家口", "承德"];
 
-const allCityNames=["北京", "天津", "上海", "重庆", "石家庄", "唐山", "秦皇岛", "邯郸", "邢台", "保定", "张家口", "承德", "沧州", "廊坊", "衡水", "太原", "大同", "阳泉", "长治", "晋城", "朔州", "晋中", "运城", "忻州", "临汾", "吕梁", "呼和浩特", "包头", "乌海", "赤峰", "通辽", "鄂尔多斯", "呼伦贝尔", "巴彦淖尔", "乌兰察布", "兴安盟", "锡林郭勒盟", "阿拉善盟", "沈阳", "大连", "鞍山", "抚顺", "本溪", "丹东", "锦州", "营口", "阜新", "辽阳", "盘锦", "铁岭", "朝阳", "葫芦岛", "长春", "吉林", "四平", "辽源", "通化", "白山", "松原", "白城", "延边", "哈尔滨", "齐齐哈尔", "鸡西", "鹤岗", "双鸭山", "大庆", "伊春", "佳木斯", "七台河", "牡丹江", "黑河", "绥化", "大兴安岭", "南京", "无锡", "徐州", "常州", "苏州", "南通", "连云港", "淮安", "盐城", "扬州", "镇江", "泰州", "宿迁", "杭州", "宁波", "温州", "嘉兴", "湖州", "绍兴", "金华", "衢州", "舟山", "台州", "丽水", "合肥", "芜湖", "蚌埠", "淮南", "马鞍山", "淮北", "铜陵", "安庆", "黄山", "滁州", "阜阳", "宿州", "六安", "亳州", "池州", "宣城", "福州", "厦门", "莆田", "三明", "泉州", "漳州", "南平", "龙岩", "宁德", "南昌", "景德镇", "萍乡", "九江", "新余", "鹰潭", "赣州", "吉安", "宜春", "抚州", "上饶", "济南", "青岛", "淄博", "枣庄", "东营", "烟台", "潍坊", "济宁", "泰安", "威海", "日照", "临沂", "德州", "聊城", "滨州", "菏泽", "郑州", "开封", "洛阳", "平顶山", "安阳", "鹤壁", "新乡", "焦作", "濮阳", "许昌", "漯河", "三门峡", "南阳", "商丘", "信阳", "周口", "驻马店", "武汉", "黄石", "十堰", "宜昌", "襄阳", "鄂州", "荆门", "孝感", "荆州", "黄冈", "咸宁", "随州", "恩施", "长沙", "株洲", "湘潭", "衡阳", "邵阳", "岳阳", "常德", "张家界", "益阳", "郴州", "永州", "怀化", "娄底", "湘西", "广州", "韶关", "深圳", "珠海", "汕头", "佛山", "江门", "湛江", "茂名", "肇庆", "惠州", "梅州", "汕尾", "河源", "阳江", "清远", "东莞", "中山", "潮州", "揭阳", "云浮", "南宁", "柳州", "桂林", "梧州", "北海", "防城港", "钦州", "贵港", "玉林", "百色", "贺州", "河池", "来宾", "崇左", "海口", "三亚", "三沙", "儋州", "成都", "自贡", "攀枝花", "泸州", "德阳", "绵阳", "广元", "遂宁", "内江", "乐山", "南充", "眉山", "宜宾", "广安", "达州", "雅安", "巴中", "资阳", "阿坝", "甘孜", "凉山", "贵阳", "六盘水", "遵义", "安顺", "毕节", "铜仁", "黔西南", "黔东南", "黔南", "昆明", "曲靖", "玉溪", "保山", "昭通", "丽江", "普洱", "临沧", "楚雄", "红河", "文山", "西双版纳", "大理", "德宏", "怒江", "迪庆", "拉萨", "日喀则", "昌都", "林芝", "山南", "那曲", "阿里", "西安", "铜川", "宝鸡", "咸阳", "渭南", "延安", "汉中", "榆林", "安康", "商洛", "兰州", "嘉峪关", "金昌", "白银", "天水", "武威", "张掖", "平凉", "酒泉", "庆阳", "定西", "陇南", "临夏", "甘南", "西宁", "海东", "海北", "黄南", "海南州", "果洛", "玉树", "海西", "银川", "石嘴山", "吴忠", "固原", "中卫", "乌鲁木齐", "克拉玛依", "吐鲁番", "哈密", "昌吉", "博尔塔拉", "巴音郭楞", "阿克苏", "克孜勒苏", "喀什", "和田", "伊犁", "塔城", "阿勒泰"];
+const allCityNames=["北京", "天津", "上海", "重庆", "石家庄", "唐山", "秦皇岛", "邯郸", "邢台", "保定", "张家口", "承德", "沧州", "廊坊", "衡水", "太原", "大同", "阳泉", "长治", "晋城", "朔州", "晋中", "运城", "忻州", "临汾", "吕梁", "呼和浩特", "包头", "乌海", "赤峰", "通辽", "鄂尔多斯", "呼伦贝尔", "巴彦淖尔", "乌兰察布", "兴安盟", "锡林郭勒盟", "阿拉善盟", "沈阳", "大连", "鞍山", "抚顺", "本溪", "丹东", "锦州", "营口", "阜新", "辽阳", "盘锦", "铁岭", "朝阳", "葫芦岛", "长春", "吉林", "四平", "辽源", "通化", "白山", "松原", "白城", "延边", "哈尔滨", "齐齐哈尔", "鸡西", "鹤岗", "双鸭山", "大庆", "伊春", "佳木斯", "七台河", "牡丹江", "黑河", "绥化", "大兴安岭", "南京", "无锡", "徐州", "常州", "苏州", "南通", "连云港", "淮安", "盐城", "扬州", "镇江", "泰州", "宿迁", "杭州", "宁波", "温州", "嘉兴", "湖州", "绍兴", "金华", "衢州", "舟山", "台州", "丽水", "合肥", "芜湖", "蚌埠", "淮南", "马鞍山", "淮北", "铜陵", "安庆", "黄山", "滁州", "阜阳", "宿州", "六安", "亳州", "池州", "宣城", "福州", "厦门", "莆田", "三明", "泉州", "漳州", "南平", "龙岩", "宁德", "南昌", "景德镇", "萍乡", "九江", "新余", "鹰潭", "赣州", "吉安", "宜春", "抚州", "上饶", "济南", "青岛", "淄博", "枣庄", "东营", "烟台", "潍坊", "济宁", "泰安", "威海", "日照", "临沂", "德州", "聊城", "滨州", "菏泽", "郑州", "开封", "洛阳", "平顶山", "安阳", "鹤壁", "新乡", "焦作", "濮阳", "许昌", "漯河", "三门峡", "南阳", "商丘", "信阳", "周口", "驻马店", "武汉", "黄石", "十堰", "宜昌", "襄阳", "鄂州", "荆门", "孝感", "荆州", "黄冈", "咸宁", "随州", "恩施", "长沙", "株洲", "湘潭", "衡阳", "邵阳", "岳阳", "常德", "张家界", "益阳", "郴州", "永州", "怀化", "娄底", "湘西", "广州", "韶关", "深圳", "珠海", "汕头", "佛山", "江门", "湛江", "茂名", "肇庆", "惠州", "梅州", "汕尾", "河源", "阳江", "清远", "东莞", "中山", "潮州", "揭阳", "云浮", "南宁", "柳州", "桂林", "梧州", "北海", "防城港", "钦州", "贵港", "玉林", "百色", "贺州", "河池", "来宾", "崇左", "海口", "三亚", "三沙", "儋州", "成都", "自贡", "攀枝花", "泸州", "德阳", "绵阳", "广元", "遂宁", "内江", "乐山", "南充", "眉山", "宜宾", "广安", "达州", "雅安", "巴中", "资阳", "阿坝", "甘孜", "凉山", "贵阳", "六盘水", "遵义", "安顺", "毕节", "铜仁", "黔西南", "黔东南", "黔南", "昆明", "曲靖", "玉溪", "保山", "昭通", "丽江", "普洱", "临沧", "楚雄", "红河", "文山", "西双版纳", "大理", "德宏", "怒江", "迪庆", "拉萨", "日喀则", "昌都", "林芝", "山南", "那曲", "阿里", "西安", "铜川", "宝鸡", "咸阳", "渭南", "延安", "汉中", "榆林", "安康", "商洛", "兰州", "嘉峪关", "金昌", "白银", "天水", "武威", "张掖", "平凉", "酒泉", "庆阳", "定西", "陇南", "临夏", "甘南", "西宁", "海东", "海北", "黄南", "海南州", "果洛", "玉树", "海西", "银川", "石嘴山", "吴忠", "固原", "中卫", "乌鲁木齐", "克拉玛依", "吐鲁番", "哈密", "昌吉", "博尔塔拉", "巴音郭楞", "阿克苏", "克孜勒苏", "喀什", "和田", "伊犁", "塔城", "阿勒泰", "香港", "澳门", "台北", "高雄", "台中", "台南", "基隆", "新竹", "嘉义"];

@@ -4,7 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>旅行攻略 - 输入任意城市，即刻获取完整攻略</title>
+<title>旅行攻略 - 全国346个城市，输入即查</title>
 <style>
 :root {
   --bg: #FAFAF8; --bg2: #F0EDE6; --ink: #2C2C2C; --muted: #8A8578;
@@ -26,7 +26,7 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 .hero { position: relative; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 6rem 2rem 4rem; text-align: center; overflow: hidden; background: linear-gradient(135deg, #E85D26 0%, #D04E1A 30%, #2B8A6E 70%, #1A73E8 100%); }
 .hero h1 { font-size: 3.5rem; font-weight: 700; color: #fff; line-height: 1.2; margin-bottom: 1rem; text-shadow: 0 2px 20px rgba(0,0,0,0.3); }
 .hero p { font-size: 1.15rem; color: rgba(255,255,255,0.9); margin-bottom: 2.5rem; }
-.hero-stats { display: flex; gap: 3rem; margin-bottom: 2rem; color: rgba(255,255,255,0.8); }
+.hero-stats { display: flex; gap: 3rem; margin-bottom: 2rem; color: rgba(255,255,255,0.8); flex-wrap: wrap; justify-content: center; }
 .hero-stats span { font-size: 0.9rem; }
 .hero-stats strong { font-size: 1.5rem; display: block; color: #fff; }
 
@@ -45,22 +45,37 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 .suggestion-item .city-tag { font-size: 0.75rem; color: var(--muted); background: var(--bg2); padding: 2px 8px; border-radius: 10px; }
 .search-hint { padding: 0.8rem 1.2rem; font-size: 0.8rem; color: var(--muted); text-align: center; }
 
-.section { padding: 5rem 2rem; max-width: 1200px; margin: 0 auto; }
+.section { padding: 4rem 2rem; max-width: 1200px; margin: 0 auto; }
 .section-header { text-align: center; margin-bottom: 3rem; }
 .section-header h2 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
 .section-header p { color: var(--muted); }
 .section-tag { display: inline-block; font-size: 0.75rem; font-weight: 700; color: var(--accent); background: var(--accent-light); padding: 4px 14px; border-radius: 20px; margin-bottom: 0.8rem; letter-spacing: 0.05em; }
 
-.popular-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.2rem; }
+/* Popular cities */
+.popular-grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 1rem; }
 .city-card { background: #fff; border-radius: var(--radius); overflow: hidden; cursor: pointer; box-shadow: var(--card-shadow); transition: transform 0.3s, box-shadow 0.3s; }
 .city-card:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(44,44,44,0.12); }
-.city-card-img { height: 120px; display: flex; align-items: center; justify-content: center; position: relative; }
-.city-card-img span { font-size: 2.8rem; }
-.city-card-badge { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.45); color: #fff; font-size: 0.65rem; padding: 2px 7px; border-radius: 8px; backdrop-filter: blur(4px); }
-.city-card-body { padding: 0.7rem 0.9rem; }
-.city-card-body h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.15rem; }
-.city-card-body p { font-size: 0.75rem; color: var(--muted); }
+.city-card-img { height: 100px; display: flex; align-items: center; justify-content: center; position: relative; }
+.city-card-img span { font-size: 2.2rem; }
+.city-card-badge { position: absolute; top: 6px; right: 6px; background: rgba(0,0,0,0.45); color: #fff; font-size: 0.6rem; padding: 2px 6px; border-radius: 6px; backdrop-filter: blur(4px); }
+.city-card-body { padding: 0.6rem 0.8rem; }
+.city-card-body h3 { font-size: 0.9rem; font-weight: 700; margin-bottom: 0.1rem; }
+.city-card-body p { font-size: 0.72rem; color: var(--muted); }
 
+/* Province browse */
+.province-section { margin-bottom: 2rem; }
+.province-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem; cursor: pointer; padding: 0.8rem 1rem; background: #fff; border-radius: var(--radius); box-shadow: var(--card-shadow); transition: background 0.2s; }
+.province-header:hover { background: var(--accent-light); }
+.province-header h3 { font-size: 1.1rem; font-weight: 700; }
+.province-header .province-count { font-size: 0.75rem; color: var(--muted); background: var(--bg2); padding: 2px 8px; border-radius: 10px; }
+.province-header .province-toggle { margin-left: auto; font-size: 0.8rem; color: var(--muted); transition: transform 0.2s; }
+.province-header.collapsed .province-toggle { transform: rotate(-90deg); }
+.province-cities { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: 0.6rem; padding: 0.5rem 0; transition: max-height 0.3s ease; }
+.province-cities.hidden { display: none; }
+.province-city-btn { background: #fff; border: 1px solid var(--rule); border-radius: 8px; padding: 0.6rem 0.4rem; text-align: center; cursor: pointer; transition: all 0.2s; font-size: 0.85rem; color: var(--ink); text-decoration: none; }
+.province-city-btn:hover { background: var(--accent); color: #fff; border-color: var(--accent); transform: translateY(-2px); }
+
+/* Guide page */
 .guide-hero { position: relative; padding: 8rem 2rem 4rem; text-align: center; overflow: hidden; margin-top: 64px; }
 .guide-hero-bg { position: absolute; inset: 0; }
 .guide-hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(44,44,44,0.4) 0%, rgba(250,250,248,1) 100%); }
@@ -81,7 +96,7 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 .overview-text .tag-list { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .overview-text .tag { font-size: 0.8rem; padding: 4px 12px; border-radius: 20px; background: var(--bg2); color: var(--muted); }
 .overview-img { border-radius: var(--radius); overflow: hidden; }
-.overview-img-inner { width: 100%; height: 100%; min-height: 280px; display: flex; align-items: center; justify-content: center; }
+.overview-img-inner { width: 100%; height: 100%; min-height: 280px; display: flex; align-items: center; justify-content: center; border-radius: var(--radius); }
 .overview-img-inner span { font-size: 6rem; }
 .quick-info { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; }
 .quick-info-card { background: #fff; border-radius: var(--radius); padding: 1.2rem; text-align: center; box-shadow: var(--card-shadow); }
@@ -144,13 +159,14 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 .fade-in { animation: fadeInUp 0.5s ease forwards; }
 
 @media (max-width: 900px) {
-  .popular-grid { grid-template-columns: repeat(3, 1fr); }
+  .popular-grid { grid-template-columns: repeat(4, 1fr); }
   .overview-intro { grid-template-columns: 1fr; }
   .quick-info { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 600px) {
   .hero h1 { font-size: 2rem; }
-  .popular-grid { grid-template-columns: repeat(2, 1fr); }
+  .popular-grid { grid-template-columns: repeat(3, 1fr); }
+  .province-cities { grid-template-columns: repeat(3, 1fr); }
   .nav-links { display: none; }
   .tab-nav { justify-content: flex-start; overflow-x: auto; }
   .tab-nav a { padding: 0.8rem 1rem; font-size: 0.85rem; }
@@ -165,26 +181,27 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 
 <div id="home-page">
   <nav class="nav" id="navbar">
-    <a class="nav-brand" href="#">🗺️ 旅行攻略</a>
+    <a class="nav-brand" href="#">&#x1F5FA;&#xFE0F; 旅行攻略</a>
     <ul class="nav-links">
       <li><a href="#popular" class="active">热门城市</a></li>
+      <li><a href="#all-cities">全部城市</a></li>
     </ul>
   </nav>
 
   <section class="hero">
-    <h1>输入任意城市，即刻获取攻略</h1>
-    <p>覆盖全国 337 个城市，美食、酒店、打卡点、门票一网打尽</p>
+    <h1>全国 346 个城市，输入即查</h1>
+    <p>覆盖所有省会、地级市、自治州、盟及港澳台，美食酒店景点门票一网打尽</p>
     <div class="hero-stats">
-      <span><strong>337</strong>个城市</span>
-      <span><strong>2022</strong>道美食</span>
-      <span><strong>2022</strong>个景点</span>
-      <span><strong>2022</strong>条门票</span>
+      <span><strong>346</strong>个城市</span>
+      <span><strong>2076</strong>道美食</span>
+      <span><strong>2076</strong>个景点</span>
+      <span><strong>2076</strong>条门票</span>
     </div>
     <div class="search-box">
-      <span class="search-icon">🔍</span>
-      <input type="text" id="search-input" placeholder="输入城市名，如：广州、拉萨、桂林..." autocomplete="off">
+      <span class="search-icon">&#x1F50D;</span>
+      <input type="text" id="search-input" placeholder="输入任意城市名，如毕节、柳州、六盘水..." autocomplete="off">
       <div class="search-suggestions" id="search-suggestions">
-        <div class="search-hint">输入城市名即可搜索，支持模糊匹配</div>
+        <div class="search-hint">支持模糊搜索，输入任意城市名即可匹配</div>
       </div>
     </div>
   </section>
@@ -193,13 +210,22 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
     <div class="section-header">
       <span class="section-tag">热门推荐</span>
       <h2>最受欢迎的旅游城市</h2>
-      <p>点击即刻查看完整攻略，或搜索任意城市</p>
+      <p>点击即刻查看完整攻略</p>
     </div>
     <div class="popular-grid" id="popular-grid"></div>
   </section>
 
+  <section class="section" id="all-cities">
+    <div class="section-header">
+      <span class="section-tag">全国覆盖</span>
+      <h2>按省份浏览全部城市</h2>
+      <p>346 个城市，34 个省级行政区全覆盖</p>
+    </div>
+    <div id="province-list"></div>
+  </section>
+
   <footer class="footer">
-    <p>&copy; 2026 旅行攻略 — 覆盖全国 337 个城市</p>
+    <p>&copy; 2026 旅行攻略 — 覆盖全国 346 个城市及港澳台</p>
     <p style="margin-top:0.5rem;font-size:0.75rem;">门票价格仅供参考，请以景区官方公布为准</p>
   </footer>
 </div>
@@ -229,22 +255,53 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 
 <script src="assets/city-data.js"></script>
 <script>
+// ===== PROVINCE GROUPING =====
+const provinceGroups = {
+  "北京": ["北京"], "天津": ["天津"], "上海": ["上海"], "重庆": ["重庆"],
+  "河北": ["石家庄","唐山","秦皇岛","邯郸","邢台","保定","张家口","承德","沧州","廊坊","衡水"],
+  "山西": ["太原","大同","阳泉","长治","晋城","朔州","晋中","运城","忻州","临汾","吕梁"],
+  "内蒙古": ["呼和浩特","包头","乌海","赤峰","通辽","鄂尔多斯","呼伦贝尔","巴彦淖尔","乌兰察布","兴安盟","锡林郭勒盟","阿拉善盟"],
+  "辽宁": ["沈阳","大连","鞍山","抚顺","本溪","丹东","锦州","营口","阜新","辽阳","盘锦","铁岭","朝阳","葫芦岛"],
+  "吉林": ["长春","吉林","四平","辽源","通化","白山","松原","白城","延边"],
+  "黑龙江": ["哈尔滨","齐齐哈尔","鸡西","鹤岗","双鸭山","大庆","伊春","佳木斯","七台河","牡丹江","黑河","绥化","大兴安岭"],
+  "江苏": ["南京","无锡","徐州","常州","苏州","南通","连云港","淮安","盐城","扬州","镇江","泰州","宿迁"],
+  "浙江": ["杭州","宁波","温州","嘉兴","湖州","绍兴","金华","衢州","舟山","台州","丽水"],
+  "安徽": ["合肥","芜湖","蚌埠","淮南","马鞍山","淮北","铜陵","安庆","黄山","滁州","阜阳","宿州","六安","亳州","池州","宣城"],
+  "福建": ["福州","厦门","莆田","三明","泉州","漳州","南平","龙岩","宁德"],
+  "江西": ["南昌","景德镇","萍乡","九江","新余","鹰潭","赣州","吉安","宜春","抚州","上饶"],
+  "山东": ["济南","青岛","淄博","枣庄","东营","烟台","潍坊","济宁","泰安","威海","日照","临沂","德州","聊城","滨州","菏泽"],
+  "河南": ["郑州","开封","洛阳","平顶山","安阳","鹤壁","新乡","焦作","濮阳","许昌","漯河","三门峡","南阳","商丘","信阳","周口","驻马店"],
+  "湖北": ["武汉","黄石","十堰","宜昌","襄阳","鄂州","荆门","孝感","荆州","黄冈","咸宁","随州","恩施"],
+  "湖南": ["长沙","株洲","湘潭","衡阳","邵阳","岳阳","常德","张家界","益阳","郴州","永州","怀化","娄底","湘西"],
+  "广东": ["广州","韶关","深圳","珠海","汕头","佛山","江门","湛江","茂名","肇庆","惠州","梅州","汕尾","河源","阳江","清远","东莞","中山","潮州","揭阳","云浮"],
+  "广西": ["南宁","柳州","桂林","梧州","北海","防城港","钦州","贵港","玉林","百色","贺州","河池","来宾","崇左"],
+  "海南": ["海口","三亚","三沙","儋州"],
+  "四川": ["成都","自贡","攀枝花","泸州","德阳","绵阳","广元","遂宁","内江","乐山","南充","眉山","宜宾","广安","达州","雅安","巴中","资阳","阿坝","甘孜","凉山"],
+  "贵州": ["贵阳","六盘水","遵义","安顺","毕节","铜仁","黔西南","黔东南","黔南"],
+  "云南": ["昆明","曲靖","玉溪","保山","昭通","丽江","普洱","临沧","楚雄","红河","文山","西双版纳","大理","德宏","怒江","迪庆"],
+  "西藏": ["拉萨","日喀则","昌都","林芝","山南","那曲","阿里"],
+  "陕西": ["西安","铜川","宝鸡","咸阳","渭南","延安","汉中","榆林","安康","商洛"],
+  "甘肃": ["兰州","嘉峪关","金昌","白银","天水","武威","张掖","平凉","酒泉","庆阳","定西","陇南","临夏","甘南"],
+  "青海": ["西宁","海东","海北","黄南","海南州","果洛","玉树","海西"],
+  "宁夏": ["银川","石嘴山","吴忠","固原","中卫"],
+  "新疆": ["乌鲁木齐","克拉玛依","吐鲁番","哈密","昌吉","博尔塔拉","巴音郭楞","阿克苏","克孜勒苏","喀什","和田","伊犁","塔城","阿勒泰"],
+  "港澳台": ["香港","澳门","台北","高雄","台中","台南","基隆","新竹","嘉义"]
+};
+
 // ===== SEARCH =====
 const searchInput = document.getElementById('search-input');
 const searchSuggestions = document.getElementById('search-suggestions');
 
 function findCity(query) {
   if (cityData[query]) return query;
-  // exact match
   for (const c of allCityNames) { if (c === query) return c; }
-  // contains match
   for (const c of allCityNames) { if (c.includes(query) || query.includes(c)) return c; }
   return null;
 }
 
 searchInput.addEventListener('input', function() {
   const q = this.value.trim();
-  if (!q) { searchSuggestions.innerHTML = '<div class="search-hint">输入城市名即可搜索，支持模糊匹配</div>'; searchSuggestions.classList.add('show'); return; }
+  if (!q) { searchSuggestions.innerHTML = '<div class="search-hint">支持模糊搜索，输入任意城市名即可匹配</div>'; searchSuggestions.classList.add('show'); return; }
   const matches = allCityNames.filter(c => c.includes(q));
   if (matches.length === 0) {
     searchSuggestions.innerHTML = '<div class="search-hint" style="color:var(--accent);">未找到匹配城市，请尝试其他名称</div>';
@@ -290,6 +347,35 @@ popularCities.forEach(city => {
   popularGrid.appendChild(card);
 });
 
+// ===== PROVINCE LIST =====
+const provinceList = document.getElementById('province-list');
+Object.entries(provinceGroups).forEach(([province, cities]) => {
+  const section = document.createElement('div');
+  section.className = 'province-section';
+  const citiesHtml = cities.map(c =>
+    '<button class="province-city-btn" data-city="' + c + '">' + c + '</button>'
+  ).join('');
+  section.innerHTML =
+    '<div class="province-header">' +
+    '<h3>' + province + '</h3>' +
+    '<span class="province-count">' + cities.length + '个城市</span>' +
+    '<span class="province-toggle">&#9660;</span>' +
+    '</div>' +
+    '<div class="province-cities">' + citiesHtml + '</div>';
+  provinceList.appendChild(section);
+});
+
+provinceList.addEventListener('click', function(e) {
+  const btn = e.target.closest('.province-city-btn');
+  if (btn) { showGuide(btn.dataset.city); return; }
+  const header = e.target.closest('.province-header');
+  if (header) {
+    header.classList.toggle('collapsed');
+    const cities = header.nextElementSibling;
+    cities.classList.toggle('hidden');
+  }
+});
+
 // ===== SHOW GUIDE =====
 function showGuide(city) {
   const data = cityData[city];
@@ -308,37 +394,37 @@ function showGuide(city) {
   switchTab('overview');
 
   document.getElementById('tab-overview').innerHTML =
-    '<a href="#" class="back-home" onclick="goHome(event)">← 返回首页</a>' +
+    '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
     '<div class="overview-intro fade-in"><div class="overview-text">' +
     '<h3>关于' + city + '</h3><p>' + data.description + '</p>' +
     '<div class="tag-list">' + data.highlights.map(h => '<span class="tag">' + h + '</span>').join('') + '</div></div>' +
-    '<div class="overview-img"><div class="overview-img-inner" style="background:linear-gradient(135deg,' + data.color + '33,' + data.color + '11);border-radius:var(--radius);">' +
+    '<div class="overview-img"><div class="overview-img-inner" style="background:linear-gradient(135deg,' + data.color + '33,' + data.color + '11);">' +
     '<span>' + data.emoji + '</span></div></div></div>' +
     '<div class="quick-info fade-in">' +
-    '<div class="quick-info-card"><div class="qi-icon">📅</div><div class="qi-label">最佳季节</div><div class="qi-value">' + data.bestSeason + '</div></div>' +
-    '<div class="quick-info-card"><div class="qi-icon">💰</div><div class="qi-label">花费参考</div><div class="qi-value">' + data.avgCost + '</div></div>' +
-    '<div class="quick-info-card"><div class="qi-icon">🚗</div><div class="qi-label">交通</div><div class="qi-value">' + data.transport + '</div></div>' +
-    '<div class="quick-info-card"><div class="qi-icon">📅</div><div class="qi-label">推荐天数</div><div class="qi-value">' + data.stayDays + '</div></div></div>';
+    '<div class="quick-info-card"><div class="qi-icon">&#128197;</div><div class="qi-label">最佳季节</div><div class="qi-value">' + data.bestSeason + '</div></div>' +
+    '<div class="quick-info-card"><div class="qi-icon">&#128176;</div><div class="qi-label">花费参考</div><div class="qi-value">' + data.avgCost + '</div></div>' +
+    '<div class="quick-info-card"><div class="qi-icon">&#128663;</div><div class="qi-label">交通</div><div class="qi-value">' + data.transport + '</div></div>' +
+    '<div class="quick-info-card"><div class="qi-icon">&#128197;</div><div class="qi-label">推荐天数</div><div class="qi-value">' + data.stayDays + '</div></div></div>';
 
   document.getElementById('tab-food').innerHTML =
-    '<a href="#" class="back-home" onclick="goHome(event)">← 返回首页</a>' +
+    '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
     '<h3 style="margin-bottom:1.5rem;font-size:1.3rem;">' + city + '必吃美食</h3><div class="food-grid">' +
-    data.food.map(f => '<div class="food-card"><div class="food-card-emoji">' + f.emoji + '</div><div class="food-card-info"><h4>' + f.name + '</h4><div class="food-restaurant">📍 ' + f.restaurant + '</div><div class="food-price">' + f.price + '</div></div></div>').join('') + '</div>';
+    data.food.map(f => '<div class="food-card"><div class="food-card-emoji">' + f.emoji + '</div><div class="food-card-info"><h4>' + f.name + '</h4><div class="food-restaurant">&#128205; ' + f.restaurant + '</div><div class="food-price">' + f.price + '</div></div></div>').join('') + '</div>';
 
   document.getElementById('tab-hotel').innerHTML =
-    '<a href="#" class="back-home" onclick="goHome(event)">← 返回首页</a>' +
+    '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
     '<h3 style="margin-bottom:1.5rem;font-size:1.3rem;">' + city + '住宿推荐</h3>' +
     '<div class="hotel-table-wrap"><table class="hotel-table"><thead><tr><th>住宿区域</th><th>参考价格</th><th>适合人群</th></tr></thead><tbody>' +
     data.hotels.map(h => '<tr><td><strong>' + h.area + '</strong></td><td class="price">' + h.price + '</td><td>' + h.fit + '</td></tr>').join('') +
     '</tbody></table></div>';
 
   document.getElementById('tab-spots').innerHTML =
-    '<a href="#" class="back-home" onclick="goHome(event)">← 返回首页</a>' +
+    '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
     '<h3 style="margin-bottom:1.5rem;font-size:1.3rem;">' + city + '热门打卡点</h3><div class="spot-grid">' +
-    data.spots.map(s => '<div class="spot-card"><div class="spot-card-header"><h4>' + s.name + '</h4><span class="spot-card-tag">' + s.tag + '</span></div><div class="spot-card-body"><p>' + s.desc + '</p><div class="spot-card-meta"><span>⏱ ' + s.time + '</span><span>⭐ ' + s.rating + '</span></div></div></div>').join('') + '</div>';
+    data.spots.map(s => '<div class="spot-card"><div class="spot-card-header"><h4>' + s.name + '</h4><span class="spot-card-tag">' + s.tag + '</span></div><div class="spot-card-body"><p>' + s.desc + '</p><div class="spot-card-meta"><span>&#9201; ' + s.time + '</span><span>&#11088; ' + s.rating + '</span></div></div></div>').join('') + '</div>';
 
   document.getElementById('tab-tickets').innerHTML =
-    '<a href="#" class="back-home" onclick="goHome(event)">← 返回首页</a>' +
+    '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
     '<h3 style="margin-bottom:1.5rem;font-size:1.3rem;">' + city + '景区门票</h3><div class="ticket-grid">' +
     data.tickets.map(t => '<div class="ticket-card"><div class="ticket-card-header"><h4>' + t.name + '</h4>' +
     (t.price === '免费' ? '<span class="free-badge">免费</span>' : '') +
@@ -356,12 +442,12 @@ function showNotFound(query) {
   document.getElementById('guide-city-subtitle').textContent = '暂未收录该城市';
   switchTab('overview');
   document.getElementById('tab-overview').innerHTML =
-    '<a href="#" class="back-home" onclick="goHome(event)">← 返回首页</a>' +
-    '<div class="not-found"><div style="font-size:4rem;margin-bottom:1rem;">🔍</div>' +
+    '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
+    '<div class="not-found"><div style="font-size:4rem;margin-bottom:1rem;">&#128269;</div>' +
     '<h3>未找到「' + query + '」的攻略</h3>' +
-    '<p>目前收录 337 个城市，请尝试其他城市名称</p>' +
+    '<p>目前收录 346 个城市，请尝试其他城市名称</p>' +
     '<div class="not-found-tags">' +
-    allCityNames.slice(0, 12).map(c => '<a href="#" onclick="event.preventDefault();showGuide(\'' + c + '\')">' + c + '</a>').join('') +
+    allCityNames.slice(0, 16).map(c => '<a href="#" onclick="event.preventDefault();showGuide(\'' + c + '\')">' + c + '</a>').join('') +
     '</div></div>';
 }
 
