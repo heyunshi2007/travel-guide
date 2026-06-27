@@ -426,6 +426,52 @@ body {
 ::-webkit-scrollbar-track { background: var(--bg); }
 ::-webkit-scrollbar-thumb { background: var(--rule); border-radius: 3px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+/* ===== LOADING & SEARCH ANY ===== */
+.loading-overlay {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(250,250,248,0.92);
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  backdrop-filter: blur(8px);
+}
+.loading-spinner {
+  width: 48px; height: 48px; border: 4px solid var(--rule);
+  border-top-color: var(--accent); border-radius: 50%;
+  animation: spin 0.8s linear infinite; margin-bottom: 1.2rem;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+.loading-text { color: var(--muted); font-size: 0.95rem; }
+.search-any-hint {
+  text-align: center; padding: 0.6rem 1rem;
+  font-size: 0.85rem; color: var(--muted);
+}
+.search-any-hint strong { color: var(--accent); }
+.search-any-btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: var(--accent); color: #fff; border: none;
+  padding: 0.7rem 1.5rem; border-radius: 30px;
+  font-size: 0.9rem; font-family: inherit; font-weight: 600;
+  cursor: pointer; transition: background 0.2s, transform 0.2s;
+  margin-top: 0.6rem;
+}
+.search-any-btn:hover { background: #D04E1A; transform: translateY(-1px); }
+.no-result-city {
+  text-align: center; padding: 3rem 1rem;
+}
+.no-result-city h3 { font-size: 1.3rem; margin-bottom: 0.8rem; }
+.no-result-city p { color: var(--muted); margin-bottom: 1.5rem; }
+.wiki-attraction-list { list-style: none; margin-top: 0.5rem; }
+.wiki-attraction-list li {
+  padding: 0.5rem 0; border-bottom: 1px solid var(--rule); font-size: 0.9rem; color: var(--ink);
+}
+.wiki-attraction-list li:last-child { border-bottom: none; }
+.wiki-attraction-list li::before { content: "📍 "; }
+.wiki-section-title { font-size: 1rem; font-weight: 700; margin-top: 1.2rem; margin-bottom: 0.5rem; color: var(--ink); }
+.wiki-desc-text { font-size: 0.9rem; color: var(--muted); line-height: 1.8; }
+.api-source-note {
+  text-align: center; padding: 1rem; font-size: 0.75rem; color: var(--rule);
+  border-top: 1px solid var(--rule); margin-top: 2rem;
+}
 </style>
 </head>
 <body>
@@ -459,8 +505,13 @@ body {
         <span class="search-icon">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </span>
-        <input type="text" id="search-input" placeholder="搜索目的地，如：北京、三亚、成都..." autocomplete="off">
-        <div class="search-suggestions" id="search-suggestions"></div>
+        <input type="text" id="search-input" placeholder="输入任意城市名，如：北京、广州、拉萨、桂林..." autocomplete="off">
+        <div class="search-suggestions" id="search-suggestions">
+          <div class="search-any-hint">
+            内置 <strong>10个热门城市</strong> 完整攻略<br>
+            其他城市将自动从百科获取旅游信息
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -977,12 +1028,15 @@ const searchSuggestions = document.getElementById('search-suggestions');
 
 searchInput.addEventListener('input', function() {
   const query = this.value.trim();
-  if (!query) { searchSuggestions.classList.remove('show'); return; }
+  if (!query) {
+    searchSuggestions.innerHTML = '<div class="search-any-hint">内置 <strong>10个热门城市</strong> 完整攻略<br>其他城市将自动从百科获取旅游信息</div>';
+    searchSuggestions.classList.add('show');
+    return;
+  }
   const matches = Object.keys(cityData).filter(city => city.includes(query) || cityData[city].tag.includes(query));
-  if (matches.length === 0) {
-    searchSuggestions.innerHTML = '<div class="no-result">未找到匹配的目的地，试试其他城市名？</div>';
-  } else {
-    searchSuggestions.innerHTML = matches.map(city =>
+  let html = '';
+  if (matches.length > 0) {
+    html += matches.map(city =>
       `<div class="suggestion-item" data-city="${city}">
         <span class="city-emoji">${cityData[city].emoji}</span>
         <span class="city-name">${city}</span>
@@ -990,18 +1044,30 @@ searchInput.addEventListener('input', function() {
       </div>`
     ).join('');
   }
+  // Always offer to search any city
+  html += `<div class="suggestion-item" data-city="__search_any__" style="background:var(--accent-light);">
+    <span class="city-emoji">&#x1F50D;</span>
+    <span class="city-name">搜索「${query}」的旅游攻略</span>
+    <span class="city-tag">百科智能</span>
+  </div>`;
+  searchSuggestions.innerHTML = html;
   searchSuggestions.classList.add('show');
 });
 
 searchInput.addEventListener('focus', function() {
-  if (this.value.trim()) this.dispatchEvent(new Event('input'));
+  searchSuggestions.classList.add('show');
 });
 
 searchSuggestions.addEventListener('click', function(e) {
   const item = e.target.closest('.suggestion-item');
   if (item) {
     const city = item.dataset.city;
-    showGuide(city);
+    if (city === '__search_any__') {
+      const query = searchInput.value.trim();
+      if (query) searchAnyCity(query);
+    } else {
+      showGuide(city);
+    }
   }
 });
 
@@ -1016,11 +1082,314 @@ searchInput.addEventListener('keydown', function(e) {
     if (!query) return;
     // Try exact match first
     if (cityData[query]) { showGuide(query); return; }
-    // Fuzzy match
+    // Fuzzy match built-in
     const match = Object.keys(cityData).find(c => c.includes(query));
-    if (match) showGuide(match);
+    if (match) { showGuide(match); return; }
+    // Search via API
+    searchAnyCity(query);
   }
 });
+
+// ===== SHOW LOADING =====
+function showLoading(text) {
+  let overlay = document.getElementById('loading-overlay');
+  if (!overlay) {
+    overlay = document.createElement('div');
+    overlay.id = 'loading-overlay';
+    overlay.className = 'loading-overlay';
+    overlay.innerHTML = '<div class="loading-spinner"></div><div class="loading-text" id="loading-text"></div>';
+    document.body.appendChild(overlay);
+  }
+  document.getElementById('loading-text').textContent = text || '正在搜索...';
+  overlay.style.display = 'flex';
+}
+function hideLoading() {
+  const overlay = document.getElementById('loading-overlay');
+  if (overlay) overlay.style.display = 'none';
+}
+
+// ===== SEARCH ANY CITY VIA WIKIPEDIA API =====
+async function searchAnyCity(cityName) {
+  searchSuggestions.classList.remove('show');
+  showLoading(`正在为你搜索「${cityName}」的旅游攻略...`);
+
+  try {
+    // Step 1: Search Wikipedia for the city
+    const searchUrl = `https://zh.wikipedia.org/w/api.php?action=opensearch&search=${encodeURIComponent(cityName)}&limit=5&namespace=0&format=json&origin=*`;
+    const searchRes = await fetch(searchUrl);
+    const searchData = await searchRes.json();
+    const titles = searchData[1] || [];
+
+    if (titles.length === 0) {
+      hideLoading();
+      showNotFoundPage(cityName);
+      return;
+    }
+
+    // Find the best match (prefer exact or close match)
+    let bestTitle = titles[0];
+    for (const t of titles) {
+      if (t.includes(cityName) || cityName.includes(t)) { bestTitle = t; break; }
+    }
+
+    // Step 2: Get article extract and sections
+    const detailUrl = `https://zh.wikipedia.org/w/api.php?action=query&titles=${encodeURIComponent(bestTitle)}&prop=extracts|sections|images&exintro=1&explaintext=1&imlimit=5&format=json&origin=*`;
+    const detailRes = await fetch(detailUrl);
+    const detailData = await detailRes.json();
+    const pages = detailData.query.pages;
+    const pageId = Object.keys(pages)[0];
+    const page = pages[pageId];
+
+    if (page.missing) {
+      hideLoading();
+      showNotFoundPage(cityName);
+      return;
+    }
+
+    const extract = page.extract || '';
+    const sections = page.sections || [];
+    const thumbnail = (page.images && page.images.length > 0) ? page.images[0] : null;
+
+    // Step 3: Get section content for tourism-related sections
+    const tourismSectionTitles = ['旅游', '景点', '观光', '文化', '美食', '特产', '经济', '地理', '历史', '交通'];
+    let sectionContent = '';
+    
+    // Try to get some section content
+    const secParams = sections.slice(0, 8).map((s, i) => `sections[${i}]=${s.index}`).join('&');
+    if (secParams) {
+      try {
+        const secUrl = `https://zh.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(bestTitle)}&prop=sections|text&sectiondepth=1&format=json&origin=*`;
+        const secRes = await fetch(secUrl);
+        const secData = await secRes.json();
+        if (secData.parse && secData.parse.sections) {
+          const tourismSections = secData.parse.sections.filter(s =>
+            tourismSectionTitles.some(t => s.line.includes(t))
+          );
+          if (tourismSections.length > 0) {
+            // Get content of first tourism section
+            const firstTourismSec = tourismSections[0];
+            try {
+              const contentUrl = `https://zh.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(bestTitle)}&prop=text&section=${firstTourismSec.index}&format=json&origin=*`;
+              const contentRes = await fetch(contentUrl);
+              const contentData = await contentRes.json();
+              if (contentData.parse && contentData.parse.text && contentData.parse.text['*']) {
+                const div = document.createElement('div');
+                div.innerHTML = contentData.parse.text['*'];
+                sectionContent = div.textContent.substring(0, 800);
+              }
+            } catch(e) {}
+          }
+        }
+      } catch(e) {}
+    }
+
+    hideLoading();
+    showWikiGuide(cityName, bestTitle, extract, sectionContent, sections, thumbnail);
+
+  } catch (err) {
+    hideLoading();
+    showNotFoundPage(cityName, err.message);
+  }
+}
+
+// ===== SHOW WIKI GUIDE FOR ANY CITY =====
+function showWikiGuide(queryName, wikiTitle, extract, sectionContent, sections, thumbnail) {
+  document.getElementById('home-page').style.display = 'none';
+  document.getElementById('guide-page').style.display = 'block';
+  window.scrollTo(0, 0);
+
+  const colors = ['#E85D26','#2B8A6E','#1A73E8','#9C27B0','#D32F2F','#0097A7','#5C6BC0','#FF6F00','#5D4037','#2E7D32'];
+  const color = colors[queryName.length % colors.length];
+
+  document.getElementById('guide-hero-bg').style.background = `linear-gradient(135deg, ${color}88 0%, ${color}44 50%, ${color}22 100%)`;
+  document.getElementById('guide-city-name').textContent = queryName;
+  document.getElementById('guide-city-subtitle').textContent = `百科旅游攻略 · ${wikiTitle}`;
+  switchTab('overview');
+
+  // Clean extract text
+  const cleanExtract = extract.replace(/\[\d+\]/g, '').substring(0, 500);
+  
+  // Parse sections for interesting ones
+  const tourismLabels = ['旅游', '景点', '观光', '名胜', '古迹', '风景区'];
+  const cultureLabels = ['文化', '历史', '民俗', '艺术', '建筑'];
+  const foodLabels = ['美食', '饮食', '特产', '小吃', ' Cuisine'];
+  const transportLabels = ['交通', 'Transport'];
+
+  const tourismSections = sections.filter(s => tourismLabels.some(l => s.line.includes(l)));
+  const cultureSections = sections.filter(s => cultureLabels.some(l => s.line.includes(l)));
+  const foodSections = sections.filter(s => foodLabels.some(l => s.line.includes(l)));
+  const transportSections = sections.filter(s => transportLabels.some(l => s.line.includes(l)));
+
+  // Overview tab
+  document.getElementById('tab-overview').innerHTML = `
+    <a href="#" class="back-home" onclick="goHome(event)">&#x2190; 返回首页</a>
+    <div class="overview-intro fade-in">
+      <div class="overview-text">
+        <h3>关于${queryName}</h3>
+        <p>${cleanExtract || '暂无百科介绍信息。'}</p>
+        ${sectionContent ? `<div class="wiki-section-title">旅游信息</div><p class="wiki-desc-text">${sectionContent.replace(/\[\d+\]/g, '')}</p>` : ''}
+        <div style="margin-top:1rem;">
+          ${tourismSections.length > 0 ? tourismSections.map(s => `<span class="tag" style="background:var(--accent-light);color:var(--accent);">${s.line}</span>`).join('') : ''}
+          ${cultureSections.length > 0 ? cultureSections.map(s => `<span class="tag">${s.line}</span>`).join('') : ''}
+        </div>
+      </div>
+      <div class="overview-img">
+        <div style="width:100%;height:300px;background:linear-gradient(135deg, ${color}33, ${color}11);border-radius:var(--radius);display:flex;align-items:center;justify-content:center;flex-direction:column;">
+          <span style="font-size:5rem;">&#x1F3D6;&#xFE0F;</span>
+          <span style="margin-top:0.8rem;font-size:0.9rem;color:var(--muted);">${queryName}</span>
+        </div>
+      </div>
+    </div>
+    <div class="quick-info fade-in fade-in-delay-1">
+      <div class="quick-info-card"><div class="qi-icon">&#x1F4CD;</div><div class="qi-label">百科词条</div><div class="qi-value" style="font-size:0.85rem;">${wikiTitle}</div></div>
+      <div class="quick-info-card"><div class="qi-icon">&#x1F4CA;</div><div class="qi-label">百科章节</div><div class="qi-value">${sections.length} 个</div></div>
+      <div class="quick-info-card"><div class="qi-icon">&#x1F30D;</div><div class="qi-label">数据来源</div><div class="qi-value" style="font-size:0.85rem;">维基百科</div></div>
+      <div class="quick-info-card"><div class="qi-icon">&#x1F3AF;</div><div class="qi-label">相关章节</div><div class="qi-value">${tourismSections.length + cultureSections.length + foodSections.length} 个</div></div>
+    </div>
+    <div class="api-source-note">以上信息由维基百科 API 自动获取，仅供参考。建议出行前通过官方渠道确认最新信息。</div>
+  `;
+
+  // Food tab - show food related sections or generic advice
+  document.getElementById('tab-food').innerHTML = `
+    <a href="#" class="back-home" onclick="goHome(event)">&#x2190; 返回首页</a>
+    <h3 style="margin-bottom:1.5rem;font-size:1.3rem;">${queryName}美食推荐</h3>
+    ${foodSections.length > 0 ? `
+      <div style="background:#fff;border-radius:var(--radius);padding:1.5rem;box-shadow:var(--card-shadow);margin-bottom:1.5rem;">
+        <div class="wiki-section-title">&#x1F35C; 百科美食信息</div>
+        <p class="wiki-desc-text">该城市的百科词条中包含「${foodSections.map(s=>s.line).join('、')}」章节，包含丰富的美食文化介绍。</p>
+        <a href="https://zh.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}" target="_blank" class="search-any-btn" style="margin-top:1rem;">&#x1F310; 查看百科详情</a>
+      </div>
+    ` : ''}
+    <div class="food-grid">
+      <div class="food-card">
+        <div class="food-card-emoji">&#x1F356;</div>
+        <div class="food-card-info"><h4>当地特色菜</h4><div class="food-restaurant">&#x1F4CD; 本地老字号餐馆</div><div class="food-price">建议大众点评/小红书搜索</div></div>
+      </div>
+      <div class="food-card">
+        <div class="food-card-emoji">&#x1F35E;</div>
+        <div class="food-card-info"><h4>地方小吃</h4><div class="food-restaurant">&#x1F4CD; 夜市/小吃街</div><div class="food-price">人均10-50元</div></div>
+      </div>
+      <div class="food-card">
+        <div class="food-card-emoji">&#x1F372;</div>
+        <div class="food-card-info"><h4>特色火锅/汤锅</h4><div class="food-restaurant">&#x1F4CD; 评分4.5以上餐厅</div><div class="food-price">人均60-150元</div></div>
+      </div>
+      <div class="food-card">
+        <div class="food-card-emoji">&#x1F34D;</div>
+        <div class="food-card-info"><h4>时令水果/特产</h4><div class="food-restaurant">&#x1F4CD; 当地市场/特产店</div><div class="food-price">按需选购</div></div>
+      </div>
+    </div>
+    <div style="margin-top:1.5rem;text-align:center;">
+      <a href="https://www.dianping.com/search/keyword/1/0_${encodeURIComponent(queryName)}美食" target="_blank" class="search-any-btn">&#x1F4F1; 在大众点评查看${queryName}美食</a>
+    </div>
+    <div class="api-source-note">美食推荐由系统智能生成，建议通过大众点评、小红书等平台查看最新评价。</div>
+  `;
+
+  // Hotel tab
+  document.getElementById('tab-hotel').innerHTML = `
+    <a href="#" class="back-home" onclick="goHome(event)">&#x2190; 返回首页</a>
+    <h3 style="margin-bottom:1.5rem;font-size:1.3rem;">${queryName}住宿推荐</h3>
+    <div class="hotel-table-wrap">
+      <table class="hotel-table">
+        <thead><tr><th>住宿类型</th><th>参考价格</th><th>适合人群</th></tr></thead>
+        <tbody>
+          <tr><td><strong>市中心/商圈酒店</strong></td><td class="price">300-800元/晚</td><td>交通便利、首次出行</td></tr>
+          <tr><td><strong>景区附近民宿</strong></td><td class="price">200-600元/晚</td><td>深度体验、情侣出行</td></tr>
+          <tr><td><strong>经济型连锁酒店</strong></td><td class="price">100-300元/晚</td><td>预算有限、背包客</td></tr>
+          <tr><td><strong>高端度假酒店</strong></td><td class="price">800-3000元/晚</td><td>度假享受、商务出行</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div style="margin-top:1.5rem;text-align:center;">
+      <a href="https://www.ctrip.com/hotels/list?city=${encodeURIComponent(queryName)}" target="_blank" class="search-any-btn">&#x1F4F1; 在携程查看${queryName}酒店</a>
+    </div>
+  `;
+
+  // Spots tab
+  document.getElementById('tab-spots').innerHTML = `
+    <a href="#" class="back-home" onclick="goHome(event)">&#x2190; 返回首页</a>
+    <h3 style="margin-bottom:1.5rem;font-size:1.3rem;">${queryName}热门打卡点</h3>
+    ${tourismSections.length > 0 ? `
+      <div style="background:#fff;border-radius:var(--radius);padding:1.5rem;box-shadow:var(--card-shadow);margin-bottom:1.5rem;">
+        <div class="wiki-section-title">&#x1F3DB;&#xFE0F; 百科景点信息</div>
+        <p class="wiki-desc-text">该城市的百科词条中包含「${tourismSections.map(s=>s.line).join('、')}」章节，详细介绍当地著名景点。</p>
+        <a href="https://zh.wikipedia.org/wiki/${encodeURIComponent(wikiTitle)}" target="_blank" class="search-any-btn" style="margin-top:1rem;">&#x1F310; 查看百科详情</a>
+      </div>
+    ` : ''}
+    <div class="spot-grid">
+      ${tourismSections.map(s => `
+        <div class="spot-card">
+          <div class="spot-card-header"><h4>${s.line}</h4><span class="spot-card-tag">百科</span></div>
+          <div class="spot-card-body"><p>维基百科收录的${queryName}重要景点/景区章节</p><div class="spot-card-meta"><span>&#x1F4DA; 百科资料</span></div></div>
+        </div>
+      `).join('')}
+      ${cultureSections.map(s => `
+        <div class="spot-card">
+          <div class="spot-card-header"><h4>${s.line}</h4><span class="spot-card-tag">文化</span></div>
+          <div class="spot-card-body"><p>维基百科收录的${queryName}重要文化/历史内容</p><div class="spot-card-meta"><span>&#x1F4DA; 百科资料</span></div></div>
+        </div>
+      `).join('')}
+      <div class="spot-card">
+        <div class="spot-card-header"><h4>更多景点推荐</h4><span class="spot-card-tag">发现</span></div>
+        <div class="spot-card-body"><p>在旅游平台上发现${queryName}更多热门景点和打卡地</p><div class="spot-card-meta"><span>&#x2B50; 待探索</span></div></div>
+      </div>
+    </div>
+    <div style="margin-top:1.5rem;text-align:center;">
+      <a href="https://you.ctrip.com/sight/${encodeURIComponent(queryName)}.html" target="_blank" class="search-any-btn">&#x1F4F1; 在携程查看${queryName}景点</a>
+    </div>
+  `;
+
+  // Tickets tab
+  document.getElementById('tab-tickets').innerHTML = `
+    <a href="#" class="back-home" onclick="goHome(event)">&#x2190; 返回首页</a>
+    <h3 style="margin-bottom:1.5rem;font-size:1.3rem;">${queryName}景区门票</h3>
+    <div class="ticket-grid">
+      <div class="ticket-card">
+        <div class="ticket-card-header"><h4>热门景区门票</h4><span class="free-badge">在线查询</span></div>
+        <div class="ticket-card-body"><div class="ticket-price">查看实时价格</div><div class="ticket-note">建议通过官方渠道购票</div></div>
+      </div>
+      <div class="ticket-card">
+        <div class="ticket-card-header"><h4>免费景点</h4><span class="free-badge">推荐</span></div>
+        <div class="ticket-card-body"><div class="ticket-price free">免费开放</div><div class="ticket-note">城市公园、步行街、古街等</div></div>
+      </div>
+      <div class="ticket-card">
+        <div class="ticket-card-header"><h4>联票/通票</h4></div>
+        <div class="ticket-card-body"><div class="ticket-price">更优惠</div><div class="ticket-note">多个景点联票通常更划算</div></div>
+      </div>
+    </div>
+    <div style="margin-top:1.5rem;text-align:center;">
+      <a href="https://www.ctrip.com/destinationsite/ticket/list?keywords=${encodeURIComponent(queryName)}" target="_blank" class="search-any-btn">&#x1F4F1; 在携程查看${queryName}门票</a>
+    </div>
+    <div class="api-source-note">门票信息请以景区官方公布为准，以上链接可跳转至携程查看实时票价。</div>
+  `;
+}
+
+// ===== NOT FOUND PAGE =====
+function showNotFoundPage(cityName, errorMsg) {
+  document.getElementById('home-page').style.display = 'none';
+  document.getElementById('guide-page').style.display = 'block';
+  window.scrollTo(0, 0);
+
+  document.getElementById('guide-hero-bg').style.background = 'linear-gradient(135deg, #8A857888 0%, #8A857844 50%, #8A857822 100%)';
+  document.getElementById('guide-city-name').textContent = cityName;
+  document.getElementById('guide-city-subtitle').textContent = '暂未找到该目的地的旅游信息';
+  switchTab('overview');
+
+  document.getElementById('tab-overview').innerHTML = `
+    <a href="#" class="back-home" onclick="goHome(event)">&#x2190; 返回首页</a>
+    <div class="no-result-city">
+      <div style="font-size:4rem;margin-bottom:1rem;">&#x1F50D;</div>
+      <h3>未找到「${cityName}」的旅游攻略</h3>
+      <p>${errorMsg ? '网络请求失败，请检查网络后重试。' : '在百科中未找到该目的地的相关信息，请尝试使用更常见的城市名称。'}</p>
+      ${errorMsg ? `<button class="search-any-btn" onclick="searchAnyCity('${cityName.replace(/'/g,"\\'")}')">&#x1F504; 重试</button>` : ''}
+      <div style="margin-top:2rem;">
+        <p style="font-size:0.9rem;color:var(--muted);margin-bottom:0.8rem;">你可以试试这些城市：</p>
+        <div style="display:flex;flex-wrap:wrap;gap:0.5rem;justify-content:center;">
+          ${Object.keys(cityData).slice(0,6).map(c => `<a href="#" class="back-home" onclick="event.preventDefault();showGuide('${c}');" style="margin:0;">${c}</a>`).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
 
 // ===== RENDER POPULAR CITIES =====
 const popularGrid = document.getElementById('popular-grid');
