@@ -152,6 +152,38 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 .not-found-tags a { text-decoration: none; padding: 6px 16px; border-radius: 20px; background: var(--bg2); color: var(--ink); font-size: 0.85rem; transition: all 0.2s; }
 .not-found-tags a:hover { background: var(--accent-light); color: var(--accent); }
 
+/* Spot Detail Modal */
+.modal-overlay { position: fixed; inset: 0; z-index: 200; background: rgba(0,0,0,0.5); display: none; align-items: center; justify-content: center; backdrop-filter: blur(4px); }
+.modal-overlay.show { display: flex; }
+.modal-content { background: var(--bg); border-radius: 16px; max-width: 680px; width: 92%; max-height: 85vh; overflow-y: auto; box-shadow: 0 20px 60px rgba(0,0,0,0.3); position: relative; animation: modalIn 0.3s ease; }
+@keyframes modalIn { from { opacity: 0; transform: translateY(30px) scale(0.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+.modal-close { position: absolute; top: 1rem; right: 1.2rem; background: none; border: none; font-size: 1.8rem; color: var(--muted); cursor: pointer; width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: all 0.2s; }
+.modal-close:hover { background: var(--bg2); color: var(--ink); }
+.modal-header { padding: 2rem 2rem 0; }
+.modal-header h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 0.5rem; }
+.modal-header .modal-meta { display: flex; gap: 1.2rem; flex-wrap: wrap; margin-top: 0.5rem; }
+.modal-header .modal-meta span { font-size: 0.85rem; color: var(--muted); display: flex; align-items: center; gap: 0.3rem; }
+.modal-body { padding: 1.5rem 2rem 2rem; }
+.modal-body p { font-size: 0.95rem; color: var(--ink); line-height: 1.8; margin-bottom: 1.5rem; }
+.modal-section { margin-bottom: 1.5rem; }
+.modal-section h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--accent); display: inline-block; }
+.tips-list { list-style: none; padding: 0; }
+.tips-list li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; font-size: 0.9rem; color: var(--ink); border-bottom: 1px solid var(--bg2); }
+.tips-list li:last-child { border-bottom: none; }
+.tips-list li::before { content: "\u2714"; position: absolute; left: 0; color: var(--accent2); font-weight: 700; }
+.food-pair { display: flex; gap: 1rem; flex-wrap: wrap; }
+.food-pair-item { flex: 1; min-width: 200px; background: var(--bg2); border-radius: 8px; padding: 1rem; }
+.food-pair-item h5 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--accent); }
+.food-pair-item p { font-size: 0.82rem; color: var(--muted); margin: 0; }
+.photo-list { list-style: none; padding: 0; }
+.photo-list li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; font-size: 0.9rem; color: var(--ink); border-bottom: 1px solid var(--bg2); }
+.photo-list li:last-child { border-bottom: none; }
+.photo-list li::before { content: "\uD83D\uDCF7"; position: absolute; left: 0; }
+.spot-card { cursor: pointer; }
+.spot-card .view-detail { font-size: 0.75rem; color: var(--accent); font-weight: 600; margin-top: 0.4rem; display: block; }
+.spot-card .view-detail:hover { text-decoration: underline; }
+.modal-no-detail { text-align: center; padding: 2rem; color: var(--muted); }
+
 .footer { background: var(--ink); color: rgba(255,255,255,0.7); padding: 3rem 2rem; text-align: center; margin-top: 4rem; }
 .footer p { font-size: 0.85rem; }
 
@@ -253,7 +285,20 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
   <div id="tab-tickets" class="tab-panel"></div>
 </div>
 
+<!-- Spot Detail Modal -->
+<div class="modal-overlay" id="spot-modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeSpotModal()">&times;</button>
+    <div class="modal-header">
+      <h2 id="modal-title"></h2>
+      <div class="modal-meta" id="modal-meta"></div>
+    </div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
 <script src="assets/city-data.js"></script>
+<script src="assets/spot-details.js"></script>
 <script>
 // ===== PROVINCE GROUPING =====
 const provinceGroups = {
@@ -423,8 +468,10 @@ function showGuide(city) {
 
   document.getElementById('tab-spots').innerHTML =
     '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
-    '<h3 style="margin-bottom:1.5rem;font-size:1.3rem;">' + city + '热门打卡点</h3><div class="spot-grid">' +
-    data.spots.map(s => '<div class="spot-card"><div class="spot-card-header"><h4>' + s.name + '</h4><span class="spot-card-tag">' + s.tag + '</span></div><div class="spot-card-body"><p>' + s.desc + '</p><div class="spot-card-meta"><span>&#9201; ' + s.time + '</span><span>&#11088; ' + s.rating + '</span></div></div></div>').join('') + '</div>';
+    '<h3 style="margin-bottom:1.5rem;font-size:1.3rem;">' + city + '热门打卡点</h3>' +
+    '<p style="margin-bottom:1.2rem;font-size:0.85rem;color:var(--muted);">点击景点卡片查看详细攻略</p>' +
+    '<div class="spot-grid">' +
+    data.spots.map((s, i) => '<div class="spot-card" onclick="openSpotDetail(\'' + city + '\',' + i + ')"><div class="spot-card-header"><h4>' + s.name + '</h4><span class="spot-card-tag">' + s.tag + '</span></div><div class="spot-card-body"><p>' + s.desc + '</p><div class="spot-card-meta"><span>&#9201; ' + s.time + '</span><span>&#11088; ' + s.rating + '</span></div><span class="view-detail">查看详细攻略 &#8594;</span></div></div>').join('') + '</div>';
 
   document.getElementById('tab-tickets').innerHTML =
     '<a href="#" class="back-home" onclick="goHome(event)">&#8592; 返回首页</a>' +
@@ -474,6 +521,57 @@ function switchTab(name) {
 
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 50); });
+
+// ===== SPOT DETAIL MODAL =====
+let currentCity = '';
+function openSpotDetail(cityName, spotIndex) {
+  currentCity = cityName;
+  const spot = cityData[cityName].spots[spotIndex];
+  const modal = document.getElementById('spot-modal');
+
+  document.getElementById('modal-title').textContent = spot.name;
+  document.getElementById('modal-meta').innerHTML =
+    '<span>&#9201; ' + (spot.time || '2-3小时') + '</span>' +
+    '<span>&#11088; ' + (spot.rating || '4.5') + '</span>' +
+    '<span>&#127961; ' + cityName + '</span>';
+
+  // Check if we have detailed data
+  let html = '';
+  if (typeof spotDetails !== 'undefined' && spotDetails[cityName] && spotDetails[cityName][spotIndex]) {
+    const d = spotDetails[cityName][spotIndex];
+    html += '<p>' + d.detailed_desc + '</p>';
+    html += '<div class="modal-section"><h4>&#128197; 最佳游览时间</h4><p style="margin:0;">' + d.best_time + ' | 建议游览 ' + d.duration + '</p></div>';
+    html += '<div class="modal-section"><h4>&#128161; 游玩贴士</h4><ul class="tips-list">';
+    d.tips.forEach(function(t) { html += '<li>' + t + '</li>'; });
+    html += '</ul></div>';
+    html += '<div class="modal-section"><h4>&#127860; 景点附近美食</h4><div class="food-pair">';
+    d.nearby_food.forEach(function(f) { html += '<div class="food-pair-item"><h5>' + f.name + '</h5><p>' + f.desc + '</p></div>'; });
+    html += '</div></div>';
+    html += '<div class="modal-section"><h4>&#128247; 最佳拍照点</h4><ul class="photo-list">';
+    d.photo_spots.forEach(function(p) { html += '<li>' + p + '</li>'; });
+    html += '</ul></div>';
+  } else {
+    html += '<p>' + spot.desc + '</p>';
+    html += '<div class="modal-section"><h4>&#128161; 基本信息</h4><p style="margin:0;">建议游览 ' + (spot.time || '2-3小时') + '，评分 ' + (spot.rating || '4.5') + '</p></div>';
+    html += '<div class="modal-section"><h4>&#128161; 游玩贴士</h4><ul class="tips-list"><li>建议提前查看天气预报，选择合适的时间前往</li><li>携带相机记录美景，注意保管好个人财物</li><li>避开节假日高峰期，体验更佳</li></ul></div>';
+    html += '<div class="modal-section"><h4>&#127860; 附近美食</h4><p style="margin:0;">建议在大众点评或美团搜索附近美食</p></div>';
+  }
+  document.getElementById('modal-body').innerHTML = html;
+  modal.classList.add('show');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSpotModal() {
+  document.getElementById('spot-modal').classList.remove('show');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('spot-modal').addEventListener('click', function(e) {
+  if (e.target === this) closeSpotModal();
+});
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeSpotModal();
+});
 </script>
 </body>
 </html>
