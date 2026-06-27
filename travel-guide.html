@@ -4,7 +4,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>旅行攻略 - 全国346个城市，输入即查</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>旅行攻略 - 全国742个城市，输入即查</title>
 <style>
 :root {
   --bg: #FAFAF8; --bg2: #F0EDE6; --ink: #2C2C2C; --muted: #8A8578;
@@ -168,17 +171,15 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
 .modal-section { margin-bottom: 1.5rem; }
 .modal-section h4 { font-size: 1rem; font-weight: 700; margin-bottom: 0.8rem; padding-bottom: 0.4rem; border-bottom: 2px solid var(--accent); display: inline-block; }
 .tips-list { list-style: none; padding: 0; }
-.tips-list li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; font-size: 0.9rem; color: var(--ink); border-bottom: 1px solid var(--bg2); }
+.tips-list li { padding: 0.5rem 0; font-size: 0.9rem; color: var(--ink); border-bottom: 1px solid var(--bg2); }
 .tips-list li:last-child { border-bottom: none; }
-.tips-list li::before { content: "✔"; position: absolute; left: 0; color: var(--accent2); font-weight: 700; }
 .food-pair { display: flex; gap: 1rem; flex-wrap: wrap; }
 .food-pair-item { flex: 1; min-width: 200px; background: var(--bg2); border-radius: 8px; padding: 1rem; }
 .food-pair-item h5 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.3rem; color: var(--accent); }
 .food-pair-item p { font-size: 0.82rem; color: var(--muted); margin: 0; }
 .photo-list { list-style: none; padding: 0; }
-.photo-list li { padding: 0.5rem 0; padding-left: 1.5rem; position: relative; font-size: 0.9rem; color: var(--ink); border-bottom: 1px solid var(--bg2); }
+.photo-list li { padding: 0.5rem 0; font-size: 0.9rem; color: var(--ink); border-bottom: 1px solid var(--bg2); }
 .photo-list li:last-child { border-bottom: none; }
-.photo-list li::before { content: "📷"; position: absolute; left: 0; }
 .spot-card { cursor: pointer; }
 .spot-card .view-detail { font-size: 0.75rem; color: var(--accent); font-weight: 600; margin-top: 0.4rem; display: block; }
 .spot-card .view-detail:hover { text-decoration: underline; }
@@ -297,8 +298,8 @@ body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', 'Noto Sans 
   </div>
 </div>
 
-<script src="assets/city-data.js"></script>
-<script src="assets/spot-details.js"></script>
+<script src="assets/city-data.js?v=2"></script>
+<script src="assets/spot-details.js?v=2"></script>
 <script>
 // ===== PROVINCE GROUPING =====
 const provinceGroups = {
@@ -542,18 +543,18 @@ function openSpotDetail(cityName, spotIndex) {
     html += '<p>' + d.detailed_desc + '</p>';
     html += '<div class="modal-section"><h4>&#128197; 最佳游览时间</h4><p style="margin:0;">' + d.best_time + ' | 建议游览 ' + d.duration + '</p></div>';
     html += '<div class="modal-section"><h4>&#128161; 游玩贴士</h4><ul class="tips-list">';
-    d.tips.forEach(function(t) { html += '<li>' + t + '</li>'; });
+    d.tips.forEach(function(t) { html += '<li><span style="color:var(--accent2);font-weight:700;margin-right:0.4rem;">✔</span>' + t + '</li>'; });
     html += '</ul></div>';
     html += '<div class="modal-section"><h4>&#127860; 景点附近美食</h4><div class="food-pair">';
     d.nearby_food.forEach(function(f) { html += '<div class="food-pair-item"><h5>' + f.name + '</h5><p>' + f.desc + '</p></div>'; });
     html += '</div></div>';
     html += '<div class="modal-section"><h4>&#128247; 最佳拍照点</h4><ul class="photo-list">';
-    d.photo_spots.forEach(function(p) { html += '<li>' + p + '</li>'; });
+    d.photo_spots.forEach(function(p) { html += '<li><span style="margin-right:0.4rem;">📷</span>' + p + '</li>'; });
     html += '</ul></div>';
   } else {
     html += '<p>' + spot.desc + '</p>';
     html += '<div class="modal-section"><h4>&#128161; 基本信息</h4><p style="margin:0;">建议游览 ' + (spot.time || '2-3小时') + '，评分 ' + (spot.rating || '4.5') + '</p></div>';
-    html += '<div class="modal-section"><h4>&#128161; 游玩贴士</h4><ul class="tips-list"><li>建议提前查看天气预报，选择合适的时间前往</li><li>携带相机记录美景，注意保管好个人财物</li><li>避开节假日高峰期，体验更佳</li></ul></div>';
+    html += '<div class="modal-section"><h4>&#128161; 游玩贴士</h4><ul class="tips-list"><li><span style="color:var(--accent2);font-weight:700;margin-right:0.4rem;">✔</span>建议提前查看天气预报，选择合适的时间前往</li><li><span style="color:var(--accent2);font-weight:700;margin-right:0.4rem;">✔</span>携带相机记录美景，注意保管好个人财物</li><li><span style="color:var(--accent2);font-weight:700;margin-right:0.4rem;">✔</span>避开节假日高峰期，体验更佳</li></ul></div>';
     html += '<div class="modal-section"><h4>&#127860; 附近美食</h4><p style="margin:0;">建议在大众点评或美团搜索附近美食</p></div>';
   }
   document.getElementById('modal-body').innerHTML = html;
