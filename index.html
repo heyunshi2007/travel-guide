@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>剪映CBA篮球视频剪辑高级技法教学</title>
+  <style>
+    @font-face { font-family: 'BigShoulders'; src: url('_shared/fonts/BigShoulders-Regular.ttf') format('truetype'); font-weight: 400; }
+    @font-face { font-family: 'BigShoulders'; src: url('_shared/fonts/BigShoulders-Bold.ttf') format('truetype'); font-weight: 700; }
+    @font-face { font-family: 'InstrumentSans'; src: url('_shared/fonts/InstrumentSans-Regular.ttf') format('truetype'); font-weight: 400; }
+    @font-face { font-family: 'InstrumentSans'; src: url('_shared/fonts/InstrumentSans-Bold.ttf') format('truetype'); font-weight: 700; }
+
+    :root {
+      --bg: #0d1117; --bg2: #161b22; --bg3: #21262d; --text: #c9d1d9; --text2: #8b949e;
+      --accent: #00d4aa; --accent2: #ff6b35; --rule: #30363d; --card: rgba(22,27,34,0.85);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'InstrumentSans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg); color: var(--text); line-height: 1.7; overflow-x: hidden;
+    }
+    h1, h2, h3, h4 { font-family: 'BigShoulders', sans-serif; letter-spacing: 0.02em; }
+
+    .hero {
+      position: relative; height: 60vh; min-height: 420px; display: flex; align-items: center; justify-content: center;
+      overflow: hidden; background: linear-gradient(135deg, #0d1117 0%, #1a2332 50%, #0d1117 100%);
+    }
+    .hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0.35; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(13,17,23,0.3), rgba(13,17,23,0.95)); }
+    .hero-content { position: relative; z-index: 2; text-align: center; max-width: 800px; padding: 0 1.5rem; }
+    .hero-content h1 { font-size: clamp(2rem, 5vw, 3.5rem); color: #fff; margin-bottom: 0.5rem; text-shadow: 0 2px 20px rgba(0,0,0,0.5); }
+    .hero-content .subtitle { font-size: clamp(1rem, 2vw, 1.3rem); color: var(--accent); margin-bottom: 1rem; }
+    .hero-content p { color: var(--text2); font-size: 1rem; max-width: 600px; margin: 0 auto; }
+    .badge { display: inline-block; background: var(--accent); color: #000; padding: 0.3rem 0.9rem; border-radius: 20px; font-size: 0.8rem; font-weight: 700; margin-bottom: 1rem; }
+
+    nav {
+      position: sticky; top: 0; z-index: 100; background: rgba(13,17,23,0.92); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--rule); padding: 0.6rem 0; overflow-x: auto;
+    }
+    nav ul { display: flex; gap: 0.5rem; list-style: none; justify-content: center; padding: 0 1rem; min-width: max-content; }
+    nav a { color: var(--text2); text-decoration: none; font-size: 0.85rem; padding: 0.4rem 0.9rem; border-radius: 6px; transition: all 0.2s; white-space: nowrap; }
+    nav a:hover, nav a.active { background: var(--bg3); color: var(--accent); }
+
+    section { max-width: 960px; margin: 0 auto; padding: 3rem 1.5rem; }
+    section + section { border-top: 1px solid var(--rule); }
+    h2 { font-size: clamp(1.6rem, 3.5vw, 2.2rem); color: #fff; margin-bottom: 0.3rem; display: flex; align-items: center; gap: 0.6rem; }
+    h2 .num { color: var(--accent); font-size: 0.7em; }
+    .section-desc { color: var(--text2); margin-bottom: 1.5rem; font-size: 0.95rem; }
+
+    .card {
+      background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 1.5rem;
+      margin-bottom: 1.2rem; transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+    .card h3 { color: var(--accent); font-size: 1.15rem; margin-bottom: 0.6rem; display: flex; align-items: center; gap: 0.5rem; }
+    .card h3 .icon { font-size: 1.3rem; }
+    .card p, .card li { color: var(--text2); font-size: 0.92rem; }
+    .card ul { margin: 0.5rem 0 0 1.2rem; }
+    .card li { margin-bottom: 0.3rem; }
+
+    .steps { display: grid; gap: 0.8rem; margin: 1rem 0; }
+    .step { display: flex; gap: 0.8rem; align-items: flex-start; }
+    .step-num { min-width: 28px; height: 28px; background: var(--accent); color: #000; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; flex-shrink: 0; }
+    .step-content { flex: 1; }
+    .step-content strong { color: #fff; }
+
+    .tip { background: rgba(0,212,170,0.08); border-left: 3px solid var(--accent); padding: 0.8rem 1rem; border-radius: 0 6px 6px 0; margin: 1rem 0; font-size: 0.9rem; color: var(--text2); }
+    .tip strong { color: var(--accent); }
+    .warning { background: rgba(255,107,53,0.08); border-left-color: var(--accent2); }
+    .warning strong { color: var(--accent2); }
+
+    .section-img { width: 100%; border-radius: 10px; margin: 1.2rem 0; border: 1px solid var(--rule); }
+    .img-caption { text-align: center; color: var(--text2); font-size: 0.8rem; margin-top: -0.5rem; margin-bottom: 1rem; }
+
+    .detail-toggle { display: none; }
+    .detail-label {
+      display: inline-flex; align-items: center; gap: 0.4rem; cursor: pointer;
+      color: var(--accent); font-size: 0.85rem; font-weight: 600; margin-top: 0.6rem; user-select: none;
+      padding: 0.35rem 0.8rem; background: rgba(0,212,170,0.1); border-radius: 6px; transition: all 0.2s;
+    }
+    .detail-label:hover { background: rgba(0,212,170,0.2); }
+    .detail-label::after { content: "▼"; font-size: 0.65rem; transition: transform 0.2s; }
+    .detail-toggle:checked + .detail-label::after { transform: rotate(180deg); }
+    .detail-content {
+      max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.4s ease, margin 0.4s ease;
+      padding: 0 1rem; background: var(--bg3); border-radius: 0 0 8px 8px; margin: 0;
+    }
+    .detail-toggle:checked ~ .detail-content { max-height: 1200px; padding: 1.2rem; margin-top: 0.5rem; }
+    .detail-content img { width: 100%; border-radius: 8px; margin-bottom: 0.8rem; border: 1px solid var(--rule); }
+    .detail-content p { margin-bottom: 0.6rem; font-size: 0.9rem; }
+    .detail-content strong { color: var(--accent); }
+
+    .mask-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; margin: 1.2rem 0; }
+    .mask-card { background: var(--bg2); border: 1px solid var(--rule); border-radius: 10px; padding: 1.2rem; }
+    .mask-card h4 { color: var(--accent); font-size: 1rem; margin-bottom: 0.5rem; }
+    .mask-card p { font-size: 0.88rem; color: var(--text2); }
+
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.2rem; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+
+    .compare { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .compare-box { background: var(--bg2); border: 1px solid var(--rule); border-radius: 8px; padding: 1rem; }
+    .compare-box h4 { color: var(--accent2); font-size: 0.95rem; margin-bottom: 0.5rem; }
+    .compare-box.good h4 { color: var(--accent); }
+
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: 0.9rem; }
+    th, td { padding: 0.7rem; text-align: left; border-bottom: 1px solid var(--rule); }
+    th { color: var(--accent); font-weight: 700; background: var(--bg2); }
+    tr:hover td { background: var(--bg3); }
+
+    footer { text-align: center; padding: 2rem; color: var(--text2); font-size: 0.85rem; border-top: 1px solid var(--rule); margin-top: 2rem; }
+
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: var(--bg); }
+    ::-webkit-scrollbar-thumb { background: var(--bg3); border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--rule); }
+
+    @media (max-width: 640px) {
+      .compare { grid-template-columns: 1fr; }
+      .mask-grid { grid-template-columns: 1fr; }
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      section { padding: 2rem 1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="assets/hero_cover_1280x720.jpg" alt="CBA篮球视频剪辑">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="badge">剪映专业版 / 手机版</div>
+    <h1>CBA篮球视频剪辑高级技法</h1>
+    <p class="subtitle">从入门到精通的完整教学指南</p>
+    <p>涵盖蒙版、关键帧、画中画、特效、调色、变速等核心剪辑技术，全部使用CBA实战案例，助你打造专业级篮球赛事短视频</p>
+  </div>
+</div>
+
+<nav>
+  <ul>
+    <li><a href="#s1" class="active">素材准备</a></li>
+    <li><a href="#s2">蒙版技术</a></li>
+    <li><a href="#s3">关键帧</a></li>
+    <li><a href="#s4">画中画</a></li>
+    <li><a href="#s5">转场特效</a></li>
+    <li><a href="#s6">调色技法</a></li>
+    <li><a href="#s7">音频节奏</a></li>
+    <li><a href="#s8">变速剪辑</a></li>
+    <li><a href="#s9">高级技法</a></li>
+    <li><a href="#s10">AI功能</a></li>
+    <li><a href="#s11">项目实战</a></li>
+  </ul>
+</nav>
+
+<section id="s1">
+  <h2><span class="num">01</span> 素材准备与项目管理</h2>
+  <p class="section-desc">工欲善其事，必先利其器。在开始剪辑CBA比赛视频前，合理的素材管理和项目规划能让后续工作事半功倍。</p>
+
+  <div class="card">
+    <h3><span class="icon">📁</span>素材收集与分类</h3>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>视频素材来源：</strong>CBA官方直播回放、球队官方社交媒体、咪咕视频赛事集锦、球迷现场录制（注意版权）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>建立文件夹结构：</strong>按"日期_对阵双方"命名，子文件夹分为：全场素材/精彩瞬间/球员特写/观众反应/慢镜回放</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>音频素材准备：</strong>收集CBA官方主题曲、球场原声、解说音频、适合节奏的BGM（推荐120-140 BPM的trap/hip-hop）</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><strong>图片素材：</strong>球队Logo、球员定妆照、比分牌素材、CBA官方视觉元素</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">⚙️</span>剪映项目设置</h3>
+    <p>打开剪映专业版，创建新项目时的推荐设置：</p>
+    <ul>
+      <li><strong>分辨率：</strong>1920×1080（横屏赛事）或 1080×1920（竖屏短视频）</li>
+      <li><strong>帧率：</strong>25fps（匹配CBA直播信号）或 30fps（短视频平台）</li>
+      <li><strong>码率：</strong>推荐 8-12Mbps，保证画质同时控制文件大小</li>
+      <li><strong>色彩空间：</strong>Rec.709（标准动态范围）</li>
+    </ul>
+    <div class="tip"><strong>提示：</strong>在剪映设置中开启"自动保存"，间隔设为3分钟，防止意外丢失进度。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">✂️</span>粗剪：筛选精彩镜头</h3>
+    <p>观看完整比赛录像，标记以下类型的时间点：</p>
+    <div class="grid-2">
+      <div><strong style="color:var(--accent)">必剪镜头</strong><ul><li>绝杀/关键球时刻</li><li>精彩扣篮/盖帽</li><li>球员庆祝动作</li><li>教练激动反应</li></ul></div>
+      <div><strong style="color:var(--accent2)">可选素材</strong><ul><li>球员热身画面</li><li>球迷互动镜头</li><li>裁判争议判罚</li><li>赛前入场仪式</li></ul></div>
+    </div>
+    <div class="tip"><strong>技巧：</strong>使用剪映的"标记"功能（快捷键M）在预览时快速打点，后续可直接跳转到标记位置。</div>
+  </div>
+</section>
+
+<section id="s2">
+  <h2><span class="num">02</span> 蒙版技术：局部遮罩与创意合成</h2>
+  <p class="section-desc">蒙版是视频剪辑中最强大的创意工具之一，通过遮罩可以控制素材的显示区域，实现画中画、分屏、转场等高级效果。</p>
+
+  <img src="assets/mask_tutorial_1152x864.jpg" alt="蒙版技术示意图" class="section-img">
+  <p class="img-caption">四种核心蒙版类型在CBA剪辑中的应用示意</p>
+
+  <div class="card">
+    <h3><span class="icon">🔲</span>剪映中的蒙版基础</h3>
+    <p>在剪映专业版中，蒙版功能位于<strong>属性面板 → 蒙版</strong>选项卡。选中时间轴上的素材后，点击"蒙版"即可添加。</p>
+    <div class="tip"><strong>操作路径：</strong>选中素材 → 右侧属性面板 → 蒙版 → 选择蒙版类型 → 调整参数</div>
+  </div>
+
+  <h3 style="color:#fff;margin:1.5rem 0 1rem;">四种核心蒙版类型</h3>
+
+  <div class="mask-grid">
+    <div class="mask-card">
+      <h4>🔲 矩形蒙版</h4>
+      <p>最常用的蒙版类型，适合制作分屏对比、画中画边框、电影宽银幕效果。</p>
+      <input type="checkbox" id="mask-rect" class="detail-toggle">
+      <label for="mask-rect" class="detail-label">点击查看详细内容</label>
+      <div class="detail-content">
+        <img src="assets/mask_rect_demo_1152x864.jpg" alt="矩形蒙版效果图">
+        <p><strong>操作路径：</strong>选中素材 → 属性面板 → 蒙版 → 矩形蒙版</p>
+        <p><strong>可调参数：</strong></p>
+        <ul>
+          <li>大小：拖动边角控制蒙版区域</li>
+          <li>位置：拖动中心点移动蒙版</li>
+          <li>圆角：0-100%，圆角矩形效果</li>
+          <li>羽化：0-100px，边缘柔化程度</li>
+        </ul>
+        <p><strong>CBA实战应用：</strong></p>
+        <ul>
+          <li>制作"赛前数据对比"分屏：左侧显示球员A数据，右侧显示球员B数据</li>
+          <li>电影宽银幕效果：上下添加黑色矩形蒙版，营造2.35:1电影感</li>
+          <li>新闻式画中画：主画面为比赛实况，右下角矩形蒙版显示解说员画面</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mask-card">
+      <h4>⭕ 圆形蒙版</h4>
+      <p>适合制作聚光灯效果、头像展示、雷达图式转场，营造聚焦感。</p>
+      <input type="checkbox" id="mask-circle" class="detail-toggle">
+      <label for="mask-circle" class="detail-label">点击查看详细内容</label>
+      <div class="detail-content">
+        <img src="assets/mask_circle_demo_1152x864.jpg" alt="圆形蒙版效果图">
+        <p><strong>操作路径：</strong>选中素材 → 属性面板 → 蒙版 → 圆形蒙版</p>
+        <p><strong>可调参数：</strong></p>
+        <ul>
+          <li>半径：控制圆形大小</li>
+          <li>位置：移动圆形中心点</li>
+          <li>羽化：边缘柔化，营造聚光灯渐变效果</li>
+        </ul>
+        <p><strong>CBA实战应用：</strong></p>
+        <ul>
+          <li>球员介绍：圆形蒙版聚焦球员头像，配合姓名和数据弹出</li>
+          <li> spotlight效果：在全场画面中用圆形蒙版高亮持球队员</li>
+          <li>转场过渡：圆形从小扩大至全屏，实现"睁眼"式转场</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mask-card">
+      <h4>📐 线性蒙版</h4>
+      <p>通过线性渐变控制透明度，适合制作擦除转场、渐变遮罩、天空替换等效果。</p>
+      <input type="checkbox" id="mask-linear" class="detail-toggle">
+      <label for="mask-linear" class="detail-label">点击查看详细内容</label>
+      <div class="detail-content">
+        <img src="assets/mask_linear_demo_1152x864.jpg" alt="线性蒙版效果图">
+        <p><strong>操作路径：</strong>选中素材 → 属性面板 → 蒙版 → 线性蒙版</p>
+        <p><strong>可调参数：</strong></p>
+        <ul>
+          <li>角度：0-360°，控制渐变方向</li>
+          <li>位置：移动渐变中心线</li>
+          <li>羽化：控制渐变过渡的柔和程度</li>
+        </ul>
+        <p><strong>CBA实战应用：</strong></p>
+        <ul>
+          <li>擦除转场：两个素材叠放，对上层添加线性蒙版并做位移动画，实现"擦除"切换</li>
+          <li>上下分屏：水平线性蒙版，上方显示球员A集锦，下方显示球员B集锦</li>
+          <li>天空/场地替换：对替换素材添加线性蒙版，只替换画面上半部分天空</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="mask-card">
+      <h4>🪞 镜像蒙版</h4>
+      <p>创建对称反射效果，适合制作万花筒、对称构图、创意视觉特效。</p>
+      <input type="checkbox" id="mask-mirror" class="detail-toggle">
+      <label for="mask-mirror" class="detail-label">点击查看详细内容</label>
+      <div class="detail-content">
+        <img src="assets/mask_mirror_demo_1152x864.jpg" alt="镜像蒙版效果图">
+        <p><strong>操作路径：</strong>选中素材 → 属性面板 → 蒙版 → 镜像蒙版</p>
+        <p><strong>可调参数：</strong></p>
+        <ul>
+          <li>角度：控制镜像轴的方向</li>
+          <li>位置：移动镜像轴线</li>
+          <li>羽化：镜像边缘的融合程度</li>
+        </ul>
+        <p><strong>CBA实战应用：</strong></p>
+        <ul>
+          <li>对称球场：将半场画面镜像，创造"完整球场"视觉效果</li>
+          <li>球员镜像：球员动作对称复制，营造科幻感</li>
+          <li>创意片头：Logo或球队标志的对称展开动画</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎯</span>蒙版进阶：多蒙版叠加与关键帧动画</h3>
+    <p>剪映支持在同一素材上叠加多个蒙版，配合关键帧可以实现复杂的动态遮罩效果。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>添加多个蒙版：</strong>在蒙版面板点击"+"添加第二个蒙版，系统会自动以"相加"模式叠加</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>蒙版混合模式：</strong>支持"相加"（并集）、"相减"（挖空）、"相交"（交集）三种模式</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>关键帧动画：</strong>在时间轴上为蒙版的"位置""大小""旋转"属性添加关键帧，让蒙版动起来</div></div>
+    </div>
+    <div class="tip"><strong>CBA案例：</strong>制作"球员追踪高亮"效果——用圆形蒙版跟踪持球队员，添加关键帧让蒙版位置跟随球员移动，同时降低非蒙版区域的亮度，实现"聚光灯追身"效果。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">💡</span>蒙版实用技巧</h3>
+    <ul>
+      <li><strong>羽化值建议：</strong>分屏类蒙版羽化0-5px保持清晰；转场类蒙版羽化20-50px保持柔和</li>
+      <li><strong>蒙版+不透明度：</strong>蒙版控制显示区域，不透明度控制整体透明，两者配合可实现更细腻的层次</li>
+      <li><strong>蒙版反转：</strong>勾选"反转"选项，可快速将蒙版内外区域互换，制作"镂空"效果</li>
+      <li><strong>复制蒙版：</strong>右键点击蒙版可"复制蒙版属性"，快速应用到其他素材</li>
+    </ul>
+  </div>
+</section>
+
+<section id="s3">
+  <h2><span class="num">03</span> 关键帧动画：让画面动起来</h2>
+  <p class="section-desc">关键帧是动画的灵魂。通过在时间轴上设置不同时间点的属性值，剪映会自动计算中间过渡，实现平滑的动画效果。</p>
+
+  <img src="assets/keyframe_tutorial_1152x864.jpg" alt="关键帧动画示意图" class="section-img">
+  <p class="img-caption">关键帧在篮球剪辑中的应用——运动路径与曲线编辑器</p>
+
+  <div class="card">
+    <h3><span class="icon">🔑</span>关键帧基础概念</h3>
+    <p>关键帧记录了素材在某一时刻的状态。当两个关键帧之间的属性值不同时，剪映会自动插值计算过渡。</p>
+    <div class="tip"><strong>添加关键帧：</strong>选中素材 → 移动播放头到目标位置 → 在属性面板中点击属性旁的"菱形"图标 → 调整属性值</div>
+    <p><strong>可添加关键帧的属性包括：</strong></p>
+    <div class="grid-3">
+      <div><strong style="color:var(--accent)">变换类</strong><ul><li>位置（X/Y）</li><li>缩放</li><li>旋转</li><li>锚点</li></ul></div>
+      <div><strong style="color:var(--accent)">外观类</strong><ul><li>不透明度</li><li>混合模式</li><li>裁剪</li></ul></div>
+      <div><strong style="color:var(--accent)">特效类</strong><ul><li>蒙版位置/大小</li><li>特效参数</li><li>调色参数</li></ul></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">📐</span>关键帧插值类型</h3>
+    <p>剪映提供三种插值方式，决定关键帧之间的过渡曲线：</p>
+    <table>
+      <tr><th>插值类型</th><th>特点</th><th>CBA应用</th></tr>
+      <tr><td><strong>线性</strong></td><td>匀速变化，机械感强</td><td>比分牌数字滚动、计时器走动</td></tr>
+      <tr><td><strong>缓入</strong></td><td>开始慢，逐渐加速</td><td>球员出场介绍、Logo飞入</td></tr>
+      <tr><td><strong>缓出</strong></td><td>开始快，逐渐减速</td><td>画面定格、慢动作收尾</td></tr>
+      <tr><td><strong>缓入缓出</strong></td><td>两头慢中间快，最自然</td><td>摄像机推拉、球员追踪</td></tr>
+    </table>
+    <div class="tip"><strong>操作：</strong>右键点击关键帧 → 选择"缓动类型" → 选择适合的曲线</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🏀</span>CBA实战：5个关键帧应用案例</h3>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">案例1：模拟摄像机推拉</h4>
+    <p>在精彩进球瞬间，用缩放关键帧模拟摄像机快速推近效果。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">在进球前5帧处添加缩放关键帧，值为100%</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">在进球瞬间添加第二个关键帧，缩放值设为130-150%</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">第二个关键帧设为"缓入缓出"，营造冲击力</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">可同时添加位置关键帧，让画面中心对准篮球</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">案例2：数据条动画</h4>
+    <p>展示球员数据时，让数据条从0%增长到实际数值。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">添加纯色图层作为数据条背景</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">添加蒙版（矩形），初始宽度设为0</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">1秒后添加第二个关键帧，蒙版宽度设为对应百分比</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">缓出曲线，让增长逐渐减速，更有"落定"感</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">案例3：画中画飞入</h4>
+    <p>让球员特写画面从屏幕外飞入。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">将画中画素材的初始位置设在屏幕右侧外（X &gt; 120%）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">0.5秒后添加位置关键帧，X值设为目标位置</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">添加不透明度关键帧：0% → 100%</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">缓出曲线，让飞入有"刹车"感</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">案例4：旋转文字标题</h4>
+    <p>制作"第三节""加时赛"等转场标题。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">添加文字图层，初始旋转-90°，缩放50%</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">0.3秒后添加旋转关键帧：0°，缩放100%</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">缓入缓出曲线</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">停留1秒后，添加退出关键帧飞出</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">案例5：跟踪高亮框</h4>
+    <p>用关键帧让矩形蒙版跟随移动中的球员。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">为素材添加矩形蒙版，框选目标球员</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">每5-10帧添加一个位置关键帧，手动调整蒙版跟随球员</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">降低底层素材亮度（添加"亮度/对比度"特效）</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">在蒙版内添加"发光"特效，让高亮区域更醒目</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">⚡</span>关键帧效率技巧</h3>
+    <ul>
+      <li><strong>复制粘贴关键帧：</strong>选中关键帧按Ctrl+C/Ctrl+V，可跨素材复用动画</li>
+      <li><strong>关键帧对齐：</strong>按住Shift拖动关键帧，可吸附到播放头或其他关键帧</li>
+      <li><strong>批量删除：</strong>框选多个关键帧后按Delete一键清除</li>
+      <li><strong>曲线编辑器：</strong>在关键帧面板点击"曲线"，可精细调整贝塞尔手柄</li>
+      <li><strong>关键帧预设：</strong>将常用动画保存为"动画预设"，一键应用到其他素材</li>
+    </ul>
+  </div>
+</section>
+
+<section id="s4">
+  <h2><span class="num">04</span> 画中画（PiP）：多画面叙事</h2>
+  <p class="section-desc">画中画技术允许在同一画面中展示多个视频源，是篮球赛事剪辑中展示多角度、对比数据、同时呈现多个信息的利器。</p>
+
+  <img src="assets/pip_tutorial_1152x864.jpg" alt="画中画示意图" class="section-img">
+  <p class="img-caption">画中画在CBA赛事剪辑中的多层叠加应用</p>
+
+  <div class="card">
+    <h3><span class="icon">📺</span>剪映画中画基础操作</h3>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>添加画中画：</strong>将素材拖到主轨道上方，自动成为画中画轨道；或右键点击主轨道 → "添加画中画"</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>调整大小位置：</strong>在预览窗口直接拖动，或在属性面板精确调整X/Y坐标和缩放值</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>层级管理：</strong>画中画轨道越靠上，显示层级越高。可拖动轨道调整叠放顺序</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><strong>混合模式：</strong>在属性面板选择"混合"，可让画中画与底层产生叠加/滤色/正片叠底等效果</div></div>
+    </div>
+    <div class="tip"><strong>层级建议：</strong>主比赛画面（底层）→ 数据/比分（中层）→ 球员特写（上层），避免信息过载。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎯</span>CBA实战：6种画中画布局</h3>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">布局1：主画面 + 角标特写</h4>
+    <p>主画面展示全场进攻，右下角画中画显示得分球员特写。</p>
+    <ul>
+      <li>主画面：100%大小，全屏</li>
+      <li>画中画：25%大小，右下角，带2px白色边框</li>
+      <li>添加"阴影"特效增加层次感</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">布局2：双屏对比</h4>
+    <p>左右分屏，对比两名球员的表现。</p>
+    <ul>
+      <li>左侧素材：50%宽度，左对齐，添加矩形蒙版裁剪右半边</li>
+      <li>右侧素材：50%宽度，右对齐，添加矩形蒙版裁剪左半边</li>
+      <li>中间添加1px白色分隔线（纯色图层）</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">布局3：画中画 + 数据面板</h4>
+    <p>主画面为比赛，右侧画中画显示实时数据统计。</p>
+    <ul>
+      <li>主画面：75%宽度，左对齐</li>
+      <li>数据面板：25%宽度，纯色背景+文字图层</li>
+      <li>数据用关键帧动画从0增长到实际值</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">布局4：三分屏集锦</h4>
+    <p>同时展示三个精彩瞬间。</p>
+    <ul>
+      <li>上方主画面：60%高度，全宽</li>
+      <li>下方左右两个画中画：各40%宽度，50%高度</li>
+      <li>所有画面添加统一调色保持风格一致</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">布局5：画中画转场</h4>
+    <p>用画中画作为转场元素。</p>
+    <ul>
+      <li>当前画面作为主画面</li>
+      <li>下一段素材以画中画形式从边缘飞入</li>
+      <li>画中画放大至全屏的同时，主画面淡出</li>
+      <li>完成无缝转场</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">布局6：画中画 + 蒙版创意</h4>
+    <p>用蒙版裁切画中画形状。</p>
+    <ul>
+      <li>圆形蒙版画中画：球员头像环绕主画面</li>
+      <li>线性蒙版画中画：底部渐变显示替补席反应</li>
+      <li>多个小圆形画中画：显示多个球员数据头像</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">💡</span>画中画进阶技巧</h3>
+    <ul>
+      <li><strong>圆角边框：</strong>对画中画添加"圆角"特效，或使用矩形蒙版+羽化制作柔和边缘</li>
+      <li><strong>边框发光：</strong>添加"发光"特效，让画中画从背景中"浮"出来</li>
+      <li><strong>运动跟踪：</strong>用关键帧让画中画位置跟随主画面中的特定元素</li>
+      <li><strong>音频分离：</strong>画中画可单独控制音频，实现"画面A + 解说B"的组合</li>
+      <li><strong>绿幕抠像：</strong>画中画素材可用"色度键"去除绿幕背景，只保留人物</li>
+    </ul>
+    <div class="warning"><strong>注意：</strong>画中画层级过多会导致性能下降，建议同时不超过4层画中画。</div>
+  </div>
+</section>
+
+<section id="s5">
+  <h2><span class="num">05</span> 转场与视觉特效</h2>
+  <p class="section-desc">转场是连接不同镜头的桥梁，好的转场让视频流畅自然；特效则为画面增添视觉冲击力，让CBA集锦更具观赏性。</p>
+
+  <img src="assets/effects_tutorial_1152x864.jpg" alt="视觉特效示意图" class="section-img">
+  <p class="img-caption">转场与特效在CBA扣篮瞬间的应用效果</p>
+
+  <div class="card">
+    <h3><span class="icon">🎬</span>CBA剪辑推荐转场</h3>
+    <table>
+      <tr><th>转场类型</th><th>适用场景</th><th>持续时间</th></tr>
+      <tr><td><strong>硬切</strong></td><td>快节奏进球集锦、防守反击</td><td>0帧（瞬间切换）</td></tr>
+      <tr><td><strong>交叉溶解</strong></td><td>情感渲染、慢动作过渡</td><td>15-30帧</td></tr>
+      <tr><td><strong>闪白</strong></td><td>精彩瞬间强调、得分庆祝</td><td>5-10帧</td></tr>
+      <tr><td><strong>缩放推进</strong></td><td>从全场推近到球员特写</td><td>20-30帧</td></tr>
+      <tr><td><strong>运动模糊</strong></td><td>快速运球、快攻推进</td><td>10-20帧</td></tr>
+      <tr><td><strong>遮罩转场</strong></td><td>球员介绍、数据展示</td><td>30-45帧</td></tr>
+      <tr><td><strong>故障风</strong></td><td>街头风格集锦、预告片</td><td>10-15帧</td></tr>
+    </table>
+    <div class="tip"><strong>操作：</strong>剪映专业版中，在两个素材之间点击"+"号 → 选择"转场" → 拖拽到素材衔接处</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">✨</span>视觉特效应用</h3>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">特效1：慢动作（光流补帧）</h4>
+    <p>CBA慢镜回放是赛事剪辑的精髓。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">选中要慢放的片段</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">右键 → "速度" → 设为25-50%</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">勾选"光流补帧"（剪映自动计算中间帧，让慢动作更流畅）</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">在慢动作前后添加"闪白"或"缩放"转场，强化冲击感</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">特效2：震动/冲击波</h4>
+    <p>在扣篮或身体对抗时添加。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">在特效面板搜索"震动"或"冲击波"</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">将特效拖到目标片段上</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">调整"强度"参数（建议30-60%，过强会失真）</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">用关键帧控制特效只在撞击瞬间触发</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">特效3：运动模糊/速度线</h4>
+    <p>强调快速移动。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">特效面板 → "运动模糊"或"速度线"</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">应用到快攻、快速运球片段</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">调整"方向"匹配运动方向</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">配合" whoosh "音效增强速度感</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">特效4：画面定格</h4>
+    <p>在精彩瞬间暂停，添加文字或特效。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">在目标帧处按"Ctrl+K"切割素材</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">将切割出的单帧片段延长到1-2秒</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">添加"缩放"关键帧：100% → 110%，营造"定格放大"效果</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">叠加文字说明或数据标注</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">特效5：故障风/赛博朋克</h4>
+    <p>适合街头风格或预告片。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">特效面板 → "故障"分类</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">选择"RGB分离""扫描线""像素化"等特效组合</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">调整参数保持可读性，不要过度</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">配合电子音乐BGM</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎨</span>文字与图形特效</h3>
+    <p>CBA剪辑中常用的文字动画：</p>
+    <div class="grid-2">
+      <div><strong style="color:var(--accent)">球员信息条</strong><ul><li>底部滑入的姓名+号码+位置</li><li>使用"滑入"动画 + 关键帧</li><li>停留3-5秒后滑出</li></ul></div>
+      <div><strong style="color:var(--accent)">比分牌</strong><ul><li>模拟真实比分牌样式</li><li>数字变化时添加"跳动"动画</li><li>球队Logo左右对称排列</li></ul></div>
+      <div><strong style="color:var(--accent)">数据弹出</strong><ul><li>得分/篮板/助攻数据</li><li>缩放+透明度关键帧</li><li>配合"叮"音效</li></ul></div>
+      <div><strong style="color:var(--accent)">节次标题</strong><ul><li>"第一节""第二节"等</li><li>旋转或3D翻转入场</li><li>配合转场音效</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section id="s6">
+  <h2><span class="num">06</span> 调色技法：营造赛事氛围</h2>
+  <p class="section-desc">调色是视频后期的灵魂。通过色彩调整，可以让CBA比赛画面更具电影感，突出赛事氛围，统一整体视觉风格。</p>
+
+  <img src="assets/color_grade_1152x864.jpg" alt="调色技法示意图" class="section-img">
+  <p class="img-caption">调色前后对比——CBA赛场的电影感色彩处理</p>
+
+  <div class="card">
+    <h3><span class="icon">🎨</span>剪映调色面板详解</h3>
+    <p>选中素材 → 属性面板 → "调节"选项卡，包含以下工具：</p>
+    <div class="grid-3">
+      <div><strong style="color:var(--accent)">基础调节</strong><ul><li>色温</li><li>色调</li><li>饱和度</li><li>亮度</li><li>对比度</li></ul></div>
+      <div><strong style="color:var(--accent)">曲线</strong><ul><li>RGB曲线</li><li>亮度曲线</li><li>色相vs饱和度</li><li>色相vs色相</li></ul></div>
+      <div><strong style="color:var(--accent)">HSL</strong><ul><li>8色可选</li><li>色相偏移</li><li>饱和度</li><li>亮度</li></ul></div>
+    </div>
+    <div class="tip"><strong>操作：</strong>剪映专业版支持LUT导入（.cube格式），可一键应用专业电影调色预设。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🏀</span>CBA赛事推荐调色风格</h3>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">风格1：Teal &amp; Orange（青橙色调）</h4>
+    <p>好莱坞电影最常用的调色风格，适合CBA赛事大片感。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>色温：</strong>+5~+10（偏暖）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>色调：</strong>+2~+5（偏洋红）</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>饱和度：</strong>+10~+20</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><strong>曲线：</strong>暗部偏青（提升B通道暗部），亮部偏橙（提升R通道亮部）</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-content"><strong>HSL：</strong>橙色饱和度+15，青色饱和度+10，其他颜色适当降低</div></div>
+    </div>
+    <div class="tip"><strong>原理：</strong>肤色在橙色范围，球场地板也在橙色范围；阴影偏青让画面更有层次。两者互补，视觉冲击力强。</div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">风格2：高对比黑白（局部留色）</h4>
+    <p>适合强调情绪或制作复古风格。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">饱和度降至-100（全黑白）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">对比度+30~+50</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">亮度适当降低</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">如需局部留色：复制素材到画中画轨道 → 上层恢复饱和度 → 用蒙版只保留目标区域彩色</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">风格3：赛博朋克霓虹</h4>
+    <p>适合街头篮球风格或预告片。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">色温偏冷（-10~-20）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">HSL：蓝色/青色饱和度+30，亮度+10</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">HSL：红色/洋红饱和度+20</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">暗部偏蓝，亮部偏品红</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-content">添加"发光"或"霓虹"特效增强氛围</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">风格4：纪实自然</h4>
+    <p>适合纪录片风格或真实感强的内容。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">色温根据现场灯光微调（通常+5~+15）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">饱和度微增（+5~+10）</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">对比度微增（+5~+10）</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">曲线做轻微S型，增强一点点对比</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-content">保持肤色自然，不过度处理</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">⚡</span>调色效率技巧</h3>
+    <ul>
+      <li><strong>复制调色：</strong>调好一段素材后，右键 → "复制调色" → 选中其他素材 → "粘贴调色"</li>
+      <li><strong>调节图层：</strong>在剪映中添加"调节图层"，对其调色会影响下方所有素材，方便统一风格</li>
+      <li><strong> LUT预设：</strong>将常用调色保存为LUT文件，跨项目复用</li>
+      <li><strong>示波器：</strong>开启"波形图""矢量图"辅助判断曝光和色彩平衡</li>
+      <li><strong>肤色保护：</strong>用HSL单独调整肤色范围，避免过度调色让人物脸色发青/发红</li>
+    </ul>
+    <div class="warning"><strong>注意：</strong>不同场次的CBA比赛灯光条件不同，不要直接套用相同参数，需根据实际画面微调。</div>
+  </div>
+</section>
+
+<section id="s7">
+  <h2><span class="num">07</span> 音频处理与节奏卡点</h2>
+  <p class="section-desc">音频是篮球视频的灵魂。恰到好处的BGM、精准的节拍卡点、现场原声的层次处理，能让CBA集锦的感染力提升数倍。</p>
+
+  <div class="card">
+    <h3><span class="icon">🎵</span>BGM选择与节奏分析</h3>
+    <p>CBA集锦推荐音乐风格：</p>
+    <div class="grid-2">
+      <div><strong style="color:var(--accent)">快节奏集锦</strong><ul><li>Trap / Hip-hop（120-140 BPM）</li><li>Electronic / EDM</li><li>Rock / 金属</li><li>推荐：比赛精彩瞬间混剪</li></ul></div>
+      <div><strong style="color:var(--accent2)">情感叙事</strong><ul><li>Orchestral / 史诗音乐</li><li>Cinematic / 电影配乐</li><li>Lo-fi / 氛围音乐</li><li>推荐：球员故事、赛季回顾</li></ul></div>
+    </div>
+    <div class="tip"><strong>BPM分析：</strong>剪映内置"节拍检测"功能（音频 → 节拍检测），可自动标记节拍点，方便卡点剪辑。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🥁</span>自动踩点与手动卡点</h3>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">方法一：自动节拍检测</h4>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">将BGM拖到音频轨道</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">右键点击音频 → "节拍检测"</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">剪映自动在节拍处添加标记点</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">将视频剪辑点对齐到标记点</div></div>
+    </div>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">方法二：手动踩点</h4>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">播放音频，在重拍处按"M"键手动标记</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">根据音乐结构标记：前奏/主歌/副歌/桥段</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">高潮部分（副歌）对应最精彩的比赛瞬间</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">前奏/间奏对应球员介绍或数据展示</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🔊</span>音频层次处理</h3>
+    <p>专业CBA视频通常包含3层音频：</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>BGM层：</strong>音量控制在-20dB到-15dB，确保不压过人声</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>解说/旁白层：</strong>音量-6dB到-3dB，最突出的音频元素</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>现场原声层：</strong>音量-25dB到-18dB，增加临场感（球鞋摩擦、球声、哨声）</div></div>
+    </div>
+    <div class="tip"><strong>闪避功能：</strong>剪映的"音频闪避"可自动降低BGM音量当有解说/旁白时，无需手动关键帧控制。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎚️</span>音效设计</h3>
+    <p>CBA剪辑中常用的音效类型：</p>
+    <table>
+      <tr><th>音效类型</th><th>使用场景</th><th>推荐来源</th></tr>
+      <tr><td><strong>Whoosh/Swoosh</strong></td><td>转场、快速运球、镜头切换</td><td>剪映音效库/爱给网</td></tr>
+      <tr><td><strong>Impact/Hit</strong></td><td>扣篮、身体对抗、进球</td><td>剪映音效库</td></tr>
+      <tr><td><strong>Riser</strong></td><td>紧张感 buildup，罚球前</td><td>免费音效网站</td></tr>
+      <tr><td><strong>Crowd Cheer</strong></td><td>进球后观众欢呼</td><td>CBA现场录音</td></tr>
+      <tr><td><strong>Whistle</strong></td><td>犯规、暂停</td><td>CBA现场录音</td></tr>
+      <tr><td><strong>Buzzer</strong></td><td>节末/终场哨</td><td>CBA现场录音</td></tr>
+    </table>
+    <div class="tip"><strong>技巧：</strong>收集CBA各主场的现场原声，不同球馆的回声特点不同，增加真实感。</div>
+  </div>
+</section>
+
+<section id="s8">
+  <h2><span class="num">08</span> 变速剪辑：Speed Ramping</h2>
+  <p class="section-desc">变速剪辑（Speed Ramping）是在同一段素材中动态改变播放速度的技术，从正常速度突然变为慢动作再恢复，创造极强的视觉节奏感。</p>
+
+  <div class="card">
+    <h3><span class="icon">⚡</span>剪映变速操作</h3>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>基础变速：</strong>右键素材 → "速度" → 拖动滑块（10%-1000%）</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>曲线变速：</strong>右键素材 → "速度" → "曲线变速" → 选择预设或自定义曲线</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>自定义曲线：</strong>在速度曲线上添加控制点，上拉加速，下拉减速</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><strong>光流补帧：</strong>勾选"光流补帧"，慢动作更流畅</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🏀</span>CBA实战：5种变速应用场景</h3>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">场景1：快攻减速上篮</h4>
+    <p>从后场抢断到上篮，速度变化制造张力。</p>
+    <ul>
+      <li>抢断瞬间：100% → 快速推进保持100%</li>
+      <li>起跳前3帧：曲线减速至25%</li>
+      <li>空中动作：保持25%慢动作</li>
+      <li>球进后：恢复100%或加速至200%切出</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">场景2：罚球紧张感</h4>
+    <p>用变速渲染罚球前的紧张氛围。</p>
+    <ul>
+      <li>裁判给球：正常速度</li>
+      <li>球员拍球准备：渐慢至50%</li>
+      <li>出手瞬间：25%慢动作</li>
+      <li>球飞行：保持慢动作</li>
+      <li>进球/弹框：恢复常速</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">场景3：时间倒流</h4>
+    <p>精彩进球后倒放展示动作细节。</p>
+    <ul>
+      <li>进球瞬间定格1秒</li>
+      <li>素材倒放（-100%速度）</li>
+      <li>配合"闪回"音效</li>
+      <li>倒放结束后切回正常时间线</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">场景4：节拍同步变速</h4>
+    <p>让速度变化与BGM节拍同步。</p>
+    <ul>
+      <li>每4拍做一次速度变化</li>
+      <li>重拍处切到慢动作</li>
+      <li>弱拍恢复常速</li>
+      <li>形成"呼吸感"节奏</li>
+    </ul>
+
+    <h4 style="color:#fff;margin:1rem 0 0.5rem;">场景5：定格抽帧</h4>
+    <p>模拟漫画定格效果。</p>
+    <ul>
+      <li>在关键动作处切割素材</li>
+      <li>单帧延长0.2秒</li>
+      <li>添加"震动"特效</li>
+      <li>配合"Impact"音效</li>
+      <li>继续播放</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">💡</span>变速注意事项</h3>
+    <ul>
+      <li><strong>光流补帧限制：</strong>速度低于20%时可能出现伪影，建议最低25%</li>
+      <li><strong>音频处理：</strong>变速会影响音频音调，建议分离音频或单独处理</li>
+      <li><strong>过渡平滑：</strong>速度变化要渐变，避免突兀的跳变（用曲线而非阶梯）</li>
+      <li><strong>帧率匹配：</strong>原始素材帧率越高（50fps/60fps），慢动作效果越好</li>
+    </ul>
+  </div>
+</section>
+
+<section id="s9">
+  <h2><span class="num">09</span> 高级剪辑技法</h2>
+  <p class="section-desc">掌握以下高级技法，让你的CBA剪辑从"好看"提升到"专业"。</p>
+
+  <img src="assets/advanced_tutorial_1152x864.jpg" alt="高级技法示意图" class="section-img">
+  <p class="img-caption">高级剪辑技法综合应用——速度变化、匹配剪辑、音画分离</p>
+
+  <div class="card">
+    <h3><span class="icon">🎬</span>匹配剪辑（Match Cut）</h3>
+    <p>利用画面元素的相似性进行无缝转场。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>动作匹配：</strong>上一镜头球员A投篮出手 → 下一镜头球员B接球投篮，动作方向一致</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>形状匹配：</strong>篮球圆形 → 聚光灯圆形 → 时钟圆形，利用相似形状转场</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>颜色匹配：</strong>红色球衣画面 → 红色特效画面 → 红色记分牌，利用色彩关联</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><strong>视线匹配：</strong>球员看向右侧 → 下一镜头从右侧入画，模拟视线引导</div></div>
+    </div>
+    <div class="tip"><strong>技巧：</strong>匹配剪辑需要精心策划拍摄或筛选素材，寻找画面中的"桥梁"元素。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">✂️</span>J-Cut 与 L-Cut</h3>
+    <p>音频与画面的错位剪辑，让过渡更自然。</p>
+    <div class="compare">
+      <div class="compare-box good">
+        <h4>J-Cut（先入声，后出画）</h4>
+        <p>下一段音频先出现，画面稍后切换。</p>
+        <p><strong>CBA应用：</strong>解说提到"接下来看郭艾伦的突破"时，先听到解说，1秒后才切到郭艾伦画面。</p>
+      </div>
+      <div class="compare-box">
+        <h4>L-Cut（先出画，后断声）</h4>
+        <p>画面已切换，上一段音频延续。</p>
+        <p><strong>CBA应用：</strong>进球画面切到观众欢呼，但进球的解说词还在延续。</p>
+      </div>
+    </div>
+    <div class="tip"><strong>操作：</strong>剪映中分离音频和视频轨道，独立拖动音频入点/出点即可实现。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🔄</span> whip pan（甩镜头）</h3>
+    <p>模拟摄像机快速甩动，用于快速场景切换。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">在素材末尾添加"运动模糊"或"方向模糊"特效</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">用关键帧让画面快速向一侧移动（5帧内移出画面）</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">下一段素材从相同方向快速移入</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">配合"whoosh"音效</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎭</span>其他高级技法</h3>
+    <ul>
+      <li><strong>跳切（Jump Cut）：</strong>同机位连续剪辑，压缩时间，适合罚球准备或暂停布置战术</li>
+      <li><strong>交叉剪辑（Cross Cutting）：</strong>交替展示两队进攻，营造对抗感</li>
+      <li><strong>反应镜头插入：</strong>在精彩动作后插入教练/观众/替补反应，增强情绪感染力</li>
+      <li><strong>画中画 nested：</strong>预渲染复杂画中画为单个素材，再作为画中画放入主时间线</li>
+      <li><strong>遮罩转场：</strong>用球员/篮球形状作为转场遮罩，创意十足</li>
+    </ul>
+  </div>
+</section>
+
+<section id="s10">
+  <h2><span class="num">10</span> 剪映AI功能应用</h2>
+  <p class="section-desc">剪映的AI功能大幅提升了剪辑效率，从智能抠像到自动字幕，善用这些工具可以节省大量时间。</p>
+
+  <img src="assets/ai_features_1152x864.jpg" alt="AI功能示意图" class="section-img">
+  <p class="img-caption">剪映AI功能在CBA视频剪辑中的应用场景</p>
+
+  <div class="card">
+    <h3><span class="icon">🤖</span>智能抠像</h3>
+    <p>一键去除背景，提取球员主体。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">选中素材 → 属性面板 → "抠像"</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">选择"智能抠像"，系统自动识别人物</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">调整"强度"和"边缘羽化"优化效果</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">如需更精细：使用"色度键"或"画笔"手动修正</div></div>
+    </div>
+    <div class="tip"><strong>CBA应用：</strong>抠出球员后叠加到纯色背景或数据面板上，制作球员介绍卡片。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">📝</span>AI自动字幕</h3>
+    <p>自动识别解说语音并生成字幕。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">选中音频轨道</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">点击"文本" → "识别字幕" → "开始识别"</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">系统自动生成时间轴对齐的字幕</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">人工校对修正识别错误</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-content">统一字幕样式（字体/颜色/描边/位置）</div></div>
+    </div>
+    <div class="tip"><strong>提示：</strong>CBA解说中球员姓名识别可能有误，需重点校对。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎵</span>AI配乐推荐</h3>
+    <p>剪映可根据视频内容推荐匹配的音乐。</p>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content">点击"音频" → "AI配乐"</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content">选择情绪标签："激动""紧张""史诗"等</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content">系统推荐多首匹配音乐</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content">试听并选择最适合的</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">✨</span>其他AI功能</h3>
+    <ul>
+      <li><strong>智能剪口播：</strong>自动识别语气词和停顿，一键删除多余片段</li>
+      <li><strong>AI降噪：</strong>自动去除背景噪音，提升解说清晰度</li>
+      <li><strong>智能分镜：</strong>自动识别场景变化，生成剪辑建议</li>
+      <li><strong>AI文案：</strong>输入关键词生成视频标题和描述</li>
+      <li><strong>智能封面：</strong>自动提取精彩片段作为视频封面</li>
+    </ul>
+  </div>
+</section>
+
+<section id="s11">
+  <h2><span class="num">11</span> 完整项目实战：制作CBA球员集锦</h2>
+  <p class="section-desc">综合运用以上所有技法，完成一个完整的CBA球员个人集锦视频。</p>
+
+  <img src="assets/project_demo_1152x864.jpg" alt="项目实战示意图" class="section-img">
+  <p class="img-caption">完整项目输出——从剪辑到多平台发布</p>
+
+  <div class="card">
+    <h3><span class="icon">📋</span>项目规划</h3>
+    <p><strong>目标：</strong>制作一段60秒的CBA球员（如郭艾伦）个人高光集锦</p>
+    <p><strong>风格：</strong>快节奏、高能量、Teal &amp; Orange电影色调</p>
+    <p><strong>平台：</strong>抖音/快手竖屏（9:16）+ B站横屏（16:9）</p>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">🎬</span>分镜脚本</h3>
+    <table>
+      <tr><th>时间</th><th>画面</th><th>技术</th><th>音频</th></tr>
+      <tr><td>0-3s</td><td>球员定妆照 + 姓名条滑入</td><td>关键帧动画 + 文字动画</td><td>Riser buildup</td></tr>
+      <tr><td>3-8s</td><td>快速剪辑3个精彩瞬间</td><td>硬切 + 闪白</td><td>Drop重拍</td></tr>
+      <tr><td>8-15s</td><td>招牌动作慢镜（crossover）</td><td>25%慢动作 + 光流补帧</td><td>Whoosh + Impact</td></tr>
+      <tr><td>15-25s</td><td>数据面板 + 多角度进球</td><td>画中画 + 数据条动画</td><td>BGM主歌</td></tr>
+      <tr><td>25-40s</td><td>高潮集锦（扣篮+助攻）</td><td>变速剪辑 + 震动特效</td><td>BGM副歌高潮</td></tr>
+      <tr><td>40-50s</td><td>队友互动 + 庆祝</td><td>交叉剪辑 + 情感调色</td><td>BGM情绪段落</td></tr>
+      <tr><td>50-55s</td><td>Logo动画 + 球队标志</td><td>蒙版转场 + 关键帧</td><td>Riser收尾</td></tr>
+      <tr><td>55-60s</td><td>关注引导 + 片尾</td><td>文字动画</td><td>淡出</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">⚙️</span>执行步骤</h3>
+    <div class="steps">
+      <div class="step"><div class="step-num">1</div><div class="step-content"><strong>素材整理：</strong>收集该球员近5场比赛的精彩镜头，按类型分类</div></div>
+      <div class="step"><div class="step-num">2</div><div class="step-content"><strong>粗剪：</strong>按脚本时间线排列素材，先不管细节，确定整体结构</div></div>
+      <div class="step"><div class="step-num">3</div><div class="step-content"><strong>精剪：</strong>调整每个片段的入点出点，确保动作完整、节奏流畅</div></div>
+      <div class="step"><div class="step-num">4</div><div class="step-content"><strong>转场：</strong>添加合适的转场，避免生硬的跳切</div></div>
+      <div class="step"><div class="step-num">5</div><div class="step-content"><strong>特效：</strong>添加震动、运动模糊、定格等特效</div></div>
+      <div class="step"><div class="step-num">6</div><div class="step-content"><strong>变速：</strong>对关键动作做Speed Ramping</div></div>
+      <div class="step"><div class="step-num">7</div><div class="step-content"><strong>画中画：</strong>添加数据面板、球员特写等</div></div>
+      <div class="step"><div class="step-num">8</div><div class="step-content"><strong>文字：</strong>添加姓名条、数据、节次标题</div></div>
+      <div class="step"><div class="step-num">9</div><div class="step-content"><strong>调色：</strong>统一应用Teal &amp; Orange LUT，微调曝光</div></div>
+      <div class="step"><div class="step-num">10</div><div class="step-content"><strong>音频：</strong>添加BGM、音效、现场原声，做音频闪避</div></div>
+      <div class="step"><div class="step-num">11</div><div class="step-content"><strong>导出：</strong>横屏版1920×1080 + 竖屏版1080×1920</div></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">📤</span>导出设置</h3>
+    <div class="grid-2">
+      <div><strong style="color:var(--accent)">横屏版（B站/微博）</strong><ul><li>分辨率：1920×1080</li><li>帧率：30fps</li><li>码率：10Mbps</li><li>格式：H.264 MP4</li></ul></div>
+      <div><strong style="color:var(--accent2)">竖屏版（抖音/快手）</strong><ul><li>分辨率：1080×1920</li><li>帧率：30fps</li><li>码率：8Mbps</li><li>格式：H.264 MP4</li></ul></div>
+    </div>
+    <div class="tip"><strong>提示：</strong>剪映支持"批量导出"，可一次导出多个分辨率版本。</div>
+  </div>
+
+  <div class="card">
+    <h3><span class="icon">❓</span>常见问题排查</h3>
+    <table>
+      <tr><th>问题</th><th>原因</th><th>解决</th></tr>
+      <tr><td>导出视频卡顿</td><td>码率过高或分辨率不匹配</td><td>降低码率，检查分辨率设置</td></tr>
+      <tr><td>慢动作不流畅</td><td>未开启光流补帧</td><td>速度设置中勾选"光流补帧"</td></tr>
+      <tr><td>画中画位置偏移</td><td>锚点设置不正确</td><td>调整锚点到画面中心</td></tr>
+      <tr><td>调色后肤色异常</td><td>HSL过度调整</td><td>用HSL单独保护肤色范围</td></tr>
+      <tr><td>音频不同步</td><td>变速后未分离音频</td><td>变速前分离音频轨道</td></tr>
+      <tr><td>蒙版边缘锯齿</td><td>羽化值过低</td><td>增加羽化值到10-20px</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer>
+  <p>剪映 CBA 篮球视频剪辑高级技法教学</p>
+  <p style="margin-top:0.3rem;font-size:0.8rem;">涵盖蒙版、关键帧、画中画、特效、调色、变速、AI功能等核心技术</p>
+</footer>
+
+<script>
+  const sections = document.querySelectorAll('section[id]');
+  const navLinks = document.querySelectorAll('nav a');
+  window.addEventListener('scroll', () => {
+    let current = '';
+    sections.forEach(s => { if (scrollY >= s.offsetTop - 100) current = s.getAttribute('id'); });
+    navLinks.forEach(a => { a.classList.toggle('active', a.getAttribute('href') === '#' + current); });
+  });
+</script>
+
+</body>
+</html>
